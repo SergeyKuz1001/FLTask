@@ -1,7 +1,7 @@
 module Main where
 
-import Control.Applicative (some, empty)
-import Control.Monad (when, replicateM_)
+import Control.Applicative (some, many, empty)
+import Control.Monad (join, when, replicateM_)
 import Control.Monad.Trans.Class (lift)
 import Control.Monad.Trans.Except (ExceptT, runExceptT, except)
 import Control.Monad.Trans.Reader (ReaderT(..), ask)
@@ -10,9 +10,10 @@ import Data.Functor ((<&>))
 import Data.List (isInfixOf)
 import Data.List.Utils (replace)
 import Data.Map.Lazy (Map)
-import Data.Maybe (fromMaybe)
 import qualified Data.Map.Lazy as Map (findWithDefault, fromListWith)
-import Text.Read (readEither)
+import Data.Maybe (fromMaybe)
+import Text.Parsec (Parsec, ParseError, parse, sepBy, endBy, try)
+import Text.Parsec.Char (digit, char, string, newline, anyChar)
 
 type Production = (String, String)
 
@@ -22,32 +23,41 @@ type Grammar = Map ProdGroup [Production]
 
 type GrammarEnv = ReaderT Grammar (StateT [String] Maybe) ()
 
+type ExceptIO a = ExceptT ParseError IO a
+
+printExceptIO :: ExceptIO String -> IO ()
+printExceptIO = runExceptT .> (>>= either print putStr)
+
 (.>) :: (a -> b) -> (b -> c) -> a -> c
 f .> g = g . f
 
-withLeft :: Either e a -> e' -> Either e' a
-withLeft (Left _) e  = Left e
-withLeft (Right a) _ = Right a
+space :: Parsec String () Char
+space = char ' '
 
-readIntEither :: String -> Either String Int
-readIntEither str = readEither str `withLeft`
-    ("Incorrect number \"" ++ str ++ "\"")
-
-check :: Bool -> String -> Either String ()
-check True  _ = Right ()
-check False e = Left e
-
-parse :: String -> Either String (Int, Int, Int)
-parse expr = do
-    let (num1, other) = span (/= '+') expr
-    a <- readIntEither num1
-    check (other /= "") "There isn't '+'"
-    let (num2, num3) = span (/= '=') $ tail other
-    b <- readIntEither num2
-    check (num3 /= "") "There isn't '='"
-    c <- readIntEither (tail num3)
-    check (a + b == c) "Incorrect equation"
+parserExpr :: Parsec String () (Int, Int, Int)
+parserExpr = do
+    a <- read <$> some digit
+    char '+'
+    b <- read <$> some digit
+    char '='
+    c <- read <$> some digit
+    when (a + b /= c) $
+        fail "Incorrect equation"
     return (a, b, c)
+
+parserProd :: Parsec String () (ProdGroup, [Production])
+parserProd = do
+    pg <- read <$> some digit
+    char ')'
+    many space
+    h <- some $ try $ anyChar <* some space
+    string "->"
+    b <- many $ try $ some space *> anyChar
+    many space
+    return (pg, [(h, b)])
+
+parserGrammar :: Parsec String () Grammar
+parserGrammar = Map.fromListWith (++) <$> parserProd `endBy` newline
 
 asString :: Grammar -> GrammarEnv -> String
 asString gr =
@@ -84,29 +94,18 @@ derivation gr a b = asString gr $ do
     some $ applyProd 1
     return ()
 
-printExcept :: ExceptT String IO String -> IO ()
-printExcept = runExceptT .> (>>= either putStr putStr)
+readGrammar :: FilePath -> ExceptIO Grammar
+readGrammar filePath = do
+    text <- lift $ readFile filePath
+    except $ parse parserGrammar "" text
 
-getGrammar :: FilePath -> IO Grammar
-getGrammar filePath =
-    readFile filePath <&> ((
-        lines .>
-        map (\str ->
-            let (pgNum, other) = span (/= ')') str
-                pg = read pgNum
-                other' = dropWhile (== ' ') $ tail other
-                (h', b') = span (/= '-') other'
-                h = map head $ words $ init h'
-                b = map head $ words $ drop 3 b'
-                p = (h, b)
-            in  (pg, [p])
-          ) .>
-        Map.fromListWith (++)
-      ) :: (String -> Map ProdGroup [Production]))
+getExpr :: ExceptIO (Int, Int, Int)
+getExpr = do
+    expr <- lift getLine
+    except $ parse parserExpr "" expr
 
 main :: IO ()
-main = printExcept $ do
-    expr <- lift $ getLine
-    grammar <- lift $ getGrammar "grammar_0.txt"
-    (a, b, c) <- except $ parse expr
+main = printExceptIO $ do
+    grammar <- readGrammar "grammar_0.txt"
+    (a, b, c) <- getExpr
     return $ derivation grammar a b
