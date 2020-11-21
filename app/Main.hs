@@ -1,6 +1,6 @@
 module Main where
 
-import Control.Applicative (some, many, empty)
+import Control.Applicative (some, many, empty, (<|>))
 import Control.Monad (join, when, replicateM_)
 import Control.Monad.Trans.Class (lift)
 import Control.Monad.Trans.Except (ExceptT, runExceptT, except)
@@ -12,14 +12,25 @@ import Data.List.Utils (replace)
 import Data.Map.Lazy (Map)
 import qualified Data.Map.Lazy as Map (findWithDefault, fromListWith)
 import Data.Maybe (fromMaybe)
-import Text.Parsec (Parsec, ParseError, parse, sepBy, endBy, try)
-import Text.Parsec.Char (digit, char, string, newline, anyChar)
+import Text.Parsec (Parsec, ParseError, parse, endBy1, endBy, try, between, choice)
+import Text.Parsec.Char (digit, char, string, newline, spaces, anyChar)
 
 type Production = (String, String)
 
 type ProdGroup = Int
 
 type Grammar = Map ProdGroup [Production]
+
+type Var = Char
+
+type MapVars = Map Var Int
+
+data StObj =
+      ApplyProd ProdGroup
+    | Repeat Var Strategy
+    | RepeatSome Strategy
+
+type Strategy = [StObj]
 
 type GrammarEnv = ReaderT Grammar (StateT [String] Maybe) ()
 
@@ -42,7 +53,13 @@ parserExpr = do
     char '='
     c <- read <$> some digit
     when (a + b /= c) $
-        fail "Incorrect equation"
+        fail $
+            "Incorrect equation because " ++
+            show a ++
+            " + " ++
+            show b ++
+            " = " ++
+            show (a + b)
     return (a, b, c)
 
 parserProd :: Parsec String () (ProdGroup, [Production])
@@ -58,6 +75,25 @@ parserProd = do
 
 parserGrammar :: Parsec String () Grammar
 parserGrammar = Map.fromListWith (++) <$> parserProd `endBy` newline
+
+parserVar :: Parsec String () Var
+parserVar = char 'a' <|> char 'b'
+
+parserProdGroup :: Parsec String () ProdGroup
+parserProdGroup = read <$> some digit
+
+parserStBlock :: Parsec String () Strategy
+parserStBlock = between (char '[') (char ']') parserStrategy
+
+parserStObj :: Parsec String () StObj
+parserStObj = choice [
+    ApplyProd <$> parserProdGroup,
+    Repeat <$> parserVar <*> (char ':' *> parserStBlock),
+    RepeatSome <$> parserStBlock
+  ]
+
+parserStrategy :: Parsec String () Strategy
+parserStrategy = spaces *> parserStObj `endBy1` spaces
 
 asString :: Grammar -> GrammarEnv -> String
 asString gr =
@@ -79,25 +115,32 @@ applyProd pg = do
     let nextSent = replace h b currSent
     lift $ modify (nextSent : )
 
-derivation :: Grammar -> Int -> Int -> String
-derivation gr a b = asString gr $ do
-    applyProd 0
-    replicateM_ a $ do
-        applyProd 2
-        some $ applyProd 4
-        some $ applyProd 5
-        some $ applyProd 4
-    replicateM_ b $ do
-        applyProd 3
-        some $ applyProd 5
-        some $ applyProd 4
-    some $ applyProd 1
-    return ()
+derivation :: Strategy -> (Int, Int) -> GrammarEnv
+derivation [] _ = return ()
+derivation (ApplyProd pg : stObjs) ab = do
+    applyProd pg
+    derivation stObjs ab
+derivation (Repeat var st : stObjs) ab@(a, b) = do
+    replicateM_ amt $
+        derivation st ab
+    derivation stObjs ab
+    where
+        amt = case var of
+            'a' -> a
+            'b' -> b
+derivation (RepeatSome st : stObjs) ab = do
+    some $ derivation st ab
+    derivation stObjs ab
 
 readGrammar :: FilePath -> ExceptIO Grammar
 readGrammar filePath = do
     text <- lift $ readFile filePath
     except $ parse parserGrammar "" text
+
+readStrategy :: FilePath -> ExceptIO Strategy
+readStrategy filePath = do
+    text <- lift $ readFile filePath
+    except $ parse parserStrategy "" text
 
 getExpr :: ExceptIO (Int, Int, Int)
 getExpr = do
@@ -107,5 +150,6 @@ getExpr = do
 main :: IO ()
 main = printExceptIO $ do
     grammar <- readGrammar "grammar_0.txt"
-    (a, b, c) <- getExpr
-    return $ derivation grammar a b
+    strategy <- readStrategy "grammar_0_st.txt"
+    (a, b, _) <- getExpr
+    return $ asString grammar $ derivation strategy (a, b)
