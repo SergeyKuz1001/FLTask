@@ -1,7 +1,7 @@
 module Main where
 
-import Control.Applicative (some, many, empty, (<|>))
-import Control.Monad (join, when, replicateM_)
+import Control.Applicative (some, many, (<|>))
+import Control.Monad (guard, when, replicateM_)
 import Control.Monad.Trans.Class (lift)
 import Control.Monad.Trans.Except (ExceptT, runExceptT, except)
 import Control.Monad.Trans.Reader (ReaderT(..), ask)
@@ -110,7 +110,7 @@ applyProd pg = do
     let prods = Map.findWithDefault [] pg grammar
     currSent <- lift $ gets head
     let prods' = filter (\(h, _) -> h `isInfixOf` currSent) prods
-    when (prods' == []) empty
+    guard (prods' /= [])
     let (h, b) = head prods'
     let nextSent = replace h b currSent
     lift $ modify (nextSent : )
