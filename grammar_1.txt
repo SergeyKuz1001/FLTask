@@ -1,0 +1,166 @@
+0) S -> E Z A Z E
+1) A -> I A W
+1) B -> I B W
+2) A -> F + Z B
+2) B -> F = Y
+3) W X -> D X
+3) D X I -> D I
+3) D I -> I
+3) A D X -> A D
+3) W D X -> W D
+3) W D Z -> W Z
+3) W D O -> W O
+3) W D T -> W T
+3) W D M -> W M
+3) W D N -> W N
+3) W D P -> W P
+3) W D L -> W L
+3) W D J -> W J
+3) W D Q -> W Q
+3) W D G -> W G
+3) D X Z -> D Z
+3) D X O -> D O
+3) D X T -> D T
+3) D X M -> D M
+3) D X N -> D N
+3) D X P -> D P
+3) D X L -> D L
+3) D X J -> D J
+3) D X Q -> D Q
+3) D X G -> D G
+3) D Z -> Z
+3) D O -> O
+3) D T -> T
+3) D M -> M
+3) D N -> N
+3) D P -> P
+3) D L -> L
+3) D J -> J
+3) D Q -> Q
+3) D G -> G
+3) W D I -> W I
+3) W E -> I E
+3) W R -> W
+3) W I -> I W K I
+3) W Z -> W X Z W
+3) W O -> W X O W
+3) W T -> W X T W
+3) W M -> W X M W
+3) W N -> W X N W
+3) W P -> W X P W
+3) W L -> W X L W
+3) W J -> W X J W
+3) W Q -> W X Q W
+3) W G -> W X G W
+3) Z I -> O K I
+3) O I -> T K I
+3) T I -> M K I
+3) M I -> N K I
+3) N I -> P K I
+3) P I -> L K I
+3) L I -> J K I
+3) J I -> Q K I
+3) Q I -> G K I
+3) G I -> I Z K I
+3) E I -> E O
+3) + I -> + O
+3) = I -> = O
+3) K I -> K R
+3) K Z -> Z
+3) K O -> O
+3) K T -> T
+3) K M -> M
+3) K N -> N
+3) K P -> P
+3) K L -> L
+3) K J -> J
+3) K Q -> Q
+3) K G -> G
+3) K R I -> R I
+3) K R F -> K F
+3) K R E -> K E
+3) K R B -> R B
+3) K F -> F
+3) K E -> E
+3) Z R I -> Z I
+3) O R I -> O I
+3) T R I -> T I
+3) M R I -> M I
+3) N R I -> N I
+3) P R I -> P I
+3) L R I -> L I
+3) J R I -> J I
+3) Q R I -> Q I
+3) G R I -> G I
+3) R F -> F
+3) R Z -> Z
+3) R O -> O
+3) R T -> T
+3) R M -> M
+3) R N -> N
+3) R P -> P
+3) R L -> L
+3) R J -> J
+3) R Q -> Q
+3) R G -> G
+3) R + -> +
+3) R = -> =
+3) Z F -> F 0 F
+3) O F -> F 1 F
+3) T F -> F 2 F
+3) M F -> F 3 F
+3) N F -> F 4 F
+3) P F -> F 5 F
+3) L F -> F 6 F
+3) J F -> F 7 F
+3) Q F -> F 8 F
+3) G F -> F 9 F
+3) 0 F -> 0
+3) 1 F -> 1
+3) 2 F -> 2
+3) 3 F -> 3
+3) 4 F -> 4
+3) 5 F -> 5
+3) 6 F -> 6
+3) 7 F -> 7
+3) 8 F -> 8
+3) 9 F -> 9
+3) E 0 -> 0
+3) E 1 -> 1
+3) E 2 -> 2
+3) E 3 -> 3
+3) E 4 -> 4
+3) E 5 -> 5
+3) E 6 -> 6
+3) E 7 -> 7
+3) E 8 -> 8
+3) E 9 -> 9
+3) E F -> E
+3) + F -> +
+3) = F -> =
+3) Y E -> Y F
+3) Y F -> F
+3) Y R -> Y
+3) Y I -> I Y K I
+3) Y Z -> Y Z Y
+3) Y O -> Y O Y
+3) Y T -> Y T Y
+3) Y M -> Y M Y
+3) Y N -> Y N Y
+3) Y P -> Y P Y
+3) Y L -> Y L Y
+3) Y J -> Y J Y
+3) Y Q -> Y Q Y
+3) Y G -> Y G Y
+3) Y Z Y -> Z Y
+3) Y O Y -> O Y
+3) Y T Y -> T Y
+3) Y M Y -> M Y
+3) Y N Y -> N Y
+3) Y P Y -> P Y
+3) Y L Y -> L Y
+3) Y J Y -> J Y
+3) Y Q Y -> Q Y
+3) Y G Y -> G Y
+3) Y D -> Y
+3) Y X -> Y
