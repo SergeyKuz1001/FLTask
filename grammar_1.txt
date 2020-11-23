@@ -1,0 +1,196 @@
+0) S -> A k A
+1) k -> l
+1) m -> n
+1) A l -> K l
+1) l A -> l a
+1) B l -> L l
+1) l B -> l b
+1) C l -> M l
+1) l C -> l c
+1) D l -> N l
+1) l D -> l d
+1) E l -> O l
+1) l E -> l e
+1) F l -> P l
+1) l F -> l f
+1) G l -> Q l
+1) l G -> l g
+1) H l -> R l
+1) l H -> l h
+1) I l -> T l
+1) l I -> l i
+1) J l -> U l
+1) l J -> l j
+1) A n -> K n
+1) n A -> n a
+1) B n -> L n
+1) n B -> n b
+1) C n -> M n
+1) n C -> n c
+1) D n -> N n
+1) n D -> n d
+1) E n -> O n
+1) n E -> n e
+1) F n -> P n
+1) n F -> n f
+1) G n -> Q n
+1) n G -> n g
+1) H n -> R n
+1) n H -> n h
+1) I n -> T n
+1) n I -> n i
+1) J n -> U n
+1) n J -> n j
+2) l -> k
+2) n -> m
+3) K -> B
+3) L -> C
+3) M -> D
+3) N -> E
+3) O -> F
+3) P -> G
+3) Q -> H
+3) R -> I
+3) T -> J
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) U -> B A
+3) A U -> K A
+3) B U -> L A
+3) C U -> M A
+3) D U -> N A
+3) E U -> O A
+3) F U -> P A
+3) G U -> Q A
+3) H U -> R A
+3) I U -> T A
+3) J U -> U A
+4) a -> K
+4) b -> L
+4) c -> M
+4) d -> N
+4) e -> O
+4) f -> P
+4) g -> Q
+4) h -> R
+4) i -> T
+4) j -> U
+4) a A -> A a
+4) a B -> A b
+4) a C -> A c
+4) a D -> A d
+4) a E -> A e
+4) a F -> A f
+4) a G -> A g
+4) a H -> A h
+4) a I -> A i
+4) a J -> A j
+4) b A -> B a
+4) b B -> B b
+4) b C -> B c
+4) b D -> B d
+4) b E -> B e
+4) b F -> B f
+4) b G -> B g
+4) b H -> B h
+4) b I -> B i
+4) b J -> B j
+4) c A -> C a
+4) c B -> C b
+4) c C -> C c
+4) c D -> C d
+4) c E -> C e
+4) c F -> C f
+4) c G -> C g
+4) c H -> C h
+4) c I -> C i
+4) c J -> C j
+4) d A -> D a
+4) d B -> D b
+4) d C -> D c
+4) d D -> D d
+4) d E -> D e
+4) d F -> D f
+4) d G -> D g
+4) d H -> D h
+4) d I -> D i
+4) d J -> D j
+4) e A -> E a
+4) e B -> E b
+4) e C -> E c
+4) e D -> E d
+4) e E -> E e
+4) e F -> E f
+4) e G -> E g
+4) e H -> E h
+4) e I -> E i
+4) e J -> E j
+4) f A -> F a
+4) f B -> F b
+4) f C -> F c
+4) f D -> F d
+4) f E -> F e
+4) f F -> F f
+4) f G -> F g
+4) f H -> F h
+4) f I -> F i
+4) f J -> F j
+4) g A -> G a
+4) g B -> G b
+4) g C -> G c
+4) g D -> G d
+4) g E -> G e
+4) g F -> G f
+4) g G -> G g
+4) g H -> G h
+4) g I -> G i
+4) g J -> G j
+4) h A -> H a
+4) h B -> H b
+4) h C -> H c
+4) h D -> H d
+4) h E -> H e
+4) h F -> H f
+4) h G -> H g
+4) h H -> H h
+4) h I -> H i
+4) h J -> H j
+4) i A -> I a
+4) i B -> I b
+4) i C -> I c
+4) i D -> I d
+4) i E -> I e
+4) i F -> I f
+4) i G -> I g
+4) i H -> I h
+4) i I -> I i
+4) i J -> I j
+4) j A -> J a
+4) j B -> J b
+4) j C -> J c
+4) j D -> J d
+4) j E -> J e
+4) j F -> J f
+4) j G -> J g
+4) j H -> J h
+4) j I -> J i
+4) j J -> J j
+6) k -> + A m
+6) m -> =
+7) A -> 0
+7) B -> 1
+7) C -> 2
+7) D -> 3
+7) E -> 4
+7) F -> 5
+7) G -> 6
+7) H -> 7
+7) I -> 8
+7) J -> 9

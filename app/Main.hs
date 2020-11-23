@@ -149,7 +149,9 @@ getExpr = do
 
 main :: IO ()
 main = printExceptIO $ do
-    grammar <- readGrammar "grammar_0.txt"
-    strategy <- readStrategy "grammar_0_st.txt"
+    grammar0 <- readGrammar "grammar_0.txt"
+    strategy0 <- readStrategy "grammar_0_st.txt"
+    grammar1 <- readGrammar "grammar_1.txt"
+    strategy1 <- readStrategy "grammar_1_st.txt"
     (a, b, _) <- getExpr
-    return $ asString grammar $ derivation strategy (a, b)
+    return $ "Type 0:\n" ++ (asString grammar0 $ derivation strategy0 (a, b)) ++ "Type 1:\n" ++ (asString grammar1 $ derivation strategy1 (a, b))
