@@ -1,196 +1,7395 @@
-0) S -> A k A
+0) S -> Б k Х
 1) k -> l
-1) m -> n
+1) n -> o
 1) A l -> K l
-1) l A -> l a
 1) B l -> L l
-1) l B -> l b
 1) C l -> M l
-1) l C -> l c
 1) D l -> N l
-1) l D -> l d
 1) E l -> O l
-1) l E -> l e
 1) F l -> P l
-1) l F -> l f
 1) G l -> Q l
-1) l G -> l g
 1) H l -> R l
-1) l H -> l h
 1) I l -> T l
-1) l I -> l i
 1) J l -> U l
-1) l J -> l j
-1) A n -> K n
-1) n A -> n a
-1) B n -> L n
-1) n B -> n b
-1) C n -> M n
-1) n C -> n c
-1) D n -> N n
-1) n D -> n d
-1) E n -> O n
-1) n E -> n e
-1) F n -> P n
-1) n F -> n f
-1) G n -> Q n
-1) n G -> n g
-1) H n -> R n
-1) n H -> n h
-1) I n -> T n
-1) n I -> n i
-1) J n -> U n
-1) n J -> n j
-2) l -> k
-2) n -> m
-3) K -> B
-3) L -> C
-3) M -> D
-3) N -> E
-3) O -> F
-3) P -> G
-3) Q -> H
-3) R -> I
-3) T -> J
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) U -> B A
-3) A U -> K A
-3) B U -> L A
-3) C U -> M A
-3) D U -> N A
-3) E U -> O A
-3) F U -> P A
-3) G U -> Q A
-3) H U -> R A
-3) I U -> T A
-3) J U -> U A
-4) a -> K
-4) b -> L
-4) c -> M
-4) d -> N
-4) e -> O
-4) f -> P
-4) g -> Q
-4) h -> R
-4) i -> T
-4) j -> U
-4) a A -> A a
-4) a B -> A b
-4) a C -> A c
-4) a D -> A d
-4) a E -> A e
-4) a F -> A f
-4) a G -> A g
-4) a H -> A h
-4) a I -> A i
-4) a J -> A j
-4) b A -> B a
-4) b B -> B b
-4) b C -> B c
-4) b D -> B d
-4) b E -> B e
-4) b F -> B f
-4) b G -> B g
-4) b H -> B h
-4) b I -> B i
-4) b J -> B j
-4) c A -> C a
-4) c B -> C b
-4) c C -> C c
-4) c D -> C d
-4) c E -> C e
-4) c F -> C f
-4) c G -> C g
-4) c H -> C h
-4) c I -> C i
-4) c J -> C j
-4) d A -> D a
-4) d B -> D b
-4) d C -> D c
-4) d D -> D d
-4) d E -> D e
-4) d F -> D f
-4) d G -> D g
-4) d H -> D h
-4) d I -> D i
-4) d J -> D j
-4) e A -> E a
-4) e B -> E b
-4) e C -> E c
-4) e D -> E d
-4) e E -> E e
-4) e F -> E f
-4) e G -> E g
-4) e H -> E h
-4) e I -> E i
-4) e J -> E j
-4) f A -> F a
-4) f B -> F b
-4) f C -> F c
-4) f D -> F d
-4) f E -> F e
-4) f F -> F f
-4) f G -> F g
-4) f H -> F h
-4) f I -> F i
-4) f J -> F j
-4) g A -> G a
-4) g B -> G b
-4) g C -> G c
-4) g D -> G d
-4) g E -> G e
-4) g F -> G f
-4) g G -> G g
-4) g H -> G h
-4) g I -> G i
-4) g J -> G j
-4) h A -> H a
-4) h B -> H b
-4) h C -> H c
-4) h D -> H d
-4) h E -> H e
-4) h F -> H f
-4) h G -> H g
-4) h H -> H h
-4) h I -> H i
-4) h J -> H j
-4) i A -> I a
-4) i B -> I b
-4) i C -> I c
-4) i D -> I d
-4) i E -> I e
-4) i F -> I f
-4) i G -> I g
-4) i H -> I h
-4) i I -> I i
-4) i J -> I j
-4) j A -> J a
-4) j B -> J b
-4) j C -> J c
-4) j D -> J d
-4) j E -> J e
-4) j F -> J f
-4) j G -> J g
-4) j H -> J h
-4) j I -> J i
-4) j J -> J j
-6) k -> + A m
-6) m -> =
-7) A -> 0
-7) B -> 1
-7) C -> 2
-7) D -> 3
-7) E -> 4
-7) F -> 5
-7) G -> 6
-7) H -> 7
-7) I -> 8
-7) J -> 9
+1) A o -> K o
+1) B o -> L o
+1) C o -> M o
+1) D o -> N o
+1) E o -> O o
+1) F o -> P o
+1) G o -> Q o
+1) H o -> R o
+1) I o -> T o
+1) J o -> U o
+1) Б l -> б l
+1) Г l -> г l
+1) Д l -> д l
+1) Ё l -> ё l
+1) Ж l -> ж l
+1) З l -> з l
+1) И l -> и l
+1) Л l -> л l
+1) П l -> п l
+1) Ф l -> ф l
+1) Б o -> б o
+1) Г o -> г o
+1) Д o -> д o
+1) Ё o -> ё o
+1) Ж o -> ж o
+1) З o -> з o
+1) И o -> и o
+1) Л o -> л o
+1) П o -> п o
+1) Ф o -> ф o
+1) l Б -> l q
+1) l Г -> l r
+1) l Д -> l s
+1) l Ё -> l t
+1) l Ж -> l u
+1) l З -> l v
+1) l И -> l w
+1) l Л -> l x
+1) l П -> l y
+1) l Ф -> l z
+1) o Б -> o q
+1) o Г -> o r
+1) o Д -> o s
+1) o Ё -> o t
+1) o Ж -> o u
+1) o З -> o v
+1) o И -> o w
+1) o Л -> o x
+1) o П -> o y
+1) o Ф -> o z
+1) l Х -> l V
+1) l Ц -> l W
+1) l Ч -> l X
+1) l Ш -> l Y
+1) l Щ -> l Z
+1) l Ь -> l α
+1) l Ы -> l β
+1) l Ъ -> l γ
+1) l Ю -> l δ
+1) l Я -> l ε
+1) o Х -> o V
+1) o Ц -> o W
+1) o Ч -> o X
+1) o Ш -> o Y
+1) o Щ -> o Z
+1) o Ь -> o α
+1) o Ы -> o β
+1) o Ъ -> o γ
+1) o Ю -> o δ
+1) o Я -> o ε
+1) K l q -> K m q
+1) K l r -> K m r
+1) K l s -> K m s
+1) K l t -> K m t
+1) K l u -> K m u
+1) K l v -> K m v
+1) K l w -> K m w
+1) K l x -> K m x
+1) K l y -> K m y
+1) K l z -> K m z
+1) L l q -> L m q
+1) L l r -> L m r
+1) L l s -> L m s
+1) L l t -> L m t
+1) L l u -> L m u
+1) L l v -> L m v
+1) L l w -> L m w
+1) L l x -> L m x
+1) L l y -> L m y
+1) L l z -> L m z
+1) M l q -> M m q
+1) M l r -> M m r
+1) M l s -> M m s
+1) M l t -> M m t
+1) M l u -> M m u
+1) M l v -> M m v
+1) M l w -> M m w
+1) M l x -> M m x
+1) M l y -> M m y
+1) M l z -> M m z
+1) N l q -> N m q
+1) N l r -> N m r
+1) N l s -> N m s
+1) N l t -> N m t
+1) N l u -> N m u
+1) N l v -> N m v
+1) N l w -> N m w
+1) N l x -> N m x
+1) N l y -> N m y
+1) N l z -> N m z
+1) O l q -> O m q
+1) O l r -> O m r
+1) O l s -> O m s
+1) O l t -> O m t
+1) O l u -> O m u
+1) O l v -> O m v
+1) O l w -> O m w
+1) O l x -> O m x
+1) O l y -> O m y
+1) O l z -> O m z
+1) P l q -> P m q
+1) P l r -> P m r
+1) P l s -> P m s
+1) P l t -> P m t
+1) P l u -> P m u
+1) P l v -> P m v
+1) P l w -> P m w
+1) P l x -> P m x
+1) P l y -> P m y
+1) P l z -> P m z
+1) Q l q -> Q m q
+1) Q l r -> Q m r
+1) Q l s -> Q m s
+1) Q l t -> Q m t
+1) Q l u -> Q m u
+1) Q l v -> Q m v
+1) Q l w -> Q m w
+1) Q l x -> Q m x
+1) Q l y -> Q m y
+1) Q l z -> Q m z
+1) R l q -> R m q
+1) R l r -> R m r
+1) R l s -> R m s
+1) R l t -> R m t
+1) R l u -> R m u
+1) R l v -> R m v
+1) R l w -> R m w
+1) R l x -> R m x
+1) R l y -> R m y
+1) R l z -> R m z
+1) T l q -> T m q
+1) T l r -> T m r
+1) T l s -> T m s
+1) T l t -> T m t
+1) T l u -> T m u
+1) T l v -> T m v
+1) T l w -> T m w
+1) T l x -> T m x
+1) T l y -> T m y
+1) T l z -> T m z
+1) U l q -> U m q
+1) U l r -> U m r
+1) U l s -> U m s
+1) U l t -> U m t
+1) U l u -> U m u
+1) U l v -> U m v
+1) U l w -> U m w
+1) U l x -> U m x
+1) U l y -> U m y
+1) U l z -> U m z
+1) K o q -> K p q
+1) K o r -> K p r
+1) K o s -> K p s
+1) K o t -> K p t
+1) K o u -> K p u
+1) K o v -> K p v
+1) K o w -> K p w
+1) K o x -> K p x
+1) K o y -> K p y
+1) K o z -> K p z
+1) L o q -> L p q
+1) L o r -> L p r
+1) L o s -> L p s
+1) L o t -> L p t
+1) L o u -> L p u
+1) L o v -> L p v
+1) L o w -> L p w
+1) L o x -> L p x
+1) L o y -> L p y
+1) L o z -> L p z
+1) M o q -> M p q
+1) M o r -> M p r
+1) M o s -> M p s
+1) M o t -> M p t
+1) M o u -> M p u
+1) M o v -> M p v
+1) M o w -> M p w
+1) M o x -> M p x
+1) M o y -> M p y
+1) M o z -> M p z
+1) N o q -> N p q
+1) N o r -> N p r
+1) N o s -> N p s
+1) N o t -> N p t
+1) N o u -> N p u
+1) N o v -> N p v
+1) N o w -> N p w
+1) N o x -> N p x
+1) N o y -> N p y
+1) N o z -> N p z
+1) O o q -> O p q
+1) O o r -> O p r
+1) O o s -> O p s
+1) O o t -> O p t
+1) O o u -> O p u
+1) O o v -> O p v
+1) O o w -> O p w
+1) O o x -> O p x
+1) O o y -> O p y
+1) O o z -> O p z
+1) P o q -> P p q
+1) P o r -> P p r
+1) P o s -> P p s
+1) P o t -> P p t
+1) P o u -> P p u
+1) P o v -> P p v
+1) P o w -> P p w
+1) P o x -> P p x
+1) P o y -> P p y
+1) P o z -> P p z
+1) Q o q -> Q p q
+1) Q o r -> Q p r
+1) Q o s -> Q p s
+1) Q o t -> Q p t
+1) Q o u -> Q p u
+1) Q o v -> Q p v
+1) Q o w -> Q p w
+1) Q o x -> Q p x
+1) Q o y -> Q p y
+1) Q o z -> Q p z
+1) R o q -> R p q
+1) R o r -> R p r
+1) R o s -> R p s
+1) R o t -> R p t
+1) R o u -> R p u
+1) R o v -> R p v
+1) R o w -> R p w
+1) R o x -> R p x
+1) R o y -> R p y
+1) R o z -> R p z
+1) T o q -> T p q
+1) T o r -> T p r
+1) T o s -> T p s
+1) T o t -> T p t
+1) T o u -> T p u
+1) T o v -> T p v
+1) T o w -> T p w
+1) T o x -> T p x
+1) T o y -> T p y
+1) T o z -> T p z
+1) U o q -> U p q
+1) U o r -> U p r
+1) U o s -> U p s
+1) U o t -> U p t
+1) U o u -> U p u
+1) U o v -> U p v
+1) U o w -> U p w
+1) U o x -> U p x
+1) U o y -> U p y
+1) U o z -> U p z
+1) K l V -> K m V
+1) K l W -> K m W
+1) K l X -> K m X
+1) K l Y -> K m Y
+1) K l Z -> K m Z
+1) K l α -> K m α
+1) K l β -> K m β
+1) K l γ -> K m γ
+1) K l δ -> K m δ
+1) K l ε -> K m ε
+1) L l V -> L m V
+1) L l W -> L m W
+1) L l X -> L m X
+1) L l Y -> L m Y
+1) L l Z -> L m Z
+1) L l α -> L m α
+1) L l β -> L m β
+1) L l γ -> L m γ
+1) L l δ -> L m δ
+1) L l ε -> L m ε
+1) M l V -> M m V
+1) M l W -> M m W
+1) M l X -> M m X
+1) M l Y -> M m Y
+1) M l Z -> M m Z
+1) M l α -> M m α
+1) M l β -> M m β
+1) M l γ -> M m γ
+1) M l δ -> M m δ
+1) M l ε -> M m ε
+1) N l V -> N m V
+1) N l W -> N m W
+1) N l X -> N m X
+1) N l Y -> N m Y
+1) N l Z -> N m Z
+1) N l α -> N m α
+1) N l β -> N m β
+1) N l γ -> N m γ
+1) N l δ -> N m δ
+1) N l ε -> N m ε
+1) O l V -> O m V
+1) O l W -> O m W
+1) O l X -> O m X
+1) O l Y -> O m Y
+1) O l Z -> O m Z
+1) O l α -> O m α
+1) O l β -> O m β
+1) O l γ -> O m γ
+1) O l δ -> O m δ
+1) O l ε -> O m ε
+1) P l V -> P m V
+1) P l W -> P m W
+1) P l X -> P m X
+1) P l Y -> P m Y
+1) P l Z -> P m Z
+1) P l α -> P m α
+1) P l β -> P m β
+1) P l γ -> P m γ
+1) P l δ -> P m δ
+1) P l ε -> P m ε
+1) Q l V -> Q m V
+1) Q l W -> Q m W
+1) Q l X -> Q m X
+1) Q l Y -> Q m Y
+1) Q l Z -> Q m Z
+1) Q l α -> Q m α
+1) Q l β -> Q m β
+1) Q l γ -> Q m γ
+1) Q l δ -> Q m δ
+1) Q l ε -> Q m ε
+1) R l V -> R m V
+1) R l W -> R m W
+1) R l X -> R m X
+1) R l Y -> R m Y
+1) R l Z -> R m Z
+1) R l α -> R m α
+1) R l β -> R m β
+1) R l γ -> R m γ
+1) R l δ -> R m δ
+1) R l ε -> R m ε
+1) T l V -> T m V
+1) T l W -> T m W
+1) T l X -> T m X
+1) T l Y -> T m Y
+1) T l Z -> T m Z
+1) T l α -> T m α
+1) T l β -> T m β
+1) T l γ -> T m γ
+1) T l δ -> T m δ
+1) T l ε -> T m ε
+1) U l V -> U m V
+1) U l W -> U m W
+1) U l X -> U m X
+1) U l Y -> U m Y
+1) U l Z -> U m Z
+1) U l α -> U m α
+1) U l β -> U m β
+1) U l γ -> U m γ
+1) U l δ -> U m δ
+1) U l ε -> U m ε
+1) K o V -> K p V
+1) K o W -> K p W
+1) K o X -> K p X
+1) K o Y -> K p Y
+1) K o Z -> K p Z
+1) K o α -> K p α
+1) K o β -> K p β
+1) K o γ -> K p γ
+1) K o δ -> K p δ
+1) K o ε -> K p ε
+1) L o V -> L p V
+1) L o W -> L p W
+1) L o X -> L p X
+1) L o Y -> L p Y
+1) L o Z -> L p Z
+1) L o α -> L p α
+1) L o β -> L p β
+1) L o γ -> L p γ
+1) L o δ -> L p δ
+1) L o ε -> L p ε
+1) M o V -> M p V
+1) M o W -> M p W
+1) M o X -> M p X
+1) M o Y -> M p Y
+1) M o Z -> M p Z
+1) M o α -> M p α
+1) M o β -> M p β
+1) M o γ -> M p γ
+1) M o δ -> M p δ
+1) M o ε -> M p ε
+1) N o V -> N p V
+1) N o W -> N p W
+1) N o X -> N p X
+1) N o Y -> N p Y
+1) N o Z -> N p Z
+1) N o α -> N p α
+1) N o β -> N p β
+1) N o γ -> N p γ
+1) N o δ -> N p δ
+1) N o ε -> N p ε
+1) O o V -> O p V
+1) O o W -> O p W
+1) O o X -> O p X
+1) O o Y -> O p Y
+1) O o Z -> O p Z
+1) O o α -> O p α
+1) O o β -> O p β
+1) O o γ -> O p γ
+1) O o δ -> O p δ
+1) O o ε -> O p ε
+1) P o V -> P p V
+1) P o W -> P p W
+1) P o X -> P p X
+1) P o Y -> P p Y
+1) P o Z -> P p Z
+1) P o α -> P p α
+1) P o β -> P p β
+1) P o γ -> P p γ
+1) P o δ -> P p δ
+1) P o ε -> P p ε
+1) Q o V -> Q p V
+1) Q o W -> Q p W
+1) Q o X -> Q p X
+1) Q o Y -> Q p Y
+1) Q o Z -> Q p Z
+1) Q o α -> Q p α
+1) Q o β -> Q p β
+1) Q o γ -> Q p γ
+1) Q o δ -> Q p δ
+1) Q o ε -> Q p ε
+1) R o V -> R p V
+1) R o W -> R p W
+1) R o X -> R p X
+1) R o Y -> R p Y
+1) R o Z -> R p Z
+1) R o α -> R p α
+1) R o β -> R p β
+1) R o γ -> R p γ
+1) R o δ -> R p δ
+1) R o ε -> R p ε
+1) T o V -> T p V
+1) T o W -> T p W
+1) T o X -> T p X
+1) T o Y -> T p Y
+1) T o Z -> T p Z
+1) T o α -> T p α
+1) T o β -> T p β
+1) T o γ -> T p γ
+1) T o δ -> T p δ
+1) T o ε -> T p ε
+1) U o V -> U p V
+1) U o W -> U p W
+1) U o X -> U p X
+1) U o Y -> U p Y
+1) U o Z -> U p Z
+1) U o α -> U p α
+1) U o β -> U p β
+1) U o γ -> U p γ
+1) U o δ -> U p δ
+1) U o ε -> U p ε
+1) б l q -> б m q
+1) г l q -> г m q
+1) д l q -> д m q
+1) ё l q -> ё m q
+1) ж l q -> ж m q
+1) з l q -> з m q
+1) и l q -> и m q
+1) л l q -> л m q
+1) п l q -> п m q
+1) ф l q -> ф m q
+1) б l r -> б m r
+1) г l r -> г m r
+1) д l r -> д m r
+1) ё l r -> ё m r
+1) ж l r -> ж m r
+1) з l r -> з m r
+1) и l r -> и m r
+1) л l r -> л m r
+1) п l r -> п m r
+1) ф l r -> ф m r
+1) б l s -> б m s
+1) г l s -> г m s
+1) д l s -> д m s
+1) ё l s -> ё m s
+1) ж l s -> ж m s
+1) з l s -> з m s
+1) и l s -> и m s
+1) л l s -> л m s
+1) п l s -> п m s
+1) ф l s -> ф m s
+1) б l t -> б m t
+1) г l t -> г m t
+1) д l t -> д m t
+1) ё l t -> ё m t
+1) ж l t -> ж m t
+1) з l t -> з m t
+1) и l t -> и m t
+1) л l t -> л m t
+1) п l t -> п m t
+1) ф l t -> ф m t
+1) б l u -> б m u
+1) г l u -> г m u
+1) д l u -> д m u
+1) ё l u -> ё m u
+1) ж l u -> ж m u
+1) з l u -> з m u
+1) и l u -> и m u
+1) л l u -> л m u
+1) п l u -> п m u
+1) ф l u -> ф m u
+1) б l v -> б m v
+1) г l v -> г m v
+1) д l v -> д m v
+1) ё l v -> ё m v
+1) ж l v -> ж m v
+1) з l v -> з m v
+1) и l v -> и m v
+1) л l v -> л m v
+1) п l v -> п m v
+1) ф l v -> ф m v
+1) б l w -> б m w
+1) г l w -> г m w
+1) д l w -> д m w
+1) ё l w -> ё m w
+1) ж l w -> ж m w
+1) з l w -> з m w
+1) и l w -> и m w
+1) л l w -> л m w
+1) п l w -> п m w
+1) ф l w -> ф m w
+1) б l x -> б m x
+1) г l x -> г m x
+1) д l x -> д m x
+1) ё l x -> ё m x
+1) ж l x -> ж m x
+1) з l x -> з m x
+1) и l x -> и m x
+1) л l x -> л m x
+1) п l x -> п m x
+1) ф l x -> ф m x
+1) б l y -> б m y
+1) г l y -> г m y
+1) д l y -> д m y
+1) ё l y -> ё m y
+1) ж l y -> ж m y
+1) з l y -> з m y
+1) и l y -> и m y
+1) л l y -> л m y
+1) п l y -> п m y
+1) ф l y -> ф m y
+1) б l z -> б m z
+1) г l z -> г m z
+1) д l z -> д m z
+1) ё l z -> ё m z
+1) ж l z -> ж m z
+1) з l z -> з m z
+1) и l z -> и m z
+1) л l z -> л m z
+1) п l z -> п m z
+1) ф l z -> ф m z
+1) б o q -> б p q
+1) г o q -> г p q
+1) д o q -> д p q
+1) ё o q -> ё p q
+1) ж o q -> ж p q
+1) з o q -> з p q
+1) и o q -> и p q
+1) л o q -> л p q
+1) п o q -> п p q
+1) ф o q -> ф p q
+1) б o r -> б p r
+1) г o r -> г p r
+1) д o r -> д p r
+1) ё o r -> ё p r
+1) ж o r -> ж p r
+1) з o r -> з p r
+1) и o r -> и p r
+1) л o r -> л p r
+1) п o r -> п p r
+1) ф o r -> ф p r
+1) б o s -> б p s
+1) г o s -> г p s
+1) д o s -> д p s
+1) ё o s -> ё p s
+1) ж o s -> ж p s
+1) з o s -> з p s
+1) и o s -> и p s
+1) л o s -> л p s
+1) п o s -> п p s
+1) ф o s -> ф p s
+1) б o t -> б p t
+1) г o t -> г p t
+1) д o t -> д p t
+1) ё o t -> ё p t
+1) ж o t -> ж p t
+1) з o t -> з p t
+1) и o t -> и p t
+1) л o t -> л p t
+1) п o t -> п p t
+1) ф o t -> ф p t
+1) б o u -> б p u
+1) г o u -> г p u
+1) д o u -> д p u
+1) ё o u -> ё p u
+1) ж o u -> ж p u
+1) з o u -> з p u
+1) и o u -> и p u
+1) л o u -> л p u
+1) п o u -> п p u
+1) ф o u -> ф p u
+1) б o v -> б p v
+1) г o v -> г p v
+1) д o v -> д p v
+1) ё o v -> ё p v
+1) ж o v -> ж p v
+1) з o v -> з p v
+1) и o v -> и p v
+1) л o v -> л p v
+1) п o v -> п p v
+1) ф o v -> ф p v
+1) б o w -> б p w
+1) г o w -> г p w
+1) д o w -> д p w
+1) ё o w -> ё p w
+1) ж o w -> ж p w
+1) з o w -> з p w
+1) и o w -> и p w
+1) л o w -> л p w
+1) п o w -> п p w
+1) ф o w -> ф p w
+1) б o x -> б p x
+1) г o x -> г p x
+1) д o x -> д p x
+1) ё o x -> ё p x
+1) ж o x -> ж p x
+1) з o x -> з p x
+1) и o x -> и p x
+1) л o x -> л p x
+1) п o x -> п p x
+1) ф o x -> ф p x
+1) б o y -> б p y
+1) г o y -> г p y
+1) д o y -> д p y
+1) ё o y -> ё p y
+1) ж o y -> ж p y
+1) з o y -> з p y
+1) и o y -> и p y
+1) л o y -> л p y
+1) п o y -> п p y
+1) ф o y -> ф p y
+1) б o z -> б p z
+1) г o z -> г p z
+1) д o z -> д p z
+1) ё o z -> ё p z
+1) ж o z -> ж p z
+1) з o z -> з p z
+1) и o z -> и p z
+1) л o z -> л p z
+1) п o z -> п p z
+1) ф o z -> ф p z
+1) б l V -> б m V
+1) г l V -> г m V
+1) д l V -> д m V
+1) ё l V -> ё m V
+1) ж l V -> ж m V
+1) з l V -> з m V
+1) и l V -> и m V
+1) л l V -> л m V
+1) п l V -> п m V
+1) ф l V -> ф m V
+1) б l W -> б m W
+1) г l W -> г m W
+1) д l W -> д m W
+1) ё l W -> ё m W
+1) ж l W -> ж m W
+1) з l W -> з m W
+1) и l W -> и m W
+1) л l W -> л m W
+1) п l W -> п m W
+1) ф l W -> ф m W
+1) б l X -> б m X
+1) г l X -> г m X
+1) д l X -> д m X
+1) ё l X -> ё m X
+1) ж l X -> ж m X
+1) з l X -> з m X
+1) и l X -> и m X
+1) л l X -> л m X
+1) п l X -> п m X
+1) ф l X -> ф m X
+1) б l Y -> б m Y
+1) г l Y -> г m Y
+1) д l Y -> д m Y
+1) ё l Y -> ё m Y
+1) ж l Y -> ж m Y
+1) з l Y -> з m Y
+1) и l Y -> и m Y
+1) л l Y -> л m Y
+1) п l Y -> п m Y
+1) ф l Y -> ф m Y
+1) б l Z -> б m Z
+1) г l Z -> г m Z
+1) д l Z -> д m Z
+1) ё l Z -> ё m Z
+1) ж l Z -> ж m Z
+1) з l Z -> з m Z
+1) и l Z -> и m Z
+1) л l Z -> л m Z
+1) п l Z -> п m Z
+1) ф l Z -> ф m Z
+1) б l α -> б m α
+1) г l α -> г m α
+1) д l α -> д m α
+1) ё l α -> ё m α
+1) ж l α -> ж m α
+1) з l α -> з m α
+1) и l α -> и m α
+1) л l α -> л m α
+1) п l α -> п m α
+1) ф l α -> ф m α
+1) б l β -> б m β
+1) г l β -> г m β
+1) д l β -> д m β
+1) ё l β -> ё m β
+1) ж l β -> ж m β
+1) з l β -> з m β
+1) и l β -> и m β
+1) л l β -> л m β
+1) п l β -> п m β
+1) ф l β -> ф m β
+1) б l γ -> б m γ
+1) г l γ -> г m γ
+1) д l γ -> д m γ
+1) ё l γ -> ё m γ
+1) ж l γ -> ж m γ
+1) з l γ -> з m γ
+1) и l γ -> и m γ
+1) л l γ -> л m γ
+1) п l γ -> п m γ
+1) ф l γ -> ф m γ
+1) б l δ -> б m δ
+1) г l δ -> г m δ
+1) д l δ -> д m δ
+1) ё l δ -> ё m δ
+1) ж l δ -> ж m δ
+1) з l δ -> з m δ
+1) и l δ -> и m δ
+1) л l δ -> л m δ
+1) п l δ -> п m δ
+1) ф l δ -> ф m δ
+1) б l ε -> б m ε
+1) г l ε -> г m ε
+1) д l ε -> д m ε
+1) ё l ε -> ё m ε
+1) ж l ε -> ж m ε
+1) з l ε -> з m ε
+1) и l ε -> и m ε
+1) л l ε -> л m ε
+1) п l ε -> п m ε
+1) ф l ε -> ф m ε
+1) б o V -> б p V
+1) г o V -> г p V
+1) д o V -> д p V
+1) ё o V -> ё p V
+1) ж o V -> ж p V
+1) з o V -> з p V
+1) и o V -> и p V
+1) л o V -> л p V
+1) п o V -> п p V
+1) ф o V -> ф p V
+1) б o W -> б p W
+1) г o W -> г p W
+1) д o W -> д p W
+1) ё o W -> ё p W
+1) ж o W -> ж p W
+1) з o W -> з p W
+1) и o W -> и p W
+1) л o W -> л p W
+1) п o W -> п p W
+1) ф o W -> ф p W
+1) б o X -> б p X
+1) г o X -> г p X
+1) д o X -> д p X
+1) ё o X -> ё p X
+1) ж o X -> ж p X
+1) з o X -> з p X
+1) и o X -> и p X
+1) л o X -> л p X
+1) п o X -> п p X
+1) ф o X -> ф p X
+1) б o Y -> б p Y
+1) г o Y -> г p Y
+1) д o Y -> д p Y
+1) ё o Y -> ё p Y
+1) ж o Y -> ж p Y
+1) з o Y -> з p Y
+1) и o Y -> и p Y
+1) л o Y -> л p Y
+1) п o Y -> п p Y
+1) ф o Y -> ф p Y
+1) б o Z -> б p Z
+1) г o Z -> г p Z
+1) д o Z -> д p Z
+1) ё o Z -> ё p Z
+1) ж o Z -> ж p Z
+1) з o Z -> з p Z
+1) и o Z -> и p Z
+1) л o Z -> л p Z
+1) п o Z -> п p Z
+1) ф o Z -> ф p Z
+1) б o α -> б p α
+1) г o α -> г p α
+1) д o α -> д p α
+1) ё o α -> ё p α
+1) ж o α -> ж p α
+1) з o α -> з p α
+1) и o α -> и p α
+1) л o α -> л p α
+1) п o α -> п p α
+1) ф o α -> ф p α
+1) б o β -> б p β
+1) г o β -> г p β
+1) д o β -> д p β
+1) ё o β -> ё p β
+1) ж o β -> ж p β
+1) з o β -> з p β
+1) и o β -> и p β
+1) л o β -> л p β
+1) п o β -> п p β
+1) ф o β -> ф p β
+1) б o γ -> б p γ
+1) г o γ -> г p γ
+1) д o γ -> д p γ
+1) ё o γ -> ё p γ
+1) ж o γ -> ж p γ
+1) з o γ -> з p γ
+1) и o γ -> и p γ
+1) л o γ -> л p γ
+1) п o γ -> п p γ
+1) ф o γ -> ф p γ
+1) б o δ -> б p δ
+1) г o δ -> г p δ
+1) д o δ -> д p δ
+1) ё o δ -> ё p δ
+1) ж o δ -> ж p δ
+1) з o δ -> з p δ
+1) и o δ -> и p δ
+1) л o δ -> л p δ
+1) п o δ -> п p δ
+1) ф o δ -> ф p δ
+1) б o ε -> б p ε
+1) г o ε -> г p ε
+1) д o ε -> д p ε
+1) ё o ε -> ё p ε
+1) ж o ε -> ж p ε
+1) з o ε -> з p ε
+1) и o ε -> и p ε
+1) л o ε -> л p ε
+1) п o ε -> п p ε
+1) ф o ε -> ф p ε
+2) A m Б -> A k Б
+2) A m Г -> A k Г
+2) A m Д -> A k Д
+2) A m Ё -> A k Ё
+2) A m Ж -> A k Ж
+2) A m З -> A k З
+2) A m И -> A k И
+2) A m Л -> A k Л
+2) A m П -> A k П
+2) A m Ф -> A k Ф
+2) B m Б -> B k Б
+2) B m Г -> B k Г
+2) B m Д -> B k Д
+2) B m Ё -> B k Ё
+2) B m Ж -> B k Ж
+2) B m З -> B k З
+2) B m И -> B k И
+2) B m Л -> B k Л
+2) B m П -> B k П
+2) B m Ф -> B k Ф
+2) C m Б -> C k Б
+2) C m Г -> C k Г
+2) C m Д -> C k Д
+2) C m Ё -> C k Ё
+2) C m Ж -> C k Ж
+2) C m З -> C k З
+2) C m И -> C k И
+2) C m Л -> C k Л
+2) C m П -> C k П
+2) C m Ф -> C k Ф
+2) D m Б -> D k Б
+2) D m Г -> D k Г
+2) D m Д -> D k Д
+2) D m Ё -> D k Ё
+2) D m Ж -> D k Ж
+2) D m З -> D k З
+2) D m И -> D k И
+2) D m Л -> D k Л
+2) D m П -> D k П
+2) D m Ф -> D k Ф
+2) E m Б -> E k Б
+2) E m Г -> E k Г
+2) E m Д -> E k Д
+2) E m Ё -> E k Ё
+2) E m Ж -> E k Ж
+2) E m З -> E k З
+2) E m И -> E k И
+2) E m Л -> E k Л
+2) E m П -> E k П
+2) E m Ф -> E k Ф
+2) F m Б -> F k Б
+2) F m Г -> F k Г
+2) F m Д -> F k Д
+2) F m Ё -> F k Ё
+2) F m Ж -> F k Ж
+2) F m З -> F k З
+2) F m И -> F k И
+2) F m Л -> F k Л
+2) F m П -> F k П
+2) F m Ф -> F k Ф
+2) G m Б -> G k Б
+2) G m Г -> G k Г
+2) G m Д -> G k Д
+2) G m Ё -> G k Ё
+2) G m Ж -> G k Ж
+2) G m З -> G k З
+2) G m И -> G k И
+2) G m Л -> G k Л
+2) G m П -> G k П
+2) G m Ф -> G k Ф
+2) H m Б -> H k Б
+2) H m Г -> H k Г
+2) H m Д -> H k Д
+2) H m Ё -> H k Ё
+2) H m Ж -> H k Ж
+2) H m З -> H k З
+2) H m И -> H k И
+2) H m Л -> H k Л
+2) H m П -> H k П
+2) H m Ф -> H k Ф
+2) I m Б -> I k Б
+2) I m Г -> I k Г
+2) I m Д -> I k Д
+2) I m Ё -> I k Ё
+2) I m Ж -> I k Ж
+2) I m З -> I k З
+2) I m И -> I k И
+2) I m Л -> I k Л
+2) I m П -> I k П
+2) I m Ф -> I k Ф
+2) J m Б -> J k Б
+2) J m Г -> J k Г
+2) J m Д -> J k Д
+2) J m Ё -> J k Ё
+2) J m Ж -> J k Ж
+2) J m З -> J k З
+2) J m И -> J k И
+2) J m Л -> J k Л
+2) J m П -> J k П
+2) J m Ф -> J k Ф
+2) A p Б -> A n Б
+2) A p Г -> A n Г
+2) A p Д -> A n Д
+2) A p Ё -> A n Ё
+2) A p Ж -> A n Ж
+2) A p З -> A n З
+2) A p И -> A n И
+2) A p Л -> A n Л
+2) A p П -> A n П
+2) A p Ф -> A n Ф
+2) B p Б -> B n Б
+2) B p Г -> B n Г
+2) B p Д -> B n Д
+2) B p Ё -> B n Ё
+2) B p Ж -> B n Ж
+2) B p З -> B n З
+2) B p И -> B n И
+2) B p Л -> B n Л
+2) B p П -> B n П
+2) B p Ф -> B n Ф
+2) C p Б -> C n Б
+2) C p Г -> C n Г
+2) C p Д -> C n Д
+2) C p Ё -> C n Ё
+2) C p Ж -> C n Ж
+2) C p З -> C n З
+2) C p И -> C n И
+2) C p Л -> C n Л
+2) C p П -> C n П
+2) C p Ф -> C n Ф
+2) D p Б -> D n Б
+2) D p Г -> D n Г
+2) D p Д -> D n Д
+2) D p Ё -> D n Ё
+2) D p Ж -> D n Ж
+2) D p З -> D n З
+2) D p И -> D n И
+2) D p Л -> D n Л
+2) D p П -> D n П
+2) D p Ф -> D n Ф
+2) E p Б -> E n Б
+2) E p Г -> E n Г
+2) E p Д -> E n Д
+2) E p Ё -> E n Ё
+2) E p Ж -> E n Ж
+2) E p З -> E n З
+2) E p И -> E n И
+2) E p Л -> E n Л
+2) E p П -> E n П
+2) E p Ф -> E n Ф
+2) F p Б -> F n Б
+2) F p Г -> F n Г
+2) F p Д -> F n Д
+2) F p Ё -> F n Ё
+2) F p Ж -> F n Ж
+2) F p З -> F n З
+2) F p И -> F n И
+2) F p Л -> F n Л
+2) F p П -> F n П
+2) F p Ф -> F n Ф
+2) G p Б -> G n Б
+2) G p Г -> G n Г
+2) G p Д -> G n Д
+2) G p Ё -> G n Ё
+2) G p Ж -> G n Ж
+2) G p З -> G n З
+2) G p И -> G n И
+2) G p Л -> G n Л
+2) G p П -> G n П
+2) G p Ф -> G n Ф
+2) H p Б -> H n Б
+2) H p Г -> H n Г
+2) H p Д -> H n Д
+2) H p Ё -> H n Ё
+2) H p Ж -> H n Ж
+2) H p З -> H n З
+2) H p И -> H n И
+2) H p Л -> H n Л
+2) H p П -> H n П
+2) H p Ф -> H n Ф
+2) I p Б -> I n Б
+2) I p Г -> I n Г
+2) I p Д -> I n Д
+2) I p Ё -> I n Ё
+2) I p Ж -> I n Ж
+2) I p З -> I n З
+2) I p И -> I n И
+2) I p Л -> I n Л
+2) I p П -> I n П
+2) I p Ф -> I n Ф
+2) J p Б -> J n Б
+2) J p Г -> J n Г
+2) J p Д -> J n Д
+2) J p Ё -> J n Ё
+2) J p Ж -> J n Ж
+2) J p З -> J n З
+2) J p И -> J n И
+2) J p Л -> J n Л
+2) J p П -> J n П
+2) J p Ф -> J n Ф
+2) A m Х -> A k Х
+2) A m Ц -> A k Ц
+2) A m Ч -> A k Ч
+2) A m Ш -> A k Ш
+2) A m Щ -> A k Щ
+2) A m Ь -> A k Ь
+2) A m Ы -> A k Ы
+2) A m Ъ -> A k Ъ
+2) A m Ю -> A k Ю
+2) A m Я -> A k Я
+2) B m Х -> B k Х
+2) B m Ц -> B k Ц
+2) B m Ч -> B k Ч
+2) B m Ш -> B k Ш
+2) B m Щ -> B k Щ
+2) B m Ь -> B k Ь
+2) B m Ы -> B k Ы
+2) B m Ъ -> B k Ъ
+2) B m Ю -> B k Ю
+2) B m Я -> B k Я
+2) C m Х -> C k Х
+2) C m Ц -> C k Ц
+2) C m Ч -> C k Ч
+2) C m Ш -> C k Ш
+2) C m Щ -> C k Щ
+2) C m Ь -> C k Ь
+2) C m Ы -> C k Ы
+2) C m Ъ -> C k Ъ
+2) C m Ю -> C k Ю
+2) C m Я -> C k Я
+2) D m Х -> D k Х
+2) D m Ц -> D k Ц
+2) D m Ч -> D k Ч
+2) D m Ш -> D k Ш
+2) D m Щ -> D k Щ
+2) D m Ь -> D k Ь
+2) D m Ы -> D k Ы
+2) D m Ъ -> D k Ъ
+2) D m Ю -> D k Ю
+2) D m Я -> D k Я
+2) E m Х -> E k Х
+2) E m Ц -> E k Ц
+2) E m Ч -> E k Ч
+2) E m Ш -> E k Ш
+2) E m Щ -> E k Щ
+2) E m Ь -> E k Ь
+2) E m Ы -> E k Ы
+2) E m Ъ -> E k Ъ
+2) E m Ю -> E k Ю
+2) E m Я -> E k Я
+2) F m Х -> F k Х
+2) F m Ц -> F k Ц
+2) F m Ч -> F k Ч
+2) F m Ш -> F k Ш
+2) F m Щ -> F k Щ
+2) F m Ь -> F k Ь
+2) F m Ы -> F k Ы
+2) F m Ъ -> F k Ъ
+2) F m Ю -> F k Ю
+2) F m Я -> F k Я
+2) G m Х -> G k Х
+2) G m Ц -> G k Ц
+2) G m Ч -> G k Ч
+2) G m Ш -> G k Ш
+2) G m Щ -> G k Щ
+2) G m Ь -> G k Ь
+2) G m Ы -> G k Ы
+2) G m Ъ -> G k Ъ
+2) G m Ю -> G k Ю
+2) G m Я -> G k Я
+2) H m Х -> H k Х
+2) H m Ц -> H k Ц
+2) H m Ч -> H k Ч
+2) H m Ш -> H k Ш
+2) H m Щ -> H k Щ
+2) H m Ь -> H k Ь
+2) H m Ы -> H k Ы
+2) H m Ъ -> H k Ъ
+2) H m Ю -> H k Ю
+2) H m Я -> H k Я
+2) I m Х -> I k Х
+2) I m Ц -> I k Ц
+2) I m Ч -> I k Ч
+2) I m Ш -> I k Ш
+2) I m Щ -> I k Щ
+2) I m Ь -> I k Ь
+2) I m Ы -> I k Ы
+2) I m Ъ -> I k Ъ
+2) I m Ю -> I k Ю
+2) I m Я -> I k Я
+2) J m Х -> J k Х
+2) J m Ц -> J k Ц
+2) J m Ч -> J k Ч
+2) J m Ш -> J k Ш
+2) J m Щ -> J k Щ
+2) J m Ь -> J k Ь
+2) J m Ы -> J k Ы
+2) J m Ъ -> J k Ъ
+2) J m Ю -> J k Ю
+2) J m Я -> J k Я
+2) A p Х -> A n Х
+2) A p Ц -> A n Ц
+2) A p Ч -> A n Ч
+2) A p Ш -> A n Ш
+2) A p Щ -> A n Щ
+2) A p Ь -> A n Ь
+2) A p Ы -> A n Ы
+2) A p Ъ -> A n Ъ
+2) A p Ю -> A n Ю
+2) A p Я -> A n Я
+2) B p Х -> B n Х
+2) B p Ц -> B n Ц
+2) B p Ч -> B n Ч
+2) B p Ш -> B n Ш
+2) B p Щ -> B n Щ
+2) B p Ь -> B n Ь
+2) B p Ы -> B n Ы
+2) B p Ъ -> B n Ъ
+2) B p Ю -> B n Ю
+2) B p Я -> B n Я
+2) C p Х -> C n Х
+2) C p Ц -> C n Ц
+2) C p Ч -> C n Ч
+2) C p Ш -> C n Ш
+2) C p Щ -> C n Щ
+2) C p Ь -> C n Ь
+2) C p Ы -> C n Ы
+2) C p Ъ -> C n Ъ
+2) C p Ю -> C n Ю
+2) C p Я -> C n Я
+2) D p Х -> D n Х
+2) D p Ц -> D n Ц
+2) D p Ч -> D n Ч
+2) D p Ш -> D n Ш
+2) D p Щ -> D n Щ
+2) D p Ь -> D n Ь
+2) D p Ы -> D n Ы
+2) D p Ъ -> D n Ъ
+2) D p Ю -> D n Ю
+2) D p Я -> D n Я
+2) E p Х -> E n Х
+2) E p Ц -> E n Ц
+2) E p Ч -> E n Ч
+2) E p Ш -> E n Ш
+2) E p Щ -> E n Щ
+2) E p Ь -> E n Ь
+2) E p Ы -> E n Ы
+2) E p Ъ -> E n Ъ
+2) E p Ю -> E n Ю
+2) E p Я -> E n Я
+2) F p Х -> F n Х
+2) F p Ц -> F n Ц
+2) F p Ч -> F n Ч
+2) F p Ш -> F n Ш
+2) F p Щ -> F n Щ
+2) F p Ь -> F n Ь
+2) F p Ы -> F n Ы
+2) F p Ъ -> F n Ъ
+2) F p Ю -> F n Ю
+2) F p Я -> F n Я
+2) G p Х -> G n Х
+2) G p Ц -> G n Ц
+2) G p Ч -> G n Ч
+2) G p Ш -> G n Ш
+2) G p Щ -> G n Щ
+2) G p Ь -> G n Ь
+2) G p Ы -> G n Ы
+2) G p Ъ -> G n Ъ
+2) G p Ю -> G n Ю
+2) G p Я -> G n Я
+2) H p Х -> H n Х
+2) H p Ц -> H n Ц
+2) H p Ч -> H n Ч
+2) H p Ш -> H n Ш
+2) H p Щ -> H n Щ
+2) H p Ь -> H n Ь
+2) H p Ы -> H n Ы
+2) H p Ъ -> H n Ъ
+2) H p Ю -> H n Ю
+2) H p Я -> H n Я
+2) I p Х -> I n Х
+2) I p Ц -> I n Ц
+2) I p Ч -> I n Ч
+2) I p Ш -> I n Ш
+2) I p Щ -> I n Щ
+2) I p Ь -> I n Ь
+2) I p Ы -> I n Ы
+2) I p Ъ -> I n Ъ
+2) I p Ю -> I n Ю
+2) I p Я -> I n Я
+2) J p Х -> J n Х
+2) J p Ц -> J n Ц
+2) J p Ч -> J n Ч
+2) J p Ш -> J n Ш
+2) J p Щ -> J n Щ
+2) J p Ь -> J n Ь
+2) J p Ы -> J n Ы
+2) J p Ъ -> J n Ъ
+2) J p Ю -> J n Ю
+2) J p Я -> J n Я
+2) Б m Х -> Б k Х
+2) Б m Ц -> Б k Ц
+2) Б m Ч -> Б k Ч
+2) Б m Ш -> Б k Ш
+2) Б m Щ -> Б k Щ
+2) Б m Ь -> Б k Ь
+2) Б m Ы -> Б k Ы
+2) Б m Ъ -> Б k Ъ
+2) Б m Ю -> Б k Ю
+2) Б m Я -> Б k Я
+2) Г m Х -> Г k Х
+2) Г m Ц -> Г k Ц
+2) Г m Ч -> Г k Ч
+2) Г m Ш -> Г k Ш
+2) Г m Щ -> Г k Щ
+2) Г m Ь -> Г k Ь
+2) Г m Ы -> Г k Ы
+2) Г m Ъ -> Г k Ъ
+2) Г m Ю -> Г k Ю
+2) Г m Я -> Г k Я
+2) Д m Х -> Д k Х
+2) Д m Ц -> Д k Ц
+2) Д m Ч -> Д k Ч
+2) Д m Ш -> Д k Ш
+2) Д m Щ -> Д k Щ
+2) Д m Ь -> Д k Ь
+2) Д m Ы -> Д k Ы
+2) Д m Ъ -> Д k Ъ
+2) Д m Ю -> Д k Ю
+2) Д m Я -> Д k Я
+2) Ё m Х -> Ё k Х
+2) Ё m Ц -> Ё k Ц
+2) Ё m Ч -> Ё k Ч
+2) Ё m Ш -> Ё k Ш
+2) Ё m Щ -> Ё k Щ
+2) Ё m Ь -> Ё k Ь
+2) Ё m Ы -> Ё k Ы
+2) Ё m Ъ -> Ё k Ъ
+2) Ё m Ю -> Ё k Ю
+2) Ё m Я -> Ё k Я
+2) Ж m Х -> Ж k Х
+2) Ж m Ц -> Ж k Ц
+2) Ж m Ч -> Ж k Ч
+2) Ж m Ш -> Ж k Ш
+2) Ж m Щ -> Ж k Щ
+2) Ж m Ь -> Ж k Ь
+2) Ж m Ы -> Ж k Ы
+2) Ж m Ъ -> Ж k Ъ
+2) Ж m Ю -> Ж k Ю
+2) Ж m Я -> Ж k Я
+2) З m Х -> З k Х
+2) З m Ц -> З k Ц
+2) З m Ч -> З k Ч
+2) З m Ш -> З k Ш
+2) З m Щ -> З k Щ
+2) З m Ь -> З k Ь
+2) З m Ы -> З k Ы
+2) З m Ъ -> З k Ъ
+2) З m Ю -> З k Ю
+2) З m Я -> З k Я
+2) И m Х -> И k Х
+2) И m Ц -> И k Ц
+2) И m Ч -> И k Ч
+2) И m Ш -> И k Ш
+2) И m Щ -> И k Щ
+2) И m Ь -> И k Ь
+2) И m Ы -> И k Ы
+2) И m Ъ -> И k Ъ
+2) И m Ю -> И k Ю
+2) И m Я -> И k Я
+2) Л m Х -> Л k Х
+2) Л m Ц -> Л k Ц
+2) Л m Ч -> Л k Ч
+2) Л m Ш -> Л k Ш
+2) Л m Щ -> Л k Щ
+2) Л m Ь -> Л k Ь
+2) Л m Ы -> Л k Ы
+2) Л m Ъ -> Л k Ъ
+2) Л m Ю -> Л k Ю
+2) Л m Я -> Л k Я
+2) П m Х -> П k Х
+2) П m Ц -> П k Ц
+2) П m Ч -> П k Ч
+2) П m Ш -> П k Ш
+2) П m Щ -> П k Щ
+2) П m Ь -> П k Ь
+2) П m Ы -> П k Ы
+2) П m Ъ -> П k Ъ
+2) П m Ю -> П k Ю
+2) П m Я -> П k Я
+2) Ф m Х -> Ф k Х
+2) Ф m Ц -> Ф k Ц
+2) Ф m Ч -> Ф k Ч
+2) Ф m Ш -> Ф k Ш
+2) Ф m Щ -> Ф k Щ
+2) Ф m Ь -> Ф k Ь
+2) Ф m Ы -> Ф k Ы
+2) Ф m Ъ -> Ф k Ъ
+2) Ф m Ю -> Ф k Ю
+2) Ф m Я -> Ф k Я
+2) Б p Х -> Б n Х
+2) Б p Ц -> Б n Ц
+2) Б p Ч -> Б n Ч
+2) Б p Ш -> Б n Ш
+2) Б p Щ -> Б n Щ
+2) Б p Ь -> Б n Ь
+2) Б p Ы -> Б n Ы
+2) Б p Ъ -> Б n Ъ
+2) Б p Ю -> Б n Ю
+2) Б p Я -> Б n Я
+2) Г p Х -> Г n Х
+2) Г p Ц -> Г n Ц
+2) Г p Ч -> Г n Ч
+2) Г p Ш -> Г n Ш
+2) Г p Щ -> Г n Щ
+2) Г p Ь -> Г n Ь
+2) Г p Ы -> Г n Ы
+2) Г p Ъ -> Г n Ъ
+2) Г p Ю -> Г n Ю
+2) Г p Я -> Г n Я
+2) Д p Х -> Д n Х
+2) Д p Ц -> Д n Ц
+2) Д p Ч -> Д n Ч
+2) Д p Ш -> Д n Ш
+2) Д p Щ -> Д n Щ
+2) Д p Ь -> Д n Ь
+2) Д p Ы -> Д n Ы
+2) Д p Ъ -> Д n Ъ
+2) Д p Ю -> Д n Ю
+2) Д p Я -> Д n Я
+2) Ё p Х -> Ё n Х
+2) Ё p Ц -> Ё n Ц
+2) Ё p Ч -> Ё n Ч
+2) Ё p Ш -> Ё n Ш
+2) Ё p Щ -> Ё n Щ
+2) Ё p Ь -> Ё n Ь
+2) Ё p Ы -> Ё n Ы
+2) Ё p Ъ -> Ё n Ъ
+2) Ё p Ю -> Ё n Ю
+2) Ё p Я -> Ё n Я
+2) Ж p Х -> Ж n Х
+2) Ж p Ц -> Ж n Ц
+2) Ж p Ч -> Ж n Ч
+2) Ж p Ш -> Ж n Ш
+2) Ж p Щ -> Ж n Щ
+2) Ж p Ь -> Ж n Ь
+2) Ж p Ы -> Ж n Ы
+2) Ж p Ъ -> Ж n Ъ
+2) Ж p Ю -> Ж n Ю
+2) Ж p Я -> Ж n Я
+2) З p Х -> З n Х
+2) З p Ц -> З n Ц
+2) З p Ч -> З n Ч
+2) З p Ш -> З n Ш
+2) З p Щ -> З n Щ
+2) З p Ь -> З n Ь
+2) З p Ы -> З n Ы
+2) З p Ъ -> З n Ъ
+2) З p Ю -> З n Ю
+2) З p Я -> З n Я
+2) И p Х -> И n Х
+2) И p Ц -> И n Ц
+2) И p Ч -> И n Ч
+2) И p Ш -> И n Ш
+2) И p Щ -> И n Щ
+2) И p Ь -> И n Ь
+2) И p Ы -> И n Ы
+2) И p Ъ -> И n Ъ
+2) И p Ю -> И n Ю
+2) И p Я -> И n Я
+2) Л p Х -> Л n Х
+2) Л p Ц -> Л n Ц
+2) Л p Ч -> Л n Ч
+2) Л p Ш -> Л n Ш
+2) Л p Щ -> Л n Щ
+2) Л p Ь -> Л n Ь
+2) Л p Ы -> Л n Ы
+2) Л p Ъ -> Л n Ъ
+2) Л p Ю -> Л n Ю
+2) Л p Я -> Л n Я
+2) П p Х -> П n Х
+2) П p Ц -> П n Ц
+2) П p Ч -> П n Ч
+2) П p Ш -> П n Ш
+2) П p Щ -> П n Щ
+2) П p Ь -> П n Ь
+2) П p Ы -> П n Ы
+2) П p Ъ -> П n Ъ
+2) П p Ю -> П n Ю
+2) П p Я -> П n Я
+2) Ф p Х -> Ф n Х
+2) Ф p Ц -> Ф n Ц
+2) Ф p Ч -> Ф n Ч
+2) Ф p Ш -> Ф n Ш
+2) Ф p Щ -> Ф n Щ
+2) Ф p Ь -> Ф n Ь
+2) Ф p Ы -> Ф n Ы
+2) Ф p Ъ -> Ф n Ъ
+2) Ф p Ю -> Ф n Ю
+2) Ф p Я -> Ф n Я
+2) Б m Б -> Б k Б
+2) Б m Г -> Б k Г
+2) Б m Д -> Б k Д
+2) Б m Ё -> Б k Ё
+2) Б m Ж -> Б k Ж
+2) Б m З -> Б k З
+2) Б m И -> Б k И
+2) Б m Л -> Б k Л
+2) Б m П -> Б k П
+2) Б m Ф -> Б k Ф
+2) Г m Б -> Г k Б
+2) Г m Г -> Г k Г
+2) Г m Д -> Г k Д
+2) Г m Ё -> Г k Ё
+2) Г m Ж -> Г k Ж
+2) Г m З -> Г k З
+2) Г m И -> Г k И
+2) Г m Л -> Г k Л
+2) Г m П -> Г k П
+2) Г m Ф -> Г k Ф
+2) Д m Б -> Д k Б
+2) Д m Г -> Д k Г
+2) Д m Д -> Д k Д
+2) Д m Ё -> Д k Ё
+2) Д m Ж -> Д k Ж
+2) Д m З -> Д k З
+2) Д m И -> Д k И
+2) Д m Л -> Д k Л
+2) Д m П -> Д k П
+2) Д m Ф -> Д k Ф
+2) Ё m Б -> Ё k Б
+2) Ё m Г -> Ё k Г
+2) Ё m Д -> Ё k Д
+2) Ё m Ё -> Ё k Ё
+2) Ё m Ж -> Ё k Ж
+2) Ё m З -> Ё k З
+2) Ё m И -> Ё k И
+2) Ё m Л -> Ё k Л
+2) Ё m П -> Ё k П
+2) Ё m Ф -> Ё k Ф
+2) Ж m Б -> Ж k Б
+2) Ж m Г -> Ж k Г
+2) Ж m Д -> Ж k Д
+2) Ж m Ё -> Ж k Ё
+2) Ж m Ж -> Ж k Ж
+2) Ж m З -> Ж k З
+2) Ж m И -> Ж k И
+2) Ж m Л -> Ж k Л
+2) Ж m П -> Ж k П
+2) Ж m Ф -> Ж k Ф
+2) З m Б -> З k Б
+2) З m Г -> З k Г
+2) З m Д -> З k Д
+2) З m Ё -> З k Ё
+2) З m Ж -> З k Ж
+2) З m З -> З k З
+2) З m И -> З k И
+2) З m Л -> З k Л
+2) З m П -> З k П
+2) З m Ф -> З k Ф
+2) И m Б -> И k Б
+2) И m Г -> И k Г
+2) И m Д -> И k Д
+2) И m Ё -> И k Ё
+2) И m Ж -> И k Ж
+2) И m З -> И k З
+2) И m И -> И k И
+2) И m Л -> И k Л
+2) И m П -> И k П
+2) И m Ф -> И k Ф
+2) Л m Б -> Л k Б
+2) Л m Г -> Л k Г
+2) Л m Д -> Л k Д
+2) Л m Ё -> Л k Ё
+2) Л m Ж -> Л k Ж
+2) Л m З -> Л k З
+2) Л m И -> Л k И
+2) Л m Л -> Л k Л
+2) Л m П -> Л k П
+2) Л m Ф -> Л k Ф
+2) П m Б -> П k Б
+2) П m Г -> П k Г
+2) П m Д -> П k Д
+2) П m Ё -> П k Ё
+2) П m Ж -> П k Ж
+2) П m З -> П k З
+2) П m И -> П k И
+2) П m Л -> П k Л
+2) П m П -> П k П
+2) П m Ф -> П k Ф
+2) Ф m Б -> Ф k Б
+2) Ф m Г -> Ф k Г
+2) Ф m Д -> Ф k Д
+2) Ф m Ё -> Ф k Ё
+2) Ф m Ж -> Ф k Ж
+2) Ф m З -> Ф k З
+2) Ф m И -> Ф k И
+2) Ф m Л -> Ф k Л
+2) Ф m П -> Ф k П
+2) Ф m Ф -> Ф k Ф
+2) Б p Б -> Б n Б
+2) Б p Г -> Б n Г
+2) Б p Д -> Б n Д
+2) Б p Ё -> Б n Ё
+2) Б p Ж -> Б n Ж
+2) Б p З -> Б n З
+2) Б p И -> Б n И
+2) Б p Л -> Б n Л
+2) Б p П -> Б n П
+2) Б p Ф -> Б n Ф
+2) Г p Б -> Г n Б
+2) Г p Г -> Г n Г
+2) Г p Д -> Г n Д
+2) Г p Ё -> Г n Ё
+2) Г p Ж -> Г n Ж
+2) Г p З -> Г n З
+2) Г p И -> Г n И
+2) Г p Л -> Г n Л
+2) Г p П -> Г n П
+2) Г p Ф -> Г n Ф
+2) Д p Б -> Д n Б
+2) Д p Г -> Д n Г
+2) Д p Д -> Д n Д
+2) Д p Ё -> Д n Ё
+2) Д p Ж -> Д n Ж
+2) Д p З -> Д n З
+2) Д p И -> Д n И
+2) Д p Л -> Д n Л
+2) Д p П -> Д n П
+2) Д p Ф -> Д n Ф
+2) Ё p Б -> Ё n Б
+2) Ё p Г -> Ё n Г
+2) Ё p Д -> Ё n Д
+2) Ё p Ё -> Ё n Ё
+2) Ё p Ж -> Ё n Ж
+2) Ё p З -> Ё n З
+2) Ё p И -> Ё n И
+2) Ё p Л -> Ё n Л
+2) Ё p П -> Ё n П
+2) Ё p Ф -> Ё n Ф
+2) Ж p Б -> Ж n Б
+2) Ж p Г -> Ж n Г
+2) Ж p Д -> Ж n Д
+2) Ж p Ё -> Ж n Ё
+2) Ж p Ж -> Ж n Ж
+2) Ж p З -> Ж n З
+2) Ж p И -> Ж n И
+2) Ж p Л -> Ж n Л
+2) Ж p П -> Ж n П
+2) Ж p Ф -> Ж n Ф
+2) З p Б -> З n Б
+2) З p Г -> З n Г
+2) З p Д -> З n Д
+2) З p Ё -> З n Ё
+2) З p Ж -> З n Ж
+2) З p З -> З n З
+2) З p И -> З n И
+2) З p Л -> З n Л
+2) З p П -> З n П
+2) З p Ф -> З n Ф
+2) И p Б -> И n Б
+2) И p Г -> И n Г
+2) И p Д -> И n Д
+2) И p Ё -> И n Ё
+2) И p Ж -> И n Ж
+2) И p З -> И n З
+2) И p И -> И n И
+2) И p Л -> И n Л
+2) И p П -> И n П
+2) И p Ф -> И n Ф
+2) Л p Б -> Л n Б
+2) Л p Г -> Л n Г
+2) Л p Д -> Л n Д
+2) Л p Ё -> Л n Ё
+2) Л p Ж -> Л n Ж
+2) Л p З -> Л n З
+2) Л p И -> Л n И
+2) Л p Л -> Л n Л
+2) Л p П -> Л n П
+2) Л p Ф -> Л n Ф
+2) П p Б -> П n Б
+2) П p Г -> П n Г
+2) П p Д -> П n Д
+2) П p Ё -> П n Ё
+2) П p Ж -> П n Ж
+2) П p З -> П n З
+2) П p И -> П n И
+2) П p Л -> П n Л
+2) П p П -> П n П
+2) П p Ф -> П n Ф
+2) Ф p Б -> Ф n Б
+2) Ф p Г -> Ф n Г
+2) Ф p Д -> Ф n Д
+2) Ф p Ё -> Ф n Ё
+2) Ф p Ж -> Ф n Ж
+2) Ф p З -> Ф n З
+2) Ф p И -> Ф n И
+2) Ф p Л -> Ф n Л
+2) Ф p П -> Ф n П
+2) Ф p Ф -> Ф n Ф
+3) ф m -> Г A m
+3) ф p -> Г A p
+3) ф A -> Г A A
+3) ф B -> Г A B
+3) ф C -> Г A C
+3) ф D -> Г A D
+3) ф E -> Г A E
+3) ф F -> Г A F
+3) ф G -> Г A G
+3) ф H -> Г A H
+3) ф I -> Г A I
+3) ф J -> Г A J
+3) ф Х -> Г A Х
+3) ф Ц -> Г A Ц
+3) ф Ч -> Г A Ч
+3) ф Ш -> Г A Ш
+3) ф Щ -> Г A Щ
+3) ф Ь -> Г A Ь
+3) ф Ы -> Г A Ы
+3) ф Ъ -> Г A Ъ
+3) ф Ю -> Г A Ю
+3) ф Я -> Г A Я
+3) K m -> B m
+3) L m -> C m
+3) M m -> D m
+3) N m -> E m
+3) O m -> F m
+3) P m -> G m
+3) Q m -> H m
+3) R m -> I m
+3) T m -> J m
+3) K p -> B p
+3) L p -> C p
+3) M p -> D p
+3) N p -> E p
+3) O p -> F p
+3) P p -> G p
+3) Q p -> H p
+3) R p -> I p
+3) T p -> J p
+3) б m -> Г m
+3) г m -> Д m
+3) д m -> Ё m
+3) ё m -> Ж m
+3) ж m -> З m
+3) з m -> И m
+3) и m -> Л m
+3) л m -> П m
+3) п m -> Ф m
+3) б p -> Г p
+3) г p -> Д p
+3) д p -> Ё p
+3) ё p -> Ж p
+3) ж p -> З p
+3) з p -> И p
+3) и p -> Л p
+3) л p -> П p
+3) п p -> Ф p
+3) K A -> B A
+3) L A -> C A
+3) M A -> D A
+3) N A -> E A
+3) O A -> F A
+3) P A -> G A
+3) Q A -> H A
+3) R A -> I A
+3) T A -> J A
+3) K B -> B B
+3) L B -> C B
+3) M B -> D B
+3) N B -> E B
+3) O B -> F B
+3) P B -> G B
+3) Q B -> H B
+3) R B -> I B
+3) T B -> J B
+3) K C -> B C
+3) L C -> C C
+3) M C -> D C
+3) N C -> E C
+3) O C -> F C
+3) P C -> G C
+3) Q C -> H C
+3) R C -> I C
+3) T C -> J C
+3) K D -> B D
+3) L D -> C D
+3) M D -> D D
+3) N D -> E D
+3) O D -> F D
+3) P D -> G D
+3) Q D -> H D
+3) R D -> I D
+3) T D -> J D
+3) K E -> B E
+3) L E -> C E
+3) M E -> D E
+3) N E -> E E
+3) O E -> F E
+3) P E -> G E
+3) Q E -> H E
+3) R E -> I E
+3) T E -> J E
+3) K F -> B F
+3) L F -> C F
+3) M F -> D F
+3) N F -> E F
+3) O F -> F F
+3) P F -> G F
+3) Q F -> H F
+3) R F -> I F
+3) T F -> J F
+3) K G -> B G
+3) L G -> C G
+3) M G -> D G
+3) N G -> E G
+3) O G -> F G
+3) P G -> G G
+3) Q G -> H G
+3) R G -> I G
+3) T G -> J G
+3) K H -> B H
+3) L H -> C H
+3) M H -> D H
+3) N H -> E H
+3) O H -> F H
+3) P H -> G H
+3) Q H -> H H
+3) R H -> I H
+3) T H -> J H
+3) K I -> B I
+3) L I -> C I
+3) M I -> D I
+3) N I -> E I
+3) O I -> F I
+3) P I -> G I
+3) Q I -> H I
+3) R I -> I I
+3) T I -> J I
+3) K J -> B J
+3) L J -> C J
+3) M J -> D J
+3) N J -> E J
+3) O J -> F J
+3) P J -> G J
+3) Q J -> H J
+3) R J -> I J
+3) T J -> J J
+3) K Х -> B Х
+3) L Х -> C Х
+3) M Х -> D Х
+3) N Х -> E Х
+3) O Х -> F Х
+3) P Х -> G Х
+3) Q Х -> H Х
+3) R Х -> I Х
+3) T Х -> J Х
+3) K Ц -> B Ц
+3) L Ц -> C Ц
+3) M Ц -> D Ц
+3) N Ц -> E Ц
+3) O Ц -> F Ц
+3) P Ц -> G Ц
+3) Q Ц -> H Ц
+3) R Ц -> I Ц
+3) T Ц -> J Ц
+3) K Ч -> B Ч
+3) L Ч -> C Ч
+3) M Ч -> D Ч
+3) N Ч -> E Ч
+3) O Ч -> F Ч
+3) P Ч -> G Ч
+3) Q Ч -> H Ч
+3) R Ч -> I Ч
+3) T Ч -> J Ч
+3) K Ш -> B Ш
+3) L Ш -> C Ш
+3) M Ш -> D Ш
+3) N Ш -> E Ш
+3) O Ш -> F Ш
+3) P Ш -> G Ш
+3) Q Ш -> H Ш
+3) R Ш -> I Ш
+3) T Ш -> J Ш
+3) K Щ -> B Щ
+3) L Щ -> C Щ
+3) M Щ -> D Щ
+3) N Щ -> E Щ
+3) O Щ -> F Щ
+3) P Щ -> G Щ
+3) Q Щ -> H Щ
+3) R Щ -> I Щ
+3) T Щ -> J Щ
+3) K Ь -> B Ь
+3) L Ь -> C Ь
+3) M Ь -> D Ь
+3) N Ь -> E Ь
+3) O Ь -> F Ь
+3) P Ь -> G Ь
+3) Q Ь -> H Ь
+3) R Ь -> I Ь
+3) T Ь -> J Ь
+3) K Ы -> B Ы
+3) L Ы -> C Ы
+3) M Ы -> D Ы
+3) N Ы -> E Ы
+3) O Ы -> F Ы
+3) P Ы -> G Ы
+3) Q Ы -> H Ы
+3) R Ы -> I Ы
+3) T Ы -> J Ы
+3) K Ъ -> B Ъ
+3) L Ъ -> C Ъ
+3) M Ъ -> D Ъ
+3) N Ъ -> E Ъ
+3) O Ъ -> F Ъ
+3) P Ъ -> G Ъ
+3) Q Ъ -> H Ъ
+3) R Ъ -> I Ъ
+3) T Ъ -> J Ъ
+3) K Ю -> B Ю
+3) L Ю -> C Ю
+3) M Ю -> D Ю
+3) N Ю -> E Ю
+3) O Ю -> F Ю
+3) P Ю -> G Ю
+3) Q Ю -> H Ю
+3) R Ю -> I Ю
+3) T Ю -> J Ю
+3) K Я -> B Я
+3) L Я -> C Я
+3) M Я -> D Я
+3) N Я -> E Я
+3) O Я -> F Я
+3) P Я -> G Я
+3) Q Я -> H Я
+3) R Я -> I Я
+3) T Я -> J Я
+3) б A -> Г A
+3) г A -> Д A
+3) д A -> Ё A
+3) ё A -> Ж A
+3) ж A -> З A
+3) з A -> И A
+3) и A -> Л A
+3) л A -> П A
+3) п A -> Ф A
+3) б B -> Г B
+3) г B -> Д B
+3) д B -> Ё B
+3) ё B -> Ж B
+3) ж B -> З B
+3) з B -> И B
+3) и B -> Л B
+3) л B -> П B
+3) п B -> Ф B
+3) б C -> Г C
+3) г C -> Д C
+3) д C -> Ё C
+3) ё C -> Ж C
+3) ж C -> З C
+3) з C -> И C
+3) и C -> Л C
+3) л C -> П C
+3) п C -> Ф C
+3) б D -> Г D
+3) г D -> Д D
+3) д D -> Ё D
+3) ё D -> Ж D
+3) ж D -> З D
+3) з D -> И D
+3) и D -> Л D
+3) л D -> П D
+3) п D -> Ф D
+3) б E -> Г E
+3) г E -> Д E
+3) д E -> Ё E
+3) ё E -> Ж E
+3) ж E -> З E
+3) з E -> И E
+3) и E -> Л E
+3) л E -> П E
+3) п E -> Ф E
+3) б F -> Г F
+3) г F -> Д F
+3) д F -> Ё F
+3) ё F -> Ж F
+3) ж F -> З F
+3) з F -> И F
+3) и F -> Л F
+3) л F -> П F
+3) п F -> Ф F
+3) б G -> Г G
+3) г G -> Д G
+3) д G -> Ё G
+3) ё G -> Ж G
+3) ж G -> З G
+3) з G -> И G
+3) и G -> Л G
+3) л G -> П G
+3) п G -> Ф G
+3) б H -> Г H
+3) г H -> Д H
+3) д H -> Ё H
+3) ё H -> Ж H
+3) ж H -> З H
+3) з H -> И H
+3) и H -> Л H
+3) л H -> П H
+3) п H -> Ф H
+3) б I -> Г I
+3) г I -> Д I
+3) д I -> Ё I
+3) ё I -> Ж I
+3) ж I -> З I
+3) з I -> И I
+3) и I -> Л I
+3) л I -> П I
+3) п I -> Ф I
+3) б J -> Г J
+3) г J -> Д J
+3) д J -> Ё J
+3) ё J -> Ж J
+3) ж J -> З J
+3) з J -> И J
+3) и J -> Л J
+3) л J -> П J
+3) п J -> Ф J
+3) б Х -> Г Х
+3) г Х -> Д Х
+3) д Х -> Ё Х
+3) ё Х -> Ж Х
+3) ж Х -> З Х
+3) з Х -> И Х
+3) и Х -> Л Х
+3) л Х -> П Х
+3) п Х -> Ф Х
+3) б Ц -> Г Ц
+3) г Ц -> Д Ц
+3) д Ц -> Ё Ц
+3) ё Ц -> Ж Ц
+3) ж Ц -> З Ц
+3) з Ц -> И Ц
+3) и Ц -> Л Ц
+3) л Ц -> П Ц
+3) п Ц -> Ф Ц
+3) б Ч -> Г Ч
+3) г Ч -> Д Ч
+3) д Ч -> Ё Ч
+3) ё Ч -> Ж Ч
+3) ж Ч -> З Ч
+3) з Ч -> И Ч
+3) и Ч -> Л Ч
+3) л Ч -> П Ч
+3) п Ч -> Ф Ч
+3) б Ш -> Г Ш
+3) г Ш -> Д Ш
+3) д Ш -> Ё Ш
+3) ё Ш -> Ж Ш
+3) ж Ш -> З Ш
+3) з Ш -> И Ш
+3) и Ш -> Л Ш
+3) л Ш -> П Ш
+3) п Ш -> Ф Ш
+3) б Щ -> Г Щ
+3) г Щ -> Д Щ
+3) д Щ -> Ё Щ
+3) ё Щ -> Ж Щ
+3) ж Щ -> З Щ
+3) з Щ -> И Щ
+3) и Щ -> Л Щ
+3) л Щ -> П Щ
+3) п Щ -> Ф Щ
+3) б Ь -> Г Ь
+3) г Ь -> Д Ь
+3) д Ь -> Ё Ь
+3) ё Ь -> Ж Ь
+3) ж Ь -> З Ь
+3) з Ь -> И Ь
+3) и Ь -> Л Ь
+3) л Ь -> П Ь
+3) п Ь -> Ф Ь
+3) б Ы -> Г Ы
+3) г Ы -> Д Ы
+3) д Ы -> Ё Ы
+3) ё Ы -> Ж Ы
+3) ж Ы -> З Ы
+3) з Ы -> И Ы
+3) и Ы -> Л Ы
+3) л Ы -> П Ы
+3) п Ы -> Ф Ы
+3) б Ъ -> Г Ъ
+3) г Ъ -> Д Ъ
+3) д Ъ -> Ё Ъ
+3) ё Ъ -> Ж Ъ
+3) ж Ъ -> З Ъ
+3) з Ъ -> И Ъ
+3) и Ъ -> Л Ъ
+3) л Ъ -> П Ъ
+3) п Ъ -> Ф Ъ
+3) б Ю -> Г Ю
+3) г Ю -> Д Ю
+3) д Ю -> Ё Ю
+3) ё Ю -> Ж Ю
+3) ж Ю -> З Ю
+3) з Ю -> И Ю
+3) и Ю -> Л Ю
+3) л Ю -> П Ю
+3) п Ю -> Ф Ю
+3) б Я -> Г Я
+3) г Я -> Д Я
+3) д Я -> Ё Я
+3) ё Я -> Ж Я
+3) ж Я -> З Я
+3) з Я -> И Я
+3) и Я -> Л Я
+3) л Я -> П Я
+3) п Я -> Ф Я
+3) A х -> Ц A
+3) A ц -> Ч A
+3) A ч -> Ш A
+3) A ш -> Щ A
+3) A щ -> Ь A
+3) A ь -> Ы A
+3) A ы -> Ъ A
+3) A ъ -> Ю A
+3) A ю -> Я A
+3) B х -> Ц B
+3) B ц -> Ч B
+3) B ч -> Ш B
+3) B ш -> Щ B
+3) B щ -> Ь B
+3) B ь -> Ы B
+3) B ы -> Ъ B
+3) B ъ -> Ю B
+3) B ю -> Я B
+3) C х -> Ц C
+3) C ц -> Ч C
+3) C ч -> Ш C
+3) C ш -> Щ C
+3) C щ -> Ь C
+3) C ь -> Ы C
+3) C ы -> Ъ C
+3) C ъ -> Ю C
+3) C ю -> Я C
+3) D х -> Ц D
+3) D ц -> Ч D
+3) D ч -> Ш D
+3) D ш -> Щ D
+3) D щ -> Ь D
+3) D ь -> Ы D
+3) D ы -> Ъ D
+3) D ъ -> Ю D
+3) D ю -> Я D
+3) E х -> Ц E
+3) E ц -> Ч E
+3) E ч -> Ш E
+3) E ш -> Щ E
+3) E щ -> Ь E
+3) E ь -> Ы E
+3) E ы -> Ъ E
+3) E ъ -> Ю E
+3) E ю -> Я E
+3) F х -> Ц F
+3) F ц -> Ч F
+3) F ч -> Ш F
+3) F ш -> Щ F
+3) F щ -> Ь F
+3) F ь -> Ы F
+3) F ы -> Ъ F
+3) F ъ -> Ю F
+3) F ю -> Я F
+3) G х -> Ц G
+3) G ц -> Ч G
+3) G ч -> Ш G
+3) G ш -> Щ G
+3) G щ -> Ь G
+3) G ь -> Ы G
+3) G ы -> Ъ G
+3) G ъ -> Ю G
+3) G ю -> Я G
+3) H х -> Ц H
+3) H ц -> Ч H
+3) H ч -> Ш H
+3) H ш -> Щ H
+3) H щ -> Ь H
+3) H ь -> Ы H
+3) H ы -> Ъ H
+3) H ъ -> Ю H
+3) H ю -> Я H
+3) I х -> Ц I
+3) I ц -> Ч I
+3) I ч -> Ш I
+3) I ш -> Щ I
+3) I щ -> Ь I
+3) I ь -> Ы I
+3) I ы -> Ъ I
+3) I ъ -> Ю I
+3) I ю -> Я I
+3) J х -> Ц J
+3) J ц -> Ч J
+3) J ч -> Ш J
+3) J ш -> Щ J
+3) J щ -> Ь J
+3) J ь -> Ы J
+3) J ы -> Ъ J
+3) J ъ -> Ю J
+3) J ю -> Я J
+3) Х х -> Ц Х
+3) Х ц -> Ч Х
+3) Х ч -> Ш Х
+3) Х ш -> Щ Х
+3) Х щ -> Ь Х
+3) Х ь -> Ы Х
+3) Х ы -> Ъ Х
+3) Х ъ -> Ю Х
+3) Х ю -> Я Х
+3) Ц х -> Ц Ц
+3) Ц ц -> Ч Ц
+3) Ц ч -> Ш Ц
+3) Ц ш -> Щ Ц
+3) Ц щ -> Ь Ц
+3) Ц ь -> Ы Ц
+3) Ц ы -> Ъ Ц
+3) Ц ъ -> Ю Ц
+3) Ц ю -> Я Ц
+3) Ч х -> Ц Ч
+3) Ч ц -> Ч Ч
+3) Ч ч -> Ш Ч
+3) Ч ш -> Щ Ч
+3) Ч щ -> Ь Ч
+3) Ч ь -> Ы Ч
+3) Ч ы -> Ъ Ч
+3) Ч ъ -> Ю Ч
+3) Ч ю -> Я Ч
+3) Ш х -> Ц Ш
+3) Ш ц -> Ч Ш
+3) Ш ч -> Ш Ш
+3) Ш ш -> Щ Ш
+3) Ш щ -> Ь Ш
+3) Ш ь -> Ы Ш
+3) Ш ы -> Ъ Ш
+3) Ш ъ -> Ю Ш
+3) Ш ю -> Я Ш
+3) Щ х -> Ц Щ
+3) Щ ц -> Ч Щ
+3) Щ ч -> Ш Щ
+3) Щ ш -> Щ Щ
+3) Щ щ -> Ь Щ
+3) Щ ь -> Ы Щ
+3) Щ ы -> Ъ Щ
+3) Щ ъ -> Ю Щ
+3) Щ ю -> Я Щ
+3) Ь х -> Ц Ь
+3) Ь ц -> Ч Ь
+3) Ь ч -> Ш Ь
+3) Ь ш -> Щ Ь
+3) Ь щ -> Ь Ь
+3) Ь ь -> Ы Ь
+3) Ь ы -> Ъ Ь
+3) Ь ъ -> Ю Ь
+3) Ь ю -> Я Ь
+3) Ы х -> Ц Ы
+3) Ы ц -> Ч Ы
+3) Ы ч -> Ш Ы
+3) Ы ш -> Щ Ы
+3) Ы щ -> Ь Ы
+3) Ы ь -> Ы Ы
+3) Ы ы -> Ъ Ы
+3) Ы ъ -> Ю Ы
+3) Ы ю -> Я Ы
+3) Ъ х -> Ц Ъ
+3) Ъ ц -> Ч Ъ
+3) Ъ ч -> Ш Ъ
+3) Ъ ш -> Щ Ъ
+3) Ъ щ -> Ь Ъ
+3) Ъ ь -> Ы Ъ
+3) Ъ ы -> Ъ Ъ
+3) Ъ ъ -> Ю Ъ
+3) Ъ ю -> Я Ъ
+3) Ю х -> Ц Ю
+3) Ю ц -> Ч Ю
+3) Ю ч -> Ш Ю
+3) Ю ш -> Щ Ю
+3) Ю щ -> Ь Ю
+3) Ю ь -> Ы Ю
+3) Ю ы -> Ъ Ю
+3) Ю ъ -> Ю Ю
+3) Ю ю -> Я Ю
+3) Я х -> Ц Я
+3) Я ц -> Ч Я
+3) Я ч -> Ш Я
+3) Я ш -> Щ Я
+3) Я щ -> Ь Я
+3) Я ь -> Ы Я
+3) Я ы -> Ъ Я
+3) Я ъ -> Ю Я
+3) Я ю -> Я Я
+3) A U A -> K A A
+3) B U A -> L A A
+3) C U A -> M A A
+3) D U A -> N A A
+3) E U A -> O A A
+3) F U A -> P A A
+3) G U A -> Q A A
+3) H U A -> R A A
+3) I U A -> T A A
+3) J U A -> U A A
+3) A U B -> K A B
+3) B U B -> L A B
+3) C U B -> M A B
+3) D U B -> N A B
+3) E U B -> O A B
+3) F U B -> P A B
+3) G U B -> Q A B
+3) H U B -> R A B
+3) I U B -> T A B
+3) J U B -> U A B
+3) A U C -> K A C
+3) B U C -> L A C
+3) C U C -> M A C
+3) D U C -> N A C
+3) E U C -> O A C
+3) F U C -> P A C
+3) G U C -> Q A C
+3) H U C -> R A C
+3) I U C -> T A C
+3) J U C -> U A C
+3) A U D -> K A D
+3) B U D -> L A D
+3) C U D -> M A D
+3) D U D -> N A D
+3) E U D -> O A D
+3) F U D -> P A D
+3) G U D -> Q A D
+3) H U D -> R A D
+3) I U D -> T A D
+3) J U D -> U A D
+3) A U E -> K A E
+3) B U E -> L A E
+3) C U E -> M A E
+3) D U E -> N A E
+3) E U E -> O A E
+3) F U E -> P A E
+3) G U E -> Q A E
+3) H U E -> R A E
+3) I U E -> T A E
+3) J U E -> U A E
+3) A U F -> K A F
+3) B U F -> L A F
+3) C U F -> M A F
+3) D U F -> N A F
+3) E U F -> O A F
+3) F U F -> P A F
+3) G U F -> Q A F
+3) H U F -> R A F
+3) I U F -> T A F
+3) J U F -> U A F
+3) A U G -> K A G
+3) B U G -> L A G
+3) C U G -> M A G
+3) D U G -> N A G
+3) E U G -> O A G
+3) F U G -> P A G
+3) G U G -> Q A G
+3) H U G -> R A G
+3) I U G -> T A G
+3) J U G -> U A G
+3) A U H -> K A H
+3) B U H -> L A H
+3) C U H -> M A H
+3) D U H -> N A H
+3) E U H -> O A H
+3) F U H -> P A H
+3) G U H -> Q A H
+3) H U H -> R A H
+3) I U H -> T A H
+3) J U H -> U A H
+3) A U I -> K A I
+3) B U I -> L A I
+3) C U I -> M A I
+3) D U I -> N A I
+3) E U I -> O A I
+3) F U I -> P A I
+3) G U I -> Q A I
+3) H U I -> R A I
+3) I U I -> T A I
+3) J U I -> U A I
+3) A U J -> K A J
+3) B U J -> L A J
+3) C U J -> M A J
+3) D U J -> N A J
+3) E U J -> O A J
+3) F U J -> P A J
+3) G U J -> Q A J
+3) H U J -> R A J
+3) I U J -> T A J
+3) J U J -> U A J
+3) A U Х -> K A Х
+3) B U Х -> L A Х
+3) C U Х -> M A Х
+3) D U Х -> N A Х
+3) E U Х -> O A Х
+3) F U Х -> P A Х
+3) G U Х -> Q A Х
+3) H U Х -> R A Х
+3) I U Х -> T A Х
+3) J U Х -> U A Х
+3) A U Ц -> K A Ц
+3) B U Ц -> L A Ц
+3) C U Ц -> M A Ц
+3) D U Ц -> N A Ц
+3) E U Ц -> O A Ц
+3) F U Ц -> P A Ц
+3) G U Ц -> Q A Ц
+3) H U Ц -> R A Ц
+3) I U Ц -> T A Ц
+3) J U Ц -> U A Ц
+3) A U Ч -> K A Ч
+3) B U Ч -> L A Ч
+3) C U Ч -> M A Ч
+3) D U Ч -> N A Ч
+3) E U Ч -> O A Ч
+3) F U Ч -> P A Ч
+3) G U Ч -> Q A Ч
+3) H U Ч -> R A Ч
+3) I U Ч -> T A Ч
+3) J U Ч -> U A Ч
+3) A U Ш -> K A Ш
+3) B U Ш -> L A Ш
+3) C U Ш -> M A Ш
+3) D U Ш -> N A Ш
+3) E U Ш -> O A Ш
+3) F U Ш -> P A Ш
+3) G U Ш -> Q A Ш
+3) H U Ш -> R A Ш
+3) I U Ш -> T A Ш
+3) J U Ш -> U A Ш
+3) A U Щ -> K A Щ
+3) B U Щ -> L A Щ
+3) C U Щ -> M A Щ
+3) D U Щ -> N A Щ
+3) E U Щ -> O A Щ
+3) F U Щ -> P A Щ
+3) G U Щ -> Q A Щ
+3) H U Щ -> R A Щ
+3) I U Щ -> T A Щ
+3) J U Щ -> U A Щ
+3) A U Ь -> K A Ь
+3) B U Ь -> L A Ь
+3) C U Ь -> M A Ь
+3) D U Ь -> N A Ь
+3) E U Ь -> O A Ь
+3) F U Ь -> P A Ь
+3) G U Ь -> Q A Ь
+3) H U Ь -> R A Ь
+3) I U Ь -> T A Ь
+3) J U Ь -> U A Ь
+3) A U Ы -> K A Ы
+3) B U Ы -> L A Ы
+3) C U Ы -> M A Ы
+3) D U Ы -> N A Ы
+3) E U Ы -> O A Ы
+3) F U Ы -> P A Ы
+3) G U Ы -> Q A Ы
+3) H U Ы -> R A Ы
+3) I U Ы -> T A Ы
+3) J U Ы -> U A Ы
+3) A U Ъ -> K A Ъ
+3) B U Ъ -> L A Ъ
+3) C U Ъ -> M A Ъ
+3) D U Ъ -> N A Ъ
+3) E U Ъ -> O A Ъ
+3) F U Ъ -> P A Ъ
+3) G U Ъ -> Q A Ъ
+3) H U Ъ -> R A Ъ
+3) I U Ъ -> T A Ъ
+3) J U Ъ -> U A Ъ
+3) A U Ю -> K A Ю
+3) B U Ю -> L A Ю
+3) C U Ю -> M A Ю
+3) D U Ю -> N A Ю
+3) E U Ю -> O A Ю
+3) F U Ю -> P A Ю
+3) G U Ю -> Q A Ю
+3) H U Ю -> R A Ю
+3) I U Ю -> T A Ю
+3) J U Ю -> U A Ю
+3) A U Я -> K A Я
+3) B U Я -> L A Я
+3) C U Я -> M A Я
+3) D U Я -> N A Я
+3) E U Я -> O A Я
+3) F U Я -> P A Я
+3) G U Я -> Q A Я
+3) H U Я -> R A Я
+3) I U Я -> T A Я
+3) J U Я -> U A Я
+3) Б U A -> б A A
+3) Г U A -> г A A
+3) Д U A -> д A A
+3) Ё U A -> ё A A
+3) Ж U A -> ж A A
+3) З U A -> з A A
+3) И U A -> и A A
+3) Л U A -> л A A
+3) П U A -> п A A
+3) Ф U A -> ф A A
+3) Б U B -> б A B
+3) Г U B -> г A B
+3) Д U B -> д A B
+3) Ё U B -> ё A B
+3) Ж U B -> ж A B
+3) З U B -> з A B
+3) И U B -> и A B
+3) Л U B -> л A B
+3) П U B -> п A B
+3) Ф U B -> ф A B
+3) Б U C -> б A C
+3) Г U C -> г A C
+3) Д U C -> д A C
+3) Ё U C -> ё A C
+3) Ж U C -> ж A C
+3) З U C -> з A C
+3) И U C -> и A C
+3) Л U C -> л A C
+3) П U C -> п A C
+3) Ф U C -> ф A C
+3) Б U D -> б A D
+3) Г U D -> г A D
+3) Д U D -> д A D
+3) Ё U D -> ё A D
+3) Ж U D -> ж A D
+3) З U D -> з A D
+3) И U D -> и A D
+3) Л U D -> л A D
+3) П U D -> п A D
+3) Ф U D -> ф A D
+3) Б U E -> б A E
+3) Г U E -> г A E
+3) Д U E -> д A E
+3) Ё U E -> ё A E
+3) Ж U E -> ж A E
+3) З U E -> з A E
+3) И U E -> и A E
+3) Л U E -> л A E
+3) П U E -> п A E
+3) Ф U E -> ф A E
+3) Б U F -> б A F
+3) Г U F -> г A F
+3) Д U F -> д A F
+3) Ё U F -> ё A F
+3) Ж U F -> ж A F
+3) З U F -> з A F
+3) И U F -> и A F
+3) Л U F -> л A F
+3) П U F -> п A F
+3) Ф U F -> ф A F
+3) Б U G -> б A G
+3) Г U G -> г A G
+3) Д U G -> д A G
+3) Ё U G -> ё A G
+3) Ж U G -> ж A G
+3) З U G -> з A G
+3) И U G -> и A G
+3) Л U G -> л A G
+3) П U G -> п A G
+3) Ф U G -> ф A G
+3) Б U H -> б A H
+3) Г U H -> г A H
+3) Д U H -> д A H
+3) Ё U H -> ё A H
+3) Ж U H -> ж A H
+3) З U H -> з A H
+3) И U H -> и A H
+3) Л U H -> л A H
+3) П U H -> п A H
+3) Ф U H -> ф A H
+3) Б U I -> б A I
+3) Г U I -> г A I
+3) Д U I -> д A I
+3) Ё U I -> ё A I
+3) Ж U I -> ж A I
+3) З U I -> з A I
+3) И U I -> и A I
+3) Л U I -> л A I
+3) П U I -> п A I
+3) Ф U I -> ф A I
+3) Б U J -> б A J
+3) Г U J -> г A J
+3) Д U J -> д A J
+3) Ё U J -> ё A J
+3) Ж U J -> ж A J
+3) З U J -> з A J
+3) И U J -> и A J
+3) Л U J -> л A J
+3) П U J -> п A J
+3) Ф U J -> ф A J
+3) Б U Х -> б A Х
+3) Г U Х -> г A Х
+3) Д U Х -> д A Х
+3) Ё U Х -> ё A Х
+3) Ж U Х -> ж A Х
+3) З U Х -> з A Х
+3) И U Х -> и A Х
+3) Л U Х -> л A Х
+3) П U Х -> п A Х
+3) Ф U Х -> ф A Х
+3) Б U Ц -> б A Ц
+3) Г U Ц -> г A Ц
+3) Д U Ц -> д A Ц
+3) Ё U Ц -> ё A Ц
+3) Ж U Ц -> ж A Ц
+3) З U Ц -> з A Ц
+3) И U Ц -> и A Ц
+3) Л U Ц -> л A Ц
+3) П U Ц -> п A Ц
+3) Ф U Ц -> ф A Ц
+3) Б U Ч -> б A Ч
+3) Г U Ч -> г A Ч
+3) Д U Ч -> д A Ч
+3) Ё U Ч -> ё A Ч
+3) Ж U Ч -> ж A Ч
+3) З U Ч -> з A Ч
+3) И U Ч -> и A Ч
+3) Л U Ч -> л A Ч
+3) П U Ч -> п A Ч
+3) Ф U Ч -> ф A Ч
+3) Б U Ш -> б A Ш
+3) Г U Ш -> г A Ш
+3) Д U Ш -> д A Ш
+3) Ё U Ш -> ё A Ш
+3) Ж U Ш -> ж A Ш
+3) З U Ш -> з A Ш
+3) И U Ш -> и A Ш
+3) Л U Ш -> л A Ш
+3) П U Ш -> п A Ш
+3) Ф U Ш -> ф A Ш
+3) Б U Щ -> б A Щ
+3) Г U Щ -> г A Щ
+3) Д U Щ -> д A Щ
+3) Ё U Щ -> ё A Щ
+3) Ж U Щ -> ж A Щ
+3) З U Щ -> з A Щ
+3) И U Щ -> и A Щ
+3) Л U Щ -> л A Щ
+3) П U Щ -> п A Щ
+3) Ф U Щ -> ф A Щ
+3) Б U Ь -> б A Ь
+3) Г U Ь -> г A Ь
+3) Д U Ь -> д A Ь
+3) Ё U Ь -> ё A Ь
+3) Ж U Ь -> ж A Ь
+3) З U Ь -> з A Ь
+3) И U Ь -> и A Ь
+3) Л U Ь -> л A Ь
+3) П U Ь -> п A Ь
+3) Ф U Ь -> ф A Ь
+3) Б U Ы -> б A Ы
+3) Г U Ы -> г A Ы
+3) Д U Ы -> д A Ы
+3) Ё U Ы -> ё A Ы
+3) Ж U Ы -> ж A Ы
+3) З U Ы -> з A Ы
+3) И U Ы -> и A Ы
+3) Л U Ы -> л A Ы
+3) П U Ы -> п A Ы
+3) Ф U Ы -> ф A Ы
+3) Б U Ъ -> б A Ъ
+3) Г U Ъ -> г A Ъ
+3) Д U Ъ -> д A Ъ
+3) Ё U Ъ -> ё A Ъ
+3) Ж U Ъ -> ж A Ъ
+3) З U Ъ -> з A Ъ
+3) И U Ъ -> и A Ъ
+3) Л U Ъ -> л A Ъ
+3) П U Ъ -> п A Ъ
+3) Ф U Ъ -> ф A Ъ
+3) Б U Ю -> б A Ю
+3) Г U Ю -> г A Ю
+3) Д U Ю -> д A Ю
+3) Ё U Ю -> ё A Ю
+3) Ж U Ю -> ж A Ю
+3) З U Ю -> з A Ю
+3) И U Ю -> и A Ю
+3) Л U Ю -> л A Ю
+3) П U Ю -> п A Ю
+3) Ф U Ю -> ф A Ю
+3) Б U Я -> б A Я
+3) Г U Я -> г A Я
+3) Д U Я -> д A Я
+3) Ё U Я -> ё A Я
+3) Ж U Я -> ж A Я
+3) З U Я -> з A Я
+3) И U Я -> и A Я
+3) Л U Я -> л A Я
+3) П U Я -> п A Я
+3) Ф U Я -> ф A Я
+3) Б U m -> б A m
+3) Г U m -> г A m
+3) Д U m -> д A m
+3) Ё U m -> ё A m
+3) Ж U m -> ж A m
+3) З U m -> з A m
+3) И U m -> и A m
+3) Л U m -> л A m
+3) П U m -> п A m
+3) Ф U m -> ф A m
+3) Б U p -> б A p
+3) Г U p -> г A p
+3) Д U p -> д A p
+3) Ё U p -> ё A p
+3) Ж U p -> ж A p
+3) З U p -> з A p
+3) И U p -> и A p
+3) Л U p -> л A p
+3) П U p -> п A p
+3) Ф U p -> ф A p
+3) A U m -> K A m
+3) B U m -> L A m
+3) C U m -> M A m
+3) D U m -> N A m
+3) E U m -> O A m
+3) F U m -> P A m
+3) G U m -> Q A m
+3) H U m -> R A m
+3) I U m -> T A m
+3) J U m -> U A m
+3) A U p -> K A p
+3) B U p -> L A p
+3) C U p -> M A p
+3) D U p -> N A p
+3) E U p -> O A p
+3) F U p -> P A p
+3) G U p -> Q A p
+3) H U p -> R A p
+3) I U p -> T A p
+3) J U p -> U A p
+3) m х -> m Ц
+3) m ц -> m Ч
+3) m ч -> m Ш
+3) m ш -> m Щ
+3) m щ -> m Ь
+3) m ь -> m Ы
+3) m ы -> m Ъ
+3) m ъ -> m Ю
+3) m ю -> m Я
+3) p х -> p Ц
+3) p ц -> p Ч
+3) p ч -> p Ш
+3) p ш -> p Щ
+3) p щ -> p Ь
+3) p ь -> p Ы
+3) p ы -> p Ъ
+3) p ъ -> p Ю
+3) p ю -> p Я
+3) A х -> A Ц
+3) A ц -> A Ч
+3) A ч -> A Ш
+3) A ш -> A Щ
+3) A щ -> A Ь
+3) A ь -> A Ы
+3) A ы -> A Ъ
+3) A ъ -> A Ю
+3) A ю -> A Я
+3) B х -> B Ц
+3) B ц -> B Ч
+3) B ч -> B Ш
+3) B ш -> B Щ
+3) B щ -> B Ь
+3) B ь -> B Ы
+3) B ы -> B Ъ
+3) B ъ -> B Ю
+3) B ю -> B Я
+3) C х -> C Ц
+3) C ц -> C Ч
+3) C ч -> C Ш
+3) C ш -> C Щ
+3) C щ -> C Ь
+3) C ь -> C Ы
+3) C ы -> C Ъ
+3) C ъ -> C Ю
+3) C ю -> C Я
+3) D х -> D Ц
+3) D ц -> D Ч
+3) D ч -> D Ш
+3) D ш -> D Щ
+3) D щ -> D Ь
+3) D ь -> D Ы
+3) D ы -> D Ъ
+3) D ъ -> D Ю
+3) D ю -> D Я
+3) E х -> E Ц
+3) E ц -> E Ч
+3) E ч -> E Ш
+3) E ш -> E Щ
+3) E щ -> E Ь
+3) E ь -> E Ы
+3) E ы -> E Ъ
+3) E ъ -> E Ю
+3) E ю -> E Я
+3) F х -> F Ц
+3) F ц -> F Ч
+3) F ч -> F Ш
+3) F ш -> F Щ
+3) F щ -> F Ь
+3) F ь -> F Ы
+3) F ы -> F Ъ
+3) F ъ -> F Ю
+3) F ю -> F Я
+3) G х -> G Ц
+3) G ц -> G Ч
+3) G ч -> G Ш
+3) G ш -> G Щ
+3) G щ -> G Ь
+3) G ь -> G Ы
+3) G ы -> G Ъ
+3) G ъ -> G Ю
+3) G ю -> G Я
+3) H х -> H Ц
+3) H ц -> H Ч
+3) H ч -> H Ш
+3) H ш -> H Щ
+3) H щ -> H Ь
+3) H ь -> H Ы
+3) H ы -> H Ъ
+3) H ъ -> H Ю
+3) H ю -> H Я
+3) I х -> I Ц
+3) I ц -> I Ч
+3) I ч -> I Ш
+3) I ш -> I Щ
+3) I щ -> I Ь
+3) I ь -> I Ы
+3) I ы -> I Ъ
+3) I ъ -> I Ю
+3) I ю -> I Я
+3) J х -> J Ц
+3) J ц -> J Ч
+3) J ч -> J Ш
+3) J ш -> J Щ
+3) J щ -> J Ь
+3) J ь -> J Ы
+3) J ы -> J Ъ
+3) J ъ -> J Ю
+3) J ю -> J Я
+3) Б х -> Б Ц
+3) Б ц -> Б Ч
+3) Б ч -> Б Ш
+3) Б ш -> Б Щ
+3) Б щ -> Б Ь
+3) Б ь -> Б Ы
+3) Б ы -> Б Ъ
+3) Б ъ -> Б Ю
+3) Б ю -> Б Я
+3) Г х -> Г Ц
+3) Г ц -> Г Ч
+3) Г ч -> Г Ш
+3) Г ш -> Г Щ
+3) Г щ -> Г Ь
+3) Г ь -> Г Ы
+3) Г ы -> Г Ъ
+3) Г ъ -> Г Ю
+3) Г ю -> Г Я
+3) Д х -> Д Ц
+3) Д ц -> Д Ч
+3) Д ч -> Д Ш
+3) Д ш -> Д Щ
+3) Д щ -> Д Ь
+3) Д ь -> Д Ы
+3) Д ы -> Д Ъ
+3) Д ъ -> Д Ю
+3) Д ю -> Д Я
+3) Ё х -> Ё Ц
+3) Ё ц -> Ё Ч
+3) Ё ч -> Ё Ш
+3) Ё ш -> Ё Щ
+3) Ё щ -> Ё Ь
+3) Ё ь -> Ё Ы
+3) Ё ы -> Ё Ъ
+3) Ё ъ -> Ё Ю
+3) Ё ю -> Ё Я
+3) Ж х -> Ж Ц
+3) Ж ц -> Ж Ч
+3) Ж ч -> Ж Ш
+3) Ж ш -> Ж Щ
+3) Ж щ -> Ж Ь
+3) Ж ь -> Ж Ы
+3) Ж ы -> Ж Ъ
+3) Ж ъ -> Ж Ю
+3) Ж ю -> Ж Я
+3) З х -> З Ц
+3) З ц -> З Ч
+3) З ч -> З Ш
+3) З ш -> З Щ
+3) З щ -> З Ь
+3) З ь -> З Ы
+3) З ы -> З Ъ
+3) З ъ -> З Ю
+3) З ю -> З Я
+3) И х -> И Ц
+3) И ц -> И Ч
+3) И ч -> И Ш
+3) И ш -> И Щ
+3) И щ -> И Ь
+3) И ь -> И Ы
+3) И ы -> И Ъ
+3) И ъ -> И Ю
+3) И ю -> И Я
+3) Л х -> Л Ц
+3) Л ц -> Л Ч
+3) Л ч -> Л Ш
+3) Л ш -> Л Щ
+3) Л щ -> Л Ь
+3) Л ь -> Л Ы
+3) Л ы -> Л Ъ
+3) Л ъ -> Л Ю
+3) Л ю -> Л Я
+3) П х -> П Ц
+3) П ц -> П Ч
+3) П ч -> П Ш
+3) П ш -> П Щ
+3) П щ -> П Ь
+3) П ь -> П Ы
+3) П ы -> П Ъ
+3) П ъ -> П Ю
+3) П ю -> П Я
+3) Ф х -> Ф Ц
+3) Ф ц -> Ф Ч
+3) Ф ч -> Ф Ш
+3) Ф ш -> Ф Щ
+3) Ф щ -> Ф Ь
+3) Ф ь -> Ф Ы
+3) Ф ы -> Ф Ъ
+3) Ф ъ -> Ф Ю
+3) Ф ю -> Ф Я
+3) m ф -> m Г A
+3) p ф -> p Г A
+3) A я -> K Х
+3) B я -> L Х
+3) C я -> M Х
+3) D я -> N Х
+3) E я -> O Х
+3) F я -> P Х
+3) G я -> Q Х
+3) H я -> R Х
+3) I я -> T Х
+3) J я -> U Х
+3) Б я -> б Х
+3) Г я -> г Х
+3) Д я -> д Х
+3) Ё я -> ё Х
+3) Ж я -> ж Х
+3) З я -> з Х
+3) И я -> и Х
+3) Л я -> л Х
+3) П я -> п Х
+3) Ф я -> ф Х
+3) m я -> m Г Х
+3) p я -> p Г Х
+4) m V -> m х
+4) m W -> m ц
+4) m X -> m ч
+4) m Y -> m ш
+4) m Z -> m щ
+4) m α -> m ь
+4) m β -> m ы
+4) m γ -> m ъ
+4) m δ -> m ю
+4) m ε -> m я
+4) p V -> p х
+4) p W -> p ц
+4) p X -> p ч
+4) p Y -> p ш
+4) p Z -> p щ
+4) p α -> p ь
+4) p β -> p ы
+4) p γ -> p ъ
+4) p δ -> p ю
+4) p ε -> p я
+4) m q A -> m Б a
+4) m q B -> m Б b
+4) m q C -> m Б c
+4) m q D -> m Б d
+4) m q E -> m Б e
+4) m q F -> m Б f
+4) m q G -> m Б g
+4) m q H -> m Б h
+4) m q I -> m Б i
+4) m q J -> m Б j
+4) m r A -> m Г a
+4) m r B -> m Г b
+4) m r C -> m Г c
+4) m r D -> m Г d
+4) m r E -> m Г e
+4) m r F -> m Г f
+4) m r G -> m Г g
+4) m r H -> m Г h
+4) m r I -> m Г i
+4) m r J -> m Г j
+4) m s A -> m Д a
+4) m s B -> m Д b
+4) m s C -> m Д c
+4) m s D -> m Д d
+4) m s E -> m Д e
+4) m s F -> m Д f
+4) m s G -> m Д g
+4) m s H -> m Д h
+4) m s I -> m Д i
+4) m s J -> m Д j
+4) m t A -> m Ё a
+4) m t B -> m Ё b
+4) m t C -> m Ё c
+4) m t D -> m Ё d
+4) m t E -> m Ё e
+4) m t F -> m Ё f
+4) m t G -> m Ё g
+4) m t H -> m Ё h
+4) m t I -> m Ё i
+4) m t J -> m Ё j
+4) m u A -> m Ж a
+4) m u B -> m Ж b
+4) m u C -> m Ж c
+4) m u D -> m Ж d
+4) m u E -> m Ж e
+4) m u F -> m Ж f
+4) m u G -> m Ж g
+4) m u H -> m Ж h
+4) m u I -> m Ж i
+4) m u J -> m Ж j
+4) m v A -> m З a
+4) m v B -> m З b
+4) m v C -> m З c
+4) m v D -> m З d
+4) m v E -> m З e
+4) m v F -> m З f
+4) m v G -> m З g
+4) m v H -> m З h
+4) m v I -> m З i
+4) m v J -> m З j
+4) m w A -> m И a
+4) m w B -> m И b
+4) m w C -> m И c
+4) m w D -> m И d
+4) m w E -> m И e
+4) m w F -> m И f
+4) m w G -> m И g
+4) m w H -> m И h
+4) m w I -> m И i
+4) m w J -> m И j
+4) m x A -> m Л a
+4) m x B -> m Л b
+4) m x C -> m Л c
+4) m x D -> m Л d
+4) m x E -> m Л e
+4) m x F -> m Л f
+4) m x G -> m Л g
+4) m x H -> m Л h
+4) m x I -> m Л i
+4) m x J -> m Л j
+4) m y A -> m П a
+4) m y B -> m П b
+4) m y C -> m П c
+4) m y D -> m П d
+4) m y E -> m П e
+4) m y F -> m П f
+4) m y G -> m П g
+4) m y H -> m П h
+4) m y I -> m П i
+4) m y J -> m П j
+4) m z A -> m Ф a
+4) m z B -> m Ф b
+4) m z C -> m Ф c
+4) m z D -> m Ф d
+4) m z E -> m Ф e
+4) m z F -> m Ф f
+4) m z G -> m Ф g
+4) m z H -> m Ф h
+4) m z I -> m Ф i
+4) m z J -> m Ф j
+4) p q A -> p Б a
+4) p q B -> p Б b
+4) p q C -> p Б c
+4) p q D -> p Б d
+4) p q E -> p Б e
+4) p q F -> p Б f
+4) p q G -> p Б g
+4) p q H -> p Б h
+4) p q I -> p Б i
+4) p q J -> p Б j
+4) p r A -> p Г a
+4) p r B -> p Г b
+4) p r C -> p Г c
+4) p r D -> p Г d
+4) p r E -> p Г e
+4) p r F -> p Г f
+4) p r G -> p Г g
+4) p r H -> p Г h
+4) p r I -> p Г i
+4) p r J -> p Г j
+4) p s A -> p Д a
+4) p s B -> p Д b
+4) p s C -> p Д c
+4) p s D -> p Д d
+4) p s E -> p Д e
+4) p s F -> p Д f
+4) p s G -> p Д g
+4) p s H -> p Д h
+4) p s I -> p Д i
+4) p s J -> p Д j
+4) p t A -> p Ё a
+4) p t B -> p Ё b
+4) p t C -> p Ё c
+4) p t D -> p Ё d
+4) p t E -> p Ё e
+4) p t F -> p Ё f
+4) p t G -> p Ё g
+4) p t H -> p Ё h
+4) p t I -> p Ё i
+4) p t J -> p Ё j
+4) p u A -> p Ж a
+4) p u B -> p Ж b
+4) p u C -> p Ж c
+4) p u D -> p Ж d
+4) p u E -> p Ж e
+4) p u F -> p Ж f
+4) p u G -> p Ж g
+4) p u H -> p Ж h
+4) p u I -> p Ж i
+4) p u J -> p Ж j
+4) p v A -> p З a
+4) p v B -> p З b
+4) p v C -> p З c
+4) p v D -> p З d
+4) p v E -> p З e
+4) p v F -> p З f
+4) p v G -> p З g
+4) p v H -> p З h
+4) p v I -> p З i
+4) p v J -> p З j
+4) p w A -> p И a
+4) p w B -> p И b
+4) p w C -> p И c
+4) p w D -> p И d
+4) p w E -> p И e
+4) p w F -> p И f
+4) p w G -> p И g
+4) p w H -> p И h
+4) p w I -> p И i
+4) p w J -> p И j
+4) p x A -> p Л a
+4) p x B -> p Л b
+4) p x C -> p Л c
+4) p x D -> p Л d
+4) p x E -> p Л e
+4) p x F -> p Л f
+4) p x G -> p Л g
+4) p x H -> p Л h
+4) p x I -> p Л i
+4) p x J -> p Л j
+4) p y A -> p П a
+4) p y B -> p П b
+4) p y C -> p П c
+4) p y D -> p П d
+4) p y E -> p П e
+4) p y F -> p П f
+4) p y G -> p П g
+4) p y H -> p П h
+4) p y I -> p П i
+4) p y J -> p П j
+4) p z A -> p Ф a
+4) p z B -> p Ф b
+4) p z C -> p Ф c
+4) p z D -> p Ф d
+4) p z E -> p Ф e
+4) p z F -> p Ф f
+4) p z G -> p Ф g
+4) p z H -> p Ф h
+4) p z I -> p Ф i
+4) p z J -> p Ф j
+4) m q Х -> m Б х
+4) m q Ц -> m Б ц
+4) m q Ч -> m Б ч
+4) m q Ш -> m Б ш
+4) m q Щ -> m Б щ
+4) m q Ь -> m Б ь
+4) m q Ы -> m Б ы
+4) m q Ъ -> m Б ъ
+4) m q Ю -> m Б ю
+4) m q Я -> m Б я
+4) m r Х -> m Г х
+4) m r Ц -> m Г ц
+4) m r Ч -> m Г ч
+4) m r Ш -> m Г ш
+4) m r Щ -> m Г щ
+4) m r Ь -> m Г ь
+4) m r Ы -> m Г ы
+4) m r Ъ -> m Г ъ
+4) m r Ю -> m Г ю
+4) m r Я -> m Г я
+4) m s Х -> m Д х
+4) m s Ц -> m Д ц
+4) m s Ч -> m Д ч
+4) m s Ш -> m Д ш
+4) m s Щ -> m Д щ
+4) m s Ь -> m Д ь
+4) m s Ы -> m Д ы
+4) m s Ъ -> m Д ъ
+4) m s Ю -> m Д ю
+4) m s Я -> m Д я
+4) m t Х -> m Ё х
+4) m t Ц -> m Ё ц
+4) m t Ч -> m Ё ч
+4) m t Ш -> m Ё ш
+4) m t Щ -> m Ё щ
+4) m t Ь -> m Ё ь
+4) m t Ы -> m Ё ы
+4) m t Ъ -> m Ё ъ
+4) m t Ю -> m Ё ю
+4) m t Я -> m Ё я
+4) m u Х -> m Ж х
+4) m u Ц -> m Ж ц
+4) m u Ч -> m Ж ч
+4) m u Ш -> m Ж ш
+4) m u Щ -> m Ж щ
+4) m u Ь -> m Ж ь
+4) m u Ы -> m Ж ы
+4) m u Ъ -> m Ж ъ
+4) m u Ю -> m Ж ю
+4) m u Я -> m Ж я
+4) m v Х -> m З х
+4) m v Ц -> m З ц
+4) m v Ч -> m З ч
+4) m v Ш -> m З ш
+4) m v Щ -> m З щ
+4) m v Ь -> m З ь
+4) m v Ы -> m З ы
+4) m v Ъ -> m З ъ
+4) m v Ю -> m З ю
+4) m v Я -> m З я
+4) m w Х -> m И х
+4) m w Ц -> m И ц
+4) m w Ч -> m И ч
+4) m w Ш -> m И ш
+4) m w Щ -> m И щ
+4) m w Ь -> m И ь
+4) m w Ы -> m И ы
+4) m w Ъ -> m И ъ
+4) m w Ю -> m И ю
+4) m w Я -> m И я
+4) m x Х -> m Л х
+4) m x Ц -> m Л ц
+4) m x Ч -> m Л ч
+4) m x Ш -> m Л ш
+4) m x Щ -> m Л щ
+4) m x Ь -> m Л ь
+4) m x Ы -> m Л ы
+4) m x Ъ -> m Л ъ
+4) m x Ю -> m Л ю
+4) m x Я -> m Л я
+4) m y Х -> m П х
+4) m y Ц -> m П ц
+4) m y Ч -> m П ч
+4) m y Ш -> m П ш
+4) m y Щ -> m П щ
+4) m y Ь -> m П ь
+4) m y Ы -> m П ы
+4) m y Ъ -> m П ъ
+4) m y Ю -> m П ю
+4) m y Я -> m П я
+4) m z Х -> m Ф х
+4) m z Ц -> m Ф ц
+4) m z Ч -> m Ф ч
+4) m z Ш -> m Ф ш
+4) m z Щ -> m Ф щ
+4) m z Ь -> m Ф ь
+4) m z Ы -> m Ф ы
+4) m z Ъ -> m Ф ъ
+4) m z Ю -> m Ф ю
+4) m z Я -> m Ф я
+4) p q Х -> p Б х
+4) p q Ц -> p Б ц
+4) p q Ч -> p Б ч
+4) p q Ш -> p Б ш
+4) p q Щ -> p Б щ
+4) p q Ь -> p Б ь
+4) p q Ы -> p Б ы
+4) p q Ъ -> p Б ъ
+4) p q Ю -> p Б ю
+4) p q Я -> p Б я
+4) p r Х -> p Г х
+4) p r Ц -> p Г ц
+4) p r Ч -> p Г ч
+4) p r Ш -> p Г ш
+4) p r Щ -> p Г щ
+4) p r Ь -> p Г ь
+4) p r Ы -> p Г ы
+4) p r Ъ -> p Г ъ
+4) p r Ю -> p Г ю
+4) p r Я -> p Г я
+4) p s Х -> p Д х
+4) p s Ц -> p Д ц
+4) p s Ч -> p Д ч
+4) p s Ш -> p Д ш
+4) p s Щ -> p Д щ
+4) p s Ь -> p Д ь
+4) p s Ы -> p Д ы
+4) p s Ъ -> p Д ъ
+4) p s Ю -> p Д ю
+4) p s Я -> p Д я
+4) p t Х -> p Ё х
+4) p t Ц -> p Ё ц
+4) p t Ч -> p Ё ч
+4) p t Ш -> p Ё ш
+4) p t Щ -> p Ё щ
+4) p t Ь -> p Ё ь
+4) p t Ы -> p Ё ы
+4) p t Ъ -> p Ё ъ
+4) p t Ю -> p Ё ю
+4) p t Я -> p Ё я
+4) p u Х -> p Ж х
+4) p u Ц -> p Ж ц
+4) p u Ч -> p Ж ч
+4) p u Ш -> p Ж ш
+4) p u Щ -> p Ж щ
+4) p u Ь -> p Ж ь
+4) p u Ы -> p Ж ы
+4) p u Ъ -> p Ж ъ
+4) p u Ю -> p Ж ю
+4) p u Я -> p Ж я
+4) p v Х -> p З х
+4) p v Ц -> p З ц
+4) p v Ч -> p З ч
+4) p v Ш -> p З ш
+4) p v Щ -> p З щ
+4) p v Ь -> p З ь
+4) p v Ы -> p З ы
+4) p v Ъ -> p З ъ
+4) p v Ю -> p З ю
+4) p v Я -> p З я
+4) p w Х -> p И х
+4) p w Ц -> p И ц
+4) p w Ч -> p И ч
+4) p w Ш -> p И ш
+4) p w Щ -> p И щ
+4) p w Ь -> p И ь
+4) p w Ы -> p И ы
+4) p w Ъ -> p И ъ
+4) p w Ю -> p И ю
+4) p w Я -> p И я
+4) p x Х -> p Л х
+4) p x Ц -> p Л ц
+4) p x Ч -> p Л ч
+4) p x Ш -> p Л ш
+4) p x Щ -> p Л щ
+4) p x Ь -> p Л ь
+4) p x Ы -> p Л ы
+4) p x Ъ -> p Л ъ
+4) p x Ю -> p Л ю
+4) p x Я -> p Л я
+4) p y Х -> p П х
+4) p y Ц -> p П ц
+4) p y Ч -> p П ч
+4) p y Ш -> p П ш
+4) p y Щ -> p П щ
+4) p y Ь -> p П ь
+4) p y Ы -> p П ы
+4) p y Ъ -> p П ъ
+4) p y Ю -> p П ю
+4) p y Я -> p П я
+4) p z Х -> p Ф х
+4) p z Ц -> p Ф ц
+4) p z Ч -> p Ф ч
+4) p z Ш -> p Ф ш
+4) p z Щ -> p Ф щ
+4) p z Ь -> p Ф ь
+4) p z Ы -> p Ф ы
+4) p z Ъ -> p Ф ъ
+4) p z Ю -> p Ф ю
+4) p z Я -> p Ф я
+4) A a A -> A A a
+4) A a B -> A A b
+4) A a C -> A A c
+4) A a D -> A A d
+4) A a E -> A A e
+4) A a F -> A A f
+4) A a G -> A A g
+4) A a H -> A A h
+4) A a I -> A A i
+4) A a J -> A A j
+4) A b A -> A B a
+4) A b B -> A B b
+4) A b C -> A B c
+4) A b D -> A B d
+4) A b E -> A B e
+4) A b F -> A B f
+4) A b G -> A B g
+4) A b H -> A B h
+4) A b I -> A B i
+4) A b J -> A B j
+4) A c A -> A C a
+4) A c B -> A C b
+4) A c C -> A C c
+4) A c D -> A C d
+4) A c E -> A C e
+4) A c F -> A C f
+4) A c G -> A C g
+4) A c H -> A C h
+4) A c I -> A C i
+4) A c J -> A C j
+4) A d A -> A D a
+4) A d B -> A D b
+4) A d C -> A D c
+4) A d D -> A D d
+4) A d E -> A D e
+4) A d F -> A D f
+4) A d G -> A D g
+4) A d H -> A D h
+4) A d I -> A D i
+4) A d J -> A D j
+4) A e A -> A E a
+4) A e B -> A E b
+4) A e C -> A E c
+4) A e D -> A E d
+4) A e E -> A E e
+4) A e F -> A E f
+4) A e G -> A E g
+4) A e H -> A E h
+4) A e I -> A E i
+4) A e J -> A E j
+4) A f A -> A F a
+4) A f B -> A F b
+4) A f C -> A F c
+4) A f D -> A F d
+4) A f E -> A F e
+4) A f F -> A F f
+4) A f G -> A F g
+4) A f H -> A F h
+4) A f I -> A F i
+4) A f J -> A F j
+4) A g A -> A G a
+4) A g B -> A G b
+4) A g C -> A G c
+4) A g D -> A G d
+4) A g E -> A G e
+4) A g F -> A G f
+4) A g G -> A G g
+4) A g H -> A G h
+4) A g I -> A G i
+4) A g J -> A G j
+4) A h A -> A H a
+4) A h B -> A H b
+4) A h C -> A H c
+4) A h D -> A H d
+4) A h E -> A H e
+4) A h F -> A H f
+4) A h G -> A H g
+4) A h H -> A H h
+4) A h I -> A H i
+4) A h J -> A H j
+4) A i A -> A I a
+4) A i B -> A I b
+4) A i C -> A I c
+4) A i D -> A I d
+4) A i E -> A I e
+4) A i F -> A I f
+4) A i G -> A I g
+4) A i H -> A I h
+4) A i I -> A I i
+4) A i J -> A I j
+4) A j A -> A J a
+4) A j B -> A J b
+4) A j C -> A J c
+4) A j D -> A J d
+4) A j E -> A J e
+4) A j F -> A J f
+4) A j G -> A J g
+4) A j H -> A J h
+4) A j I -> A J i
+4) A j J -> A J j
+4) B a A -> B A a
+4) B a B -> B A b
+4) B a C -> B A c
+4) B a D -> B A d
+4) B a E -> B A e
+4) B a F -> B A f
+4) B a G -> B A g
+4) B a H -> B A h
+4) B a I -> B A i
+4) B a J -> B A j
+4) B b A -> B B a
+4) B b B -> B B b
+4) B b C -> B B c
+4) B b D -> B B d
+4) B b E -> B B e
+4) B b F -> B B f
+4) B b G -> B B g
+4) B b H -> B B h
+4) B b I -> B B i
+4) B b J -> B B j
+4) B c A -> B C a
+4) B c B -> B C b
+4) B c C -> B C c
+4) B c D -> B C d
+4) B c E -> B C e
+4) B c F -> B C f
+4) B c G -> B C g
+4) B c H -> B C h
+4) B c I -> B C i
+4) B c J -> B C j
+4) B d A -> B D a
+4) B d B -> B D b
+4) B d C -> B D c
+4) B d D -> B D d
+4) B d E -> B D e
+4) B d F -> B D f
+4) B d G -> B D g
+4) B d H -> B D h
+4) B d I -> B D i
+4) B d J -> B D j
+4) B e A -> B E a
+4) B e B -> B E b
+4) B e C -> B E c
+4) B e D -> B E d
+4) B e E -> B E e
+4) B e F -> B E f
+4) B e G -> B E g
+4) B e H -> B E h
+4) B e I -> B E i
+4) B e J -> B E j
+4) B f A -> B F a
+4) B f B -> B F b
+4) B f C -> B F c
+4) B f D -> B F d
+4) B f E -> B F e
+4) B f F -> B F f
+4) B f G -> B F g
+4) B f H -> B F h
+4) B f I -> B F i
+4) B f J -> B F j
+4) B g A -> B G a
+4) B g B -> B G b
+4) B g C -> B G c
+4) B g D -> B G d
+4) B g E -> B G e
+4) B g F -> B G f
+4) B g G -> B G g
+4) B g H -> B G h
+4) B g I -> B G i
+4) B g J -> B G j
+4) B h A -> B H a
+4) B h B -> B H b
+4) B h C -> B H c
+4) B h D -> B H d
+4) B h E -> B H e
+4) B h F -> B H f
+4) B h G -> B H g
+4) B h H -> B H h
+4) B h I -> B H i
+4) B h J -> B H j
+4) B i A -> B I a
+4) B i B -> B I b
+4) B i C -> B I c
+4) B i D -> B I d
+4) B i E -> B I e
+4) B i F -> B I f
+4) B i G -> B I g
+4) B i H -> B I h
+4) B i I -> B I i
+4) B i J -> B I j
+4) B j A -> B J a
+4) B j B -> B J b
+4) B j C -> B J c
+4) B j D -> B J d
+4) B j E -> B J e
+4) B j F -> B J f
+4) B j G -> B J g
+4) B j H -> B J h
+4) B j I -> B J i
+4) B j J -> B J j
+4) C a A -> C A a
+4) C a B -> C A b
+4) C a C -> C A c
+4) C a D -> C A d
+4) C a E -> C A e
+4) C a F -> C A f
+4) C a G -> C A g
+4) C a H -> C A h
+4) C a I -> C A i
+4) C a J -> C A j
+4) C b A -> C B a
+4) C b B -> C B b
+4) C b C -> C B c
+4) C b D -> C B d
+4) C b E -> C B e
+4) C b F -> C B f
+4) C b G -> C B g
+4) C b H -> C B h
+4) C b I -> C B i
+4) C b J -> C B j
+4) C c A -> C C a
+4) C c B -> C C b
+4) C c C -> C C c
+4) C c D -> C C d
+4) C c E -> C C e
+4) C c F -> C C f
+4) C c G -> C C g
+4) C c H -> C C h
+4) C c I -> C C i
+4) C c J -> C C j
+4) C d A -> C D a
+4) C d B -> C D b
+4) C d C -> C D c
+4) C d D -> C D d
+4) C d E -> C D e
+4) C d F -> C D f
+4) C d G -> C D g
+4) C d H -> C D h
+4) C d I -> C D i
+4) C d J -> C D j
+4) C e A -> C E a
+4) C e B -> C E b
+4) C e C -> C E c
+4) C e D -> C E d
+4) C e E -> C E e
+4) C e F -> C E f
+4) C e G -> C E g
+4) C e H -> C E h
+4) C e I -> C E i
+4) C e J -> C E j
+4) C f A -> C F a
+4) C f B -> C F b
+4) C f C -> C F c
+4) C f D -> C F d
+4) C f E -> C F e
+4) C f F -> C F f
+4) C f G -> C F g
+4) C f H -> C F h
+4) C f I -> C F i
+4) C f J -> C F j
+4) C g A -> C G a
+4) C g B -> C G b
+4) C g C -> C G c
+4) C g D -> C G d
+4) C g E -> C G e
+4) C g F -> C G f
+4) C g G -> C G g
+4) C g H -> C G h
+4) C g I -> C G i
+4) C g J -> C G j
+4) C h A -> C H a
+4) C h B -> C H b
+4) C h C -> C H c
+4) C h D -> C H d
+4) C h E -> C H e
+4) C h F -> C H f
+4) C h G -> C H g
+4) C h H -> C H h
+4) C h I -> C H i
+4) C h J -> C H j
+4) C i A -> C I a
+4) C i B -> C I b
+4) C i C -> C I c
+4) C i D -> C I d
+4) C i E -> C I e
+4) C i F -> C I f
+4) C i G -> C I g
+4) C i H -> C I h
+4) C i I -> C I i
+4) C i J -> C I j
+4) C j A -> C J a
+4) C j B -> C J b
+4) C j C -> C J c
+4) C j D -> C J d
+4) C j E -> C J e
+4) C j F -> C J f
+4) C j G -> C J g
+4) C j H -> C J h
+4) C j I -> C J i
+4) C j J -> C J j
+4) D a A -> D A a
+4) D a B -> D A b
+4) D a C -> D A c
+4) D a D -> D A d
+4) D a E -> D A e
+4) D a F -> D A f
+4) D a G -> D A g
+4) D a H -> D A h
+4) D a I -> D A i
+4) D a J -> D A j
+4) D b A -> D B a
+4) D b B -> D B b
+4) D b C -> D B c
+4) D b D -> D B d
+4) D b E -> D B e
+4) D b F -> D B f
+4) D b G -> D B g
+4) D b H -> D B h
+4) D b I -> D B i
+4) D b J -> D B j
+4) D c A -> D C a
+4) D c B -> D C b
+4) D c C -> D C c
+4) D c D -> D C d
+4) D c E -> D C e
+4) D c F -> D C f
+4) D c G -> D C g
+4) D c H -> D C h
+4) D c I -> D C i
+4) D c J -> D C j
+4) D d A -> D D a
+4) D d B -> D D b
+4) D d C -> D D c
+4) D d D -> D D d
+4) D d E -> D D e
+4) D d F -> D D f
+4) D d G -> D D g
+4) D d H -> D D h
+4) D d I -> D D i
+4) D d J -> D D j
+4) D e A -> D E a
+4) D e B -> D E b
+4) D e C -> D E c
+4) D e D -> D E d
+4) D e E -> D E e
+4) D e F -> D E f
+4) D e G -> D E g
+4) D e H -> D E h
+4) D e I -> D E i
+4) D e J -> D E j
+4) D f A -> D F a
+4) D f B -> D F b
+4) D f C -> D F c
+4) D f D -> D F d
+4) D f E -> D F e
+4) D f F -> D F f
+4) D f G -> D F g
+4) D f H -> D F h
+4) D f I -> D F i
+4) D f J -> D F j
+4) D g A -> D G a
+4) D g B -> D G b
+4) D g C -> D G c
+4) D g D -> D G d
+4) D g E -> D G e
+4) D g F -> D G f
+4) D g G -> D G g
+4) D g H -> D G h
+4) D g I -> D G i
+4) D g J -> D G j
+4) D h A -> D H a
+4) D h B -> D H b
+4) D h C -> D H c
+4) D h D -> D H d
+4) D h E -> D H e
+4) D h F -> D H f
+4) D h G -> D H g
+4) D h H -> D H h
+4) D h I -> D H i
+4) D h J -> D H j
+4) D i A -> D I a
+4) D i B -> D I b
+4) D i C -> D I c
+4) D i D -> D I d
+4) D i E -> D I e
+4) D i F -> D I f
+4) D i G -> D I g
+4) D i H -> D I h
+4) D i I -> D I i
+4) D i J -> D I j
+4) D j A -> D J a
+4) D j B -> D J b
+4) D j C -> D J c
+4) D j D -> D J d
+4) D j E -> D J e
+4) D j F -> D J f
+4) D j G -> D J g
+4) D j H -> D J h
+4) D j I -> D J i
+4) D j J -> D J j
+4) E a A -> E A a
+4) E a B -> E A b
+4) E a C -> E A c
+4) E a D -> E A d
+4) E a E -> E A e
+4) E a F -> E A f
+4) E a G -> E A g
+4) E a H -> E A h
+4) E a I -> E A i
+4) E a J -> E A j
+4) E b A -> E B a
+4) E b B -> E B b
+4) E b C -> E B c
+4) E b D -> E B d
+4) E b E -> E B e
+4) E b F -> E B f
+4) E b G -> E B g
+4) E b H -> E B h
+4) E b I -> E B i
+4) E b J -> E B j
+4) E c A -> E C a
+4) E c B -> E C b
+4) E c C -> E C c
+4) E c D -> E C d
+4) E c E -> E C e
+4) E c F -> E C f
+4) E c G -> E C g
+4) E c H -> E C h
+4) E c I -> E C i
+4) E c J -> E C j
+4) E d A -> E D a
+4) E d B -> E D b
+4) E d C -> E D c
+4) E d D -> E D d
+4) E d E -> E D e
+4) E d F -> E D f
+4) E d G -> E D g
+4) E d H -> E D h
+4) E d I -> E D i
+4) E d J -> E D j
+4) E e A -> E E a
+4) E e B -> E E b
+4) E e C -> E E c
+4) E e D -> E E d
+4) E e E -> E E e
+4) E e F -> E E f
+4) E e G -> E E g
+4) E e H -> E E h
+4) E e I -> E E i
+4) E e J -> E E j
+4) E f A -> E F a
+4) E f B -> E F b
+4) E f C -> E F c
+4) E f D -> E F d
+4) E f E -> E F e
+4) E f F -> E F f
+4) E f G -> E F g
+4) E f H -> E F h
+4) E f I -> E F i
+4) E f J -> E F j
+4) E g A -> E G a
+4) E g B -> E G b
+4) E g C -> E G c
+4) E g D -> E G d
+4) E g E -> E G e
+4) E g F -> E G f
+4) E g G -> E G g
+4) E g H -> E G h
+4) E g I -> E G i
+4) E g J -> E G j
+4) E h A -> E H a
+4) E h B -> E H b
+4) E h C -> E H c
+4) E h D -> E H d
+4) E h E -> E H e
+4) E h F -> E H f
+4) E h G -> E H g
+4) E h H -> E H h
+4) E h I -> E H i
+4) E h J -> E H j
+4) E i A -> E I a
+4) E i B -> E I b
+4) E i C -> E I c
+4) E i D -> E I d
+4) E i E -> E I e
+4) E i F -> E I f
+4) E i G -> E I g
+4) E i H -> E I h
+4) E i I -> E I i
+4) E i J -> E I j
+4) E j A -> E J a
+4) E j B -> E J b
+4) E j C -> E J c
+4) E j D -> E J d
+4) E j E -> E J e
+4) E j F -> E J f
+4) E j G -> E J g
+4) E j H -> E J h
+4) E j I -> E J i
+4) E j J -> E J j
+4) F a A -> F A a
+4) F a B -> F A b
+4) F a C -> F A c
+4) F a D -> F A d
+4) F a E -> F A e
+4) F a F -> F A f
+4) F a G -> F A g
+4) F a H -> F A h
+4) F a I -> F A i
+4) F a J -> F A j
+4) F b A -> F B a
+4) F b B -> F B b
+4) F b C -> F B c
+4) F b D -> F B d
+4) F b E -> F B e
+4) F b F -> F B f
+4) F b G -> F B g
+4) F b H -> F B h
+4) F b I -> F B i
+4) F b J -> F B j
+4) F c A -> F C a
+4) F c B -> F C b
+4) F c C -> F C c
+4) F c D -> F C d
+4) F c E -> F C e
+4) F c F -> F C f
+4) F c G -> F C g
+4) F c H -> F C h
+4) F c I -> F C i
+4) F c J -> F C j
+4) F d A -> F D a
+4) F d B -> F D b
+4) F d C -> F D c
+4) F d D -> F D d
+4) F d E -> F D e
+4) F d F -> F D f
+4) F d G -> F D g
+4) F d H -> F D h
+4) F d I -> F D i
+4) F d J -> F D j
+4) F e A -> F E a
+4) F e B -> F E b
+4) F e C -> F E c
+4) F e D -> F E d
+4) F e E -> F E e
+4) F e F -> F E f
+4) F e G -> F E g
+4) F e H -> F E h
+4) F e I -> F E i
+4) F e J -> F E j
+4) F f A -> F F a
+4) F f B -> F F b
+4) F f C -> F F c
+4) F f D -> F F d
+4) F f E -> F F e
+4) F f F -> F F f
+4) F f G -> F F g
+4) F f H -> F F h
+4) F f I -> F F i
+4) F f J -> F F j
+4) F g A -> F G a
+4) F g B -> F G b
+4) F g C -> F G c
+4) F g D -> F G d
+4) F g E -> F G e
+4) F g F -> F G f
+4) F g G -> F G g
+4) F g H -> F G h
+4) F g I -> F G i
+4) F g J -> F G j
+4) F h A -> F H a
+4) F h B -> F H b
+4) F h C -> F H c
+4) F h D -> F H d
+4) F h E -> F H e
+4) F h F -> F H f
+4) F h G -> F H g
+4) F h H -> F H h
+4) F h I -> F H i
+4) F h J -> F H j
+4) F i A -> F I a
+4) F i B -> F I b
+4) F i C -> F I c
+4) F i D -> F I d
+4) F i E -> F I e
+4) F i F -> F I f
+4) F i G -> F I g
+4) F i H -> F I h
+4) F i I -> F I i
+4) F i J -> F I j
+4) F j A -> F J a
+4) F j B -> F J b
+4) F j C -> F J c
+4) F j D -> F J d
+4) F j E -> F J e
+4) F j F -> F J f
+4) F j G -> F J g
+4) F j H -> F J h
+4) F j I -> F J i
+4) F j J -> F J j
+4) G a A -> G A a
+4) G a B -> G A b
+4) G a C -> G A c
+4) G a D -> G A d
+4) G a E -> G A e
+4) G a F -> G A f
+4) G a G -> G A g
+4) G a H -> G A h
+4) G a I -> G A i
+4) G a J -> G A j
+4) G b A -> G B a
+4) G b B -> G B b
+4) G b C -> G B c
+4) G b D -> G B d
+4) G b E -> G B e
+4) G b F -> G B f
+4) G b G -> G B g
+4) G b H -> G B h
+4) G b I -> G B i
+4) G b J -> G B j
+4) G c A -> G C a
+4) G c B -> G C b
+4) G c C -> G C c
+4) G c D -> G C d
+4) G c E -> G C e
+4) G c F -> G C f
+4) G c G -> G C g
+4) G c H -> G C h
+4) G c I -> G C i
+4) G c J -> G C j
+4) G d A -> G D a
+4) G d B -> G D b
+4) G d C -> G D c
+4) G d D -> G D d
+4) G d E -> G D e
+4) G d F -> G D f
+4) G d G -> G D g
+4) G d H -> G D h
+4) G d I -> G D i
+4) G d J -> G D j
+4) G e A -> G E a
+4) G e B -> G E b
+4) G e C -> G E c
+4) G e D -> G E d
+4) G e E -> G E e
+4) G e F -> G E f
+4) G e G -> G E g
+4) G e H -> G E h
+4) G e I -> G E i
+4) G e J -> G E j
+4) G f A -> G F a
+4) G f B -> G F b
+4) G f C -> G F c
+4) G f D -> G F d
+4) G f E -> G F e
+4) G f F -> G F f
+4) G f G -> G F g
+4) G f H -> G F h
+4) G f I -> G F i
+4) G f J -> G F j
+4) G g A -> G G a
+4) G g B -> G G b
+4) G g C -> G G c
+4) G g D -> G G d
+4) G g E -> G G e
+4) G g F -> G G f
+4) G g G -> G G g
+4) G g H -> G G h
+4) G g I -> G G i
+4) G g J -> G G j
+4) G h A -> G H a
+4) G h B -> G H b
+4) G h C -> G H c
+4) G h D -> G H d
+4) G h E -> G H e
+4) G h F -> G H f
+4) G h G -> G H g
+4) G h H -> G H h
+4) G h I -> G H i
+4) G h J -> G H j
+4) G i A -> G I a
+4) G i B -> G I b
+4) G i C -> G I c
+4) G i D -> G I d
+4) G i E -> G I e
+4) G i F -> G I f
+4) G i G -> G I g
+4) G i H -> G I h
+4) G i I -> G I i
+4) G i J -> G I j
+4) G j A -> G J a
+4) G j B -> G J b
+4) G j C -> G J c
+4) G j D -> G J d
+4) G j E -> G J e
+4) G j F -> G J f
+4) G j G -> G J g
+4) G j H -> G J h
+4) G j I -> G J i
+4) G j J -> G J j
+4) H a A -> H A a
+4) H a B -> H A b
+4) H a C -> H A c
+4) H a D -> H A d
+4) H a E -> H A e
+4) H a F -> H A f
+4) H a G -> H A g
+4) H a H -> H A h
+4) H a I -> H A i
+4) H a J -> H A j
+4) H b A -> H B a
+4) H b B -> H B b
+4) H b C -> H B c
+4) H b D -> H B d
+4) H b E -> H B e
+4) H b F -> H B f
+4) H b G -> H B g
+4) H b H -> H B h
+4) H b I -> H B i
+4) H b J -> H B j
+4) H c A -> H C a
+4) H c B -> H C b
+4) H c C -> H C c
+4) H c D -> H C d
+4) H c E -> H C e
+4) H c F -> H C f
+4) H c G -> H C g
+4) H c H -> H C h
+4) H c I -> H C i
+4) H c J -> H C j
+4) H d A -> H D a
+4) H d B -> H D b
+4) H d C -> H D c
+4) H d D -> H D d
+4) H d E -> H D e
+4) H d F -> H D f
+4) H d G -> H D g
+4) H d H -> H D h
+4) H d I -> H D i
+4) H d J -> H D j
+4) H e A -> H E a
+4) H e B -> H E b
+4) H e C -> H E c
+4) H e D -> H E d
+4) H e E -> H E e
+4) H e F -> H E f
+4) H e G -> H E g
+4) H e H -> H E h
+4) H e I -> H E i
+4) H e J -> H E j
+4) H f A -> H F a
+4) H f B -> H F b
+4) H f C -> H F c
+4) H f D -> H F d
+4) H f E -> H F e
+4) H f F -> H F f
+4) H f G -> H F g
+4) H f H -> H F h
+4) H f I -> H F i
+4) H f J -> H F j
+4) H g A -> H G a
+4) H g B -> H G b
+4) H g C -> H G c
+4) H g D -> H G d
+4) H g E -> H G e
+4) H g F -> H G f
+4) H g G -> H G g
+4) H g H -> H G h
+4) H g I -> H G i
+4) H g J -> H G j
+4) H h A -> H H a
+4) H h B -> H H b
+4) H h C -> H H c
+4) H h D -> H H d
+4) H h E -> H H e
+4) H h F -> H H f
+4) H h G -> H H g
+4) H h H -> H H h
+4) H h I -> H H i
+4) H h J -> H H j
+4) H i A -> H I a
+4) H i B -> H I b
+4) H i C -> H I c
+4) H i D -> H I d
+4) H i E -> H I e
+4) H i F -> H I f
+4) H i G -> H I g
+4) H i H -> H I h
+4) H i I -> H I i
+4) H i J -> H I j
+4) H j A -> H J a
+4) H j B -> H J b
+4) H j C -> H J c
+4) H j D -> H J d
+4) H j E -> H J e
+4) H j F -> H J f
+4) H j G -> H J g
+4) H j H -> H J h
+4) H j I -> H J i
+4) H j J -> H J j
+4) I a A -> I A a
+4) I a B -> I A b
+4) I a C -> I A c
+4) I a D -> I A d
+4) I a E -> I A e
+4) I a F -> I A f
+4) I a G -> I A g
+4) I a H -> I A h
+4) I a I -> I A i
+4) I a J -> I A j
+4) I b A -> I B a
+4) I b B -> I B b
+4) I b C -> I B c
+4) I b D -> I B d
+4) I b E -> I B e
+4) I b F -> I B f
+4) I b G -> I B g
+4) I b H -> I B h
+4) I b I -> I B i
+4) I b J -> I B j
+4) I c A -> I C a
+4) I c B -> I C b
+4) I c C -> I C c
+4) I c D -> I C d
+4) I c E -> I C e
+4) I c F -> I C f
+4) I c G -> I C g
+4) I c H -> I C h
+4) I c I -> I C i
+4) I c J -> I C j
+4) I d A -> I D a
+4) I d B -> I D b
+4) I d C -> I D c
+4) I d D -> I D d
+4) I d E -> I D e
+4) I d F -> I D f
+4) I d G -> I D g
+4) I d H -> I D h
+4) I d I -> I D i
+4) I d J -> I D j
+4) I e A -> I E a
+4) I e B -> I E b
+4) I e C -> I E c
+4) I e D -> I E d
+4) I e E -> I E e
+4) I e F -> I E f
+4) I e G -> I E g
+4) I e H -> I E h
+4) I e I -> I E i
+4) I e J -> I E j
+4) I f A -> I F a
+4) I f B -> I F b
+4) I f C -> I F c
+4) I f D -> I F d
+4) I f E -> I F e
+4) I f F -> I F f
+4) I f G -> I F g
+4) I f H -> I F h
+4) I f I -> I F i
+4) I f J -> I F j
+4) I g A -> I G a
+4) I g B -> I G b
+4) I g C -> I G c
+4) I g D -> I G d
+4) I g E -> I G e
+4) I g F -> I G f
+4) I g G -> I G g
+4) I g H -> I G h
+4) I g I -> I G i
+4) I g J -> I G j
+4) I h A -> I H a
+4) I h B -> I H b
+4) I h C -> I H c
+4) I h D -> I H d
+4) I h E -> I H e
+4) I h F -> I H f
+4) I h G -> I H g
+4) I h H -> I H h
+4) I h I -> I H i
+4) I h J -> I H j
+4) I i A -> I I a
+4) I i B -> I I b
+4) I i C -> I I c
+4) I i D -> I I d
+4) I i E -> I I e
+4) I i F -> I I f
+4) I i G -> I I g
+4) I i H -> I I h
+4) I i I -> I I i
+4) I i J -> I I j
+4) I j A -> I J a
+4) I j B -> I J b
+4) I j C -> I J c
+4) I j D -> I J d
+4) I j E -> I J e
+4) I j F -> I J f
+4) I j G -> I J g
+4) I j H -> I J h
+4) I j I -> I J i
+4) I j J -> I J j
+4) J a A -> J A a
+4) J a B -> J A b
+4) J a C -> J A c
+4) J a D -> J A d
+4) J a E -> J A e
+4) J a F -> J A f
+4) J a G -> J A g
+4) J a H -> J A h
+4) J a I -> J A i
+4) J a J -> J A j
+4) J b A -> J B a
+4) J b B -> J B b
+4) J b C -> J B c
+4) J b D -> J B d
+4) J b E -> J B e
+4) J b F -> J B f
+4) J b G -> J B g
+4) J b H -> J B h
+4) J b I -> J B i
+4) J b J -> J B j
+4) J c A -> J C a
+4) J c B -> J C b
+4) J c C -> J C c
+4) J c D -> J C d
+4) J c E -> J C e
+4) J c F -> J C f
+4) J c G -> J C g
+4) J c H -> J C h
+4) J c I -> J C i
+4) J c J -> J C j
+4) J d A -> J D a
+4) J d B -> J D b
+4) J d C -> J D c
+4) J d D -> J D d
+4) J d E -> J D e
+4) J d F -> J D f
+4) J d G -> J D g
+4) J d H -> J D h
+4) J d I -> J D i
+4) J d J -> J D j
+4) J e A -> J E a
+4) J e B -> J E b
+4) J e C -> J E c
+4) J e D -> J E d
+4) J e E -> J E e
+4) J e F -> J E f
+4) J e G -> J E g
+4) J e H -> J E h
+4) J e I -> J E i
+4) J e J -> J E j
+4) J f A -> J F a
+4) J f B -> J F b
+4) J f C -> J F c
+4) J f D -> J F d
+4) J f E -> J F e
+4) J f F -> J F f
+4) J f G -> J F g
+4) J f H -> J F h
+4) J f I -> J F i
+4) J f J -> J F j
+4) J g A -> J G a
+4) J g B -> J G b
+4) J g C -> J G c
+4) J g D -> J G d
+4) J g E -> J G e
+4) J g F -> J G f
+4) J g G -> J G g
+4) J g H -> J G h
+4) J g I -> J G i
+4) J g J -> J G j
+4) J h A -> J H a
+4) J h B -> J H b
+4) J h C -> J H c
+4) J h D -> J H d
+4) J h E -> J H e
+4) J h F -> J H f
+4) J h G -> J H g
+4) J h H -> J H h
+4) J h I -> J H i
+4) J h J -> J H j
+4) J i A -> J I a
+4) J i B -> J I b
+4) J i C -> J I c
+4) J i D -> J I d
+4) J i E -> J I e
+4) J i F -> J I f
+4) J i G -> J I g
+4) J i H -> J I h
+4) J i I -> J I i
+4) J i J -> J I j
+4) J j A -> J J a
+4) J j B -> J J b
+4) J j C -> J J c
+4) J j D -> J J d
+4) J j E -> J J e
+4) J j F -> J J f
+4) J j G -> J J g
+4) J j H -> J J h
+4) J j I -> J J i
+4) J j J -> J J j
+4) Б a A -> Б A a
+4) Б a B -> Б A b
+4) Б a C -> Б A c
+4) Б a D -> Б A d
+4) Б a E -> Б A e
+4) Б a F -> Б A f
+4) Б a G -> Б A g
+4) Б a H -> Б A h
+4) Б a I -> Б A i
+4) Б a J -> Б A j
+4) Б b A -> Б B a
+4) Б b B -> Б B b
+4) Б b C -> Б B c
+4) Б b D -> Б B d
+4) Б b E -> Б B e
+4) Б b F -> Б B f
+4) Б b G -> Б B g
+4) Б b H -> Б B h
+4) Б b I -> Б B i
+4) Б b J -> Б B j
+4) Б c A -> Б C a
+4) Б c B -> Б C b
+4) Б c C -> Б C c
+4) Б c D -> Б C d
+4) Б c E -> Б C e
+4) Б c F -> Б C f
+4) Б c G -> Б C g
+4) Б c H -> Б C h
+4) Б c I -> Б C i
+4) Б c J -> Б C j
+4) Б d A -> Б D a
+4) Б d B -> Б D b
+4) Б d C -> Б D c
+4) Б d D -> Б D d
+4) Б d E -> Б D e
+4) Б d F -> Б D f
+4) Б d G -> Б D g
+4) Б d H -> Б D h
+4) Б d I -> Б D i
+4) Б d J -> Б D j
+4) Б e A -> Б E a
+4) Б e B -> Б E b
+4) Б e C -> Б E c
+4) Б e D -> Б E d
+4) Б e E -> Б E e
+4) Б e F -> Б E f
+4) Б e G -> Б E g
+4) Б e H -> Б E h
+4) Б e I -> Б E i
+4) Б e J -> Б E j
+4) Б f A -> Б F a
+4) Б f B -> Б F b
+4) Б f C -> Б F c
+4) Б f D -> Б F d
+4) Б f E -> Б F e
+4) Б f F -> Б F f
+4) Б f G -> Б F g
+4) Б f H -> Б F h
+4) Б f I -> Б F i
+4) Б f J -> Б F j
+4) Б g A -> Б G a
+4) Б g B -> Б G b
+4) Б g C -> Б G c
+4) Б g D -> Б G d
+4) Б g E -> Б G e
+4) Б g F -> Б G f
+4) Б g G -> Б G g
+4) Б g H -> Б G h
+4) Б g I -> Б G i
+4) Б g J -> Б G j
+4) Б h A -> Б H a
+4) Б h B -> Б H b
+4) Б h C -> Б H c
+4) Б h D -> Б H d
+4) Б h E -> Б H e
+4) Б h F -> Б H f
+4) Б h G -> Б H g
+4) Б h H -> Б H h
+4) Б h I -> Б H i
+4) Б h J -> Б H j
+4) Б i A -> Б I a
+4) Б i B -> Б I b
+4) Б i C -> Б I c
+4) Б i D -> Б I d
+4) Б i E -> Б I e
+4) Б i F -> Б I f
+4) Б i G -> Б I g
+4) Б i H -> Б I h
+4) Б i I -> Б I i
+4) Б i J -> Б I j
+4) Б j A -> Б J a
+4) Б j B -> Б J b
+4) Б j C -> Б J c
+4) Б j D -> Б J d
+4) Б j E -> Б J e
+4) Б j F -> Б J f
+4) Б j G -> Б J g
+4) Б j H -> Б J h
+4) Б j I -> Б J i
+4) Б j J -> Б J j
+4) Г a A -> Г A a
+4) Г a B -> Г A b
+4) Г a C -> Г A c
+4) Г a D -> Г A d
+4) Г a E -> Г A e
+4) Г a F -> Г A f
+4) Г a G -> Г A g
+4) Г a H -> Г A h
+4) Г a I -> Г A i
+4) Г a J -> Г A j
+4) Г b A -> Г B a
+4) Г b B -> Г B b
+4) Г b C -> Г B c
+4) Г b D -> Г B d
+4) Г b E -> Г B e
+4) Г b F -> Г B f
+4) Г b G -> Г B g
+4) Г b H -> Г B h
+4) Г b I -> Г B i
+4) Г b J -> Г B j
+4) Г c A -> Г C a
+4) Г c B -> Г C b
+4) Г c C -> Г C c
+4) Г c D -> Г C d
+4) Г c E -> Г C e
+4) Г c F -> Г C f
+4) Г c G -> Г C g
+4) Г c H -> Г C h
+4) Г c I -> Г C i
+4) Г c J -> Г C j
+4) Г d A -> Г D a
+4) Г d B -> Г D b
+4) Г d C -> Г D c
+4) Г d D -> Г D d
+4) Г d E -> Г D e
+4) Г d F -> Г D f
+4) Г d G -> Г D g
+4) Г d H -> Г D h
+4) Г d I -> Г D i
+4) Г d J -> Г D j
+4) Г e A -> Г E a
+4) Г e B -> Г E b
+4) Г e C -> Г E c
+4) Г e D -> Г E d
+4) Г e E -> Г E e
+4) Г e F -> Г E f
+4) Г e G -> Г E g
+4) Г e H -> Г E h
+4) Г e I -> Г E i
+4) Г e J -> Г E j
+4) Г f A -> Г F a
+4) Г f B -> Г F b
+4) Г f C -> Г F c
+4) Г f D -> Г F d
+4) Г f E -> Г F e
+4) Г f F -> Г F f
+4) Г f G -> Г F g
+4) Г f H -> Г F h
+4) Г f I -> Г F i
+4) Г f J -> Г F j
+4) Г g A -> Г G a
+4) Г g B -> Г G b
+4) Г g C -> Г G c
+4) Г g D -> Г G d
+4) Г g E -> Г G e
+4) Г g F -> Г G f
+4) Г g G -> Г G g
+4) Г g H -> Г G h
+4) Г g I -> Г G i
+4) Г g J -> Г G j
+4) Г h A -> Г H a
+4) Г h B -> Г H b
+4) Г h C -> Г H c
+4) Г h D -> Г H d
+4) Г h E -> Г H e
+4) Г h F -> Г H f
+4) Г h G -> Г H g
+4) Г h H -> Г H h
+4) Г h I -> Г H i
+4) Г h J -> Г H j
+4) Г i A -> Г I a
+4) Г i B -> Г I b
+4) Г i C -> Г I c
+4) Г i D -> Г I d
+4) Г i E -> Г I e
+4) Г i F -> Г I f
+4) Г i G -> Г I g
+4) Г i H -> Г I h
+4) Г i I -> Г I i
+4) Г i J -> Г I j
+4) Г j A -> Г J a
+4) Г j B -> Г J b
+4) Г j C -> Г J c
+4) Г j D -> Г J d
+4) Г j E -> Г J e
+4) Г j F -> Г J f
+4) Г j G -> Г J g
+4) Г j H -> Г J h
+4) Г j I -> Г J i
+4) Г j J -> Г J j
+4) Д a A -> Д A a
+4) Д a B -> Д A b
+4) Д a C -> Д A c
+4) Д a D -> Д A d
+4) Д a E -> Д A e
+4) Д a F -> Д A f
+4) Д a G -> Д A g
+4) Д a H -> Д A h
+4) Д a I -> Д A i
+4) Д a J -> Д A j
+4) Д b A -> Д B a
+4) Д b B -> Д B b
+4) Д b C -> Д B c
+4) Д b D -> Д B d
+4) Д b E -> Д B e
+4) Д b F -> Д B f
+4) Д b G -> Д B g
+4) Д b H -> Д B h
+4) Д b I -> Д B i
+4) Д b J -> Д B j
+4) Д c A -> Д C a
+4) Д c B -> Д C b
+4) Д c C -> Д C c
+4) Д c D -> Д C d
+4) Д c E -> Д C e
+4) Д c F -> Д C f
+4) Д c G -> Д C g
+4) Д c H -> Д C h
+4) Д c I -> Д C i
+4) Д c J -> Д C j
+4) Д d A -> Д D a
+4) Д d B -> Д D b
+4) Д d C -> Д D c
+4) Д d D -> Д D d
+4) Д d E -> Д D e
+4) Д d F -> Д D f
+4) Д d G -> Д D g
+4) Д d H -> Д D h
+4) Д d I -> Д D i
+4) Д d J -> Д D j
+4) Д e A -> Д E a
+4) Д e B -> Д E b
+4) Д e C -> Д E c
+4) Д e D -> Д E d
+4) Д e E -> Д E e
+4) Д e F -> Д E f
+4) Д e G -> Д E g
+4) Д e H -> Д E h
+4) Д e I -> Д E i
+4) Д e J -> Д E j
+4) Д f A -> Д F a
+4) Д f B -> Д F b
+4) Д f C -> Д F c
+4) Д f D -> Д F d
+4) Д f E -> Д F e
+4) Д f F -> Д F f
+4) Д f G -> Д F g
+4) Д f H -> Д F h
+4) Д f I -> Д F i
+4) Д f J -> Д F j
+4) Д g A -> Д G a
+4) Д g B -> Д G b
+4) Д g C -> Д G c
+4) Д g D -> Д G d
+4) Д g E -> Д G e
+4) Д g F -> Д G f
+4) Д g G -> Д G g
+4) Д g H -> Д G h
+4) Д g I -> Д G i
+4) Д g J -> Д G j
+4) Д h A -> Д H a
+4) Д h B -> Д H b
+4) Д h C -> Д H c
+4) Д h D -> Д H d
+4) Д h E -> Д H e
+4) Д h F -> Д H f
+4) Д h G -> Д H g
+4) Д h H -> Д H h
+4) Д h I -> Д H i
+4) Д h J -> Д H j
+4) Д i A -> Д I a
+4) Д i B -> Д I b
+4) Д i C -> Д I c
+4) Д i D -> Д I d
+4) Д i E -> Д I e
+4) Д i F -> Д I f
+4) Д i G -> Д I g
+4) Д i H -> Д I h
+4) Д i I -> Д I i
+4) Д i J -> Д I j
+4) Д j A -> Д J a
+4) Д j B -> Д J b
+4) Д j C -> Д J c
+4) Д j D -> Д J d
+4) Д j E -> Д J e
+4) Д j F -> Д J f
+4) Д j G -> Д J g
+4) Д j H -> Д J h
+4) Д j I -> Д J i
+4) Д j J -> Д J j
+4) Ё a A -> Ё A a
+4) Ё a B -> Ё A b
+4) Ё a C -> Ё A c
+4) Ё a D -> Ё A d
+4) Ё a E -> Ё A e
+4) Ё a F -> Ё A f
+4) Ё a G -> Ё A g
+4) Ё a H -> Ё A h
+4) Ё a I -> Ё A i
+4) Ё a J -> Ё A j
+4) Ё b A -> Ё B a
+4) Ё b B -> Ё B b
+4) Ё b C -> Ё B c
+4) Ё b D -> Ё B d
+4) Ё b E -> Ё B e
+4) Ё b F -> Ё B f
+4) Ё b G -> Ё B g
+4) Ё b H -> Ё B h
+4) Ё b I -> Ё B i
+4) Ё b J -> Ё B j
+4) Ё c A -> Ё C a
+4) Ё c B -> Ё C b
+4) Ё c C -> Ё C c
+4) Ё c D -> Ё C d
+4) Ё c E -> Ё C e
+4) Ё c F -> Ё C f
+4) Ё c G -> Ё C g
+4) Ё c H -> Ё C h
+4) Ё c I -> Ё C i
+4) Ё c J -> Ё C j
+4) Ё d A -> Ё D a
+4) Ё d B -> Ё D b
+4) Ё d C -> Ё D c
+4) Ё d D -> Ё D d
+4) Ё d E -> Ё D e
+4) Ё d F -> Ё D f
+4) Ё d G -> Ё D g
+4) Ё d H -> Ё D h
+4) Ё d I -> Ё D i
+4) Ё d J -> Ё D j
+4) Ё e A -> Ё E a
+4) Ё e B -> Ё E b
+4) Ё e C -> Ё E c
+4) Ё e D -> Ё E d
+4) Ё e E -> Ё E e
+4) Ё e F -> Ё E f
+4) Ё e G -> Ё E g
+4) Ё e H -> Ё E h
+4) Ё e I -> Ё E i
+4) Ё e J -> Ё E j
+4) Ё f A -> Ё F a
+4) Ё f B -> Ё F b
+4) Ё f C -> Ё F c
+4) Ё f D -> Ё F d
+4) Ё f E -> Ё F e
+4) Ё f F -> Ё F f
+4) Ё f G -> Ё F g
+4) Ё f H -> Ё F h
+4) Ё f I -> Ё F i
+4) Ё f J -> Ё F j
+4) Ё g A -> Ё G a
+4) Ё g B -> Ё G b
+4) Ё g C -> Ё G c
+4) Ё g D -> Ё G d
+4) Ё g E -> Ё G e
+4) Ё g F -> Ё G f
+4) Ё g G -> Ё G g
+4) Ё g H -> Ё G h
+4) Ё g I -> Ё G i
+4) Ё g J -> Ё G j
+4) Ё h A -> Ё H a
+4) Ё h B -> Ё H b
+4) Ё h C -> Ё H c
+4) Ё h D -> Ё H d
+4) Ё h E -> Ё H e
+4) Ё h F -> Ё H f
+4) Ё h G -> Ё H g
+4) Ё h H -> Ё H h
+4) Ё h I -> Ё H i
+4) Ё h J -> Ё H j
+4) Ё i A -> Ё I a
+4) Ё i B -> Ё I b
+4) Ё i C -> Ё I c
+4) Ё i D -> Ё I d
+4) Ё i E -> Ё I e
+4) Ё i F -> Ё I f
+4) Ё i G -> Ё I g
+4) Ё i H -> Ё I h
+4) Ё i I -> Ё I i
+4) Ё i J -> Ё I j
+4) Ё j A -> Ё J a
+4) Ё j B -> Ё J b
+4) Ё j C -> Ё J c
+4) Ё j D -> Ё J d
+4) Ё j E -> Ё J e
+4) Ё j F -> Ё J f
+4) Ё j G -> Ё J g
+4) Ё j H -> Ё J h
+4) Ё j I -> Ё J i
+4) Ё j J -> Ё J j
+4) Ж a A -> Ж A a
+4) Ж a B -> Ж A b
+4) Ж a C -> Ж A c
+4) Ж a D -> Ж A d
+4) Ж a E -> Ж A e
+4) Ж a F -> Ж A f
+4) Ж a G -> Ж A g
+4) Ж a H -> Ж A h
+4) Ж a I -> Ж A i
+4) Ж a J -> Ж A j
+4) Ж b A -> Ж B a
+4) Ж b B -> Ж B b
+4) Ж b C -> Ж B c
+4) Ж b D -> Ж B d
+4) Ж b E -> Ж B e
+4) Ж b F -> Ж B f
+4) Ж b G -> Ж B g
+4) Ж b H -> Ж B h
+4) Ж b I -> Ж B i
+4) Ж b J -> Ж B j
+4) Ж c A -> Ж C a
+4) Ж c B -> Ж C b
+4) Ж c C -> Ж C c
+4) Ж c D -> Ж C d
+4) Ж c E -> Ж C e
+4) Ж c F -> Ж C f
+4) Ж c G -> Ж C g
+4) Ж c H -> Ж C h
+4) Ж c I -> Ж C i
+4) Ж c J -> Ж C j
+4) Ж d A -> Ж D a
+4) Ж d B -> Ж D b
+4) Ж d C -> Ж D c
+4) Ж d D -> Ж D d
+4) Ж d E -> Ж D e
+4) Ж d F -> Ж D f
+4) Ж d G -> Ж D g
+4) Ж d H -> Ж D h
+4) Ж d I -> Ж D i
+4) Ж d J -> Ж D j
+4) Ж e A -> Ж E a
+4) Ж e B -> Ж E b
+4) Ж e C -> Ж E c
+4) Ж e D -> Ж E d
+4) Ж e E -> Ж E e
+4) Ж e F -> Ж E f
+4) Ж e G -> Ж E g
+4) Ж e H -> Ж E h
+4) Ж e I -> Ж E i
+4) Ж e J -> Ж E j
+4) Ж f A -> Ж F a
+4) Ж f B -> Ж F b
+4) Ж f C -> Ж F c
+4) Ж f D -> Ж F d
+4) Ж f E -> Ж F e
+4) Ж f F -> Ж F f
+4) Ж f G -> Ж F g
+4) Ж f H -> Ж F h
+4) Ж f I -> Ж F i
+4) Ж f J -> Ж F j
+4) Ж g A -> Ж G a
+4) Ж g B -> Ж G b
+4) Ж g C -> Ж G c
+4) Ж g D -> Ж G d
+4) Ж g E -> Ж G e
+4) Ж g F -> Ж G f
+4) Ж g G -> Ж G g
+4) Ж g H -> Ж G h
+4) Ж g I -> Ж G i
+4) Ж g J -> Ж G j
+4) Ж h A -> Ж H a
+4) Ж h B -> Ж H b
+4) Ж h C -> Ж H c
+4) Ж h D -> Ж H d
+4) Ж h E -> Ж H e
+4) Ж h F -> Ж H f
+4) Ж h G -> Ж H g
+4) Ж h H -> Ж H h
+4) Ж h I -> Ж H i
+4) Ж h J -> Ж H j
+4) Ж i A -> Ж I a
+4) Ж i B -> Ж I b
+4) Ж i C -> Ж I c
+4) Ж i D -> Ж I d
+4) Ж i E -> Ж I e
+4) Ж i F -> Ж I f
+4) Ж i G -> Ж I g
+4) Ж i H -> Ж I h
+4) Ж i I -> Ж I i
+4) Ж i J -> Ж I j
+4) Ж j A -> Ж J a
+4) Ж j B -> Ж J b
+4) Ж j C -> Ж J c
+4) Ж j D -> Ж J d
+4) Ж j E -> Ж J e
+4) Ж j F -> Ж J f
+4) Ж j G -> Ж J g
+4) Ж j H -> Ж J h
+4) Ж j I -> Ж J i
+4) Ж j J -> Ж J j
+4) З a A -> З A a
+4) З a B -> З A b
+4) З a C -> З A c
+4) З a D -> З A d
+4) З a E -> З A e
+4) З a F -> З A f
+4) З a G -> З A g
+4) З a H -> З A h
+4) З a I -> З A i
+4) З a J -> З A j
+4) З b A -> З B a
+4) З b B -> З B b
+4) З b C -> З B c
+4) З b D -> З B d
+4) З b E -> З B e
+4) З b F -> З B f
+4) З b G -> З B g
+4) З b H -> З B h
+4) З b I -> З B i
+4) З b J -> З B j
+4) З c A -> З C a
+4) З c B -> З C b
+4) З c C -> З C c
+4) З c D -> З C d
+4) З c E -> З C e
+4) З c F -> З C f
+4) З c G -> З C g
+4) З c H -> З C h
+4) З c I -> З C i
+4) З c J -> З C j
+4) З d A -> З D a
+4) З d B -> З D b
+4) З d C -> З D c
+4) З d D -> З D d
+4) З d E -> З D e
+4) З d F -> З D f
+4) З d G -> З D g
+4) З d H -> З D h
+4) З d I -> З D i
+4) З d J -> З D j
+4) З e A -> З E a
+4) З e B -> З E b
+4) З e C -> З E c
+4) З e D -> З E d
+4) З e E -> З E e
+4) З e F -> З E f
+4) З e G -> З E g
+4) З e H -> З E h
+4) З e I -> З E i
+4) З e J -> З E j
+4) З f A -> З F a
+4) З f B -> З F b
+4) З f C -> З F c
+4) З f D -> З F d
+4) З f E -> З F e
+4) З f F -> З F f
+4) З f G -> З F g
+4) З f H -> З F h
+4) З f I -> З F i
+4) З f J -> З F j
+4) З g A -> З G a
+4) З g B -> З G b
+4) З g C -> З G c
+4) З g D -> З G d
+4) З g E -> З G e
+4) З g F -> З G f
+4) З g G -> З G g
+4) З g H -> З G h
+4) З g I -> З G i
+4) З g J -> З G j
+4) З h A -> З H a
+4) З h B -> З H b
+4) З h C -> З H c
+4) З h D -> З H d
+4) З h E -> З H e
+4) З h F -> З H f
+4) З h G -> З H g
+4) З h H -> З H h
+4) З h I -> З H i
+4) З h J -> З H j
+4) З i A -> З I a
+4) З i B -> З I b
+4) З i C -> З I c
+4) З i D -> З I d
+4) З i E -> З I e
+4) З i F -> З I f
+4) З i G -> З I g
+4) З i H -> З I h
+4) З i I -> З I i
+4) З i J -> З I j
+4) З j A -> З J a
+4) З j B -> З J b
+4) З j C -> З J c
+4) З j D -> З J d
+4) З j E -> З J e
+4) З j F -> З J f
+4) З j G -> З J g
+4) З j H -> З J h
+4) З j I -> З J i
+4) З j J -> З J j
+4) И a A -> И A a
+4) И a B -> И A b
+4) И a C -> И A c
+4) И a D -> И A d
+4) И a E -> И A e
+4) И a F -> И A f
+4) И a G -> И A g
+4) И a H -> И A h
+4) И a I -> И A i
+4) И a J -> И A j
+4) И b A -> И B a
+4) И b B -> И B b
+4) И b C -> И B c
+4) И b D -> И B d
+4) И b E -> И B e
+4) И b F -> И B f
+4) И b G -> И B g
+4) И b H -> И B h
+4) И b I -> И B i
+4) И b J -> И B j
+4) И c A -> И C a
+4) И c B -> И C b
+4) И c C -> И C c
+4) И c D -> И C d
+4) И c E -> И C e
+4) И c F -> И C f
+4) И c G -> И C g
+4) И c H -> И C h
+4) И c I -> И C i
+4) И c J -> И C j
+4) И d A -> И D a
+4) И d B -> И D b
+4) И d C -> И D c
+4) И d D -> И D d
+4) И d E -> И D e
+4) И d F -> И D f
+4) И d G -> И D g
+4) И d H -> И D h
+4) И d I -> И D i
+4) И d J -> И D j
+4) И e A -> И E a
+4) И e B -> И E b
+4) И e C -> И E c
+4) И e D -> И E d
+4) И e E -> И E e
+4) И e F -> И E f
+4) И e G -> И E g
+4) И e H -> И E h
+4) И e I -> И E i
+4) И e J -> И E j
+4) И f A -> И F a
+4) И f B -> И F b
+4) И f C -> И F c
+4) И f D -> И F d
+4) И f E -> И F e
+4) И f F -> И F f
+4) И f G -> И F g
+4) И f H -> И F h
+4) И f I -> И F i
+4) И f J -> И F j
+4) И g A -> И G a
+4) И g B -> И G b
+4) И g C -> И G c
+4) И g D -> И G d
+4) И g E -> И G e
+4) И g F -> И G f
+4) И g G -> И G g
+4) И g H -> И G h
+4) И g I -> И G i
+4) И g J -> И G j
+4) И h A -> И H a
+4) И h B -> И H b
+4) И h C -> И H c
+4) И h D -> И H d
+4) И h E -> И H e
+4) И h F -> И H f
+4) И h G -> И H g
+4) И h H -> И H h
+4) И h I -> И H i
+4) И h J -> И H j
+4) И i A -> И I a
+4) И i B -> И I b
+4) И i C -> И I c
+4) И i D -> И I d
+4) И i E -> И I e
+4) И i F -> И I f
+4) И i G -> И I g
+4) И i H -> И I h
+4) И i I -> И I i
+4) И i J -> И I j
+4) И j A -> И J a
+4) И j B -> И J b
+4) И j C -> И J c
+4) И j D -> И J d
+4) И j E -> И J e
+4) И j F -> И J f
+4) И j G -> И J g
+4) И j H -> И J h
+4) И j I -> И J i
+4) И j J -> И J j
+4) Л a A -> Л A a
+4) Л a B -> Л A b
+4) Л a C -> Л A c
+4) Л a D -> Л A d
+4) Л a E -> Л A e
+4) Л a F -> Л A f
+4) Л a G -> Л A g
+4) Л a H -> Л A h
+4) Л a I -> Л A i
+4) Л a J -> Л A j
+4) Л b A -> Л B a
+4) Л b B -> Л B b
+4) Л b C -> Л B c
+4) Л b D -> Л B d
+4) Л b E -> Л B e
+4) Л b F -> Л B f
+4) Л b G -> Л B g
+4) Л b H -> Л B h
+4) Л b I -> Л B i
+4) Л b J -> Л B j
+4) Л c A -> Л C a
+4) Л c B -> Л C b
+4) Л c C -> Л C c
+4) Л c D -> Л C d
+4) Л c E -> Л C e
+4) Л c F -> Л C f
+4) Л c G -> Л C g
+4) Л c H -> Л C h
+4) Л c I -> Л C i
+4) Л c J -> Л C j
+4) Л d A -> Л D a
+4) Л d B -> Л D b
+4) Л d C -> Л D c
+4) Л d D -> Л D d
+4) Л d E -> Л D e
+4) Л d F -> Л D f
+4) Л d G -> Л D g
+4) Л d H -> Л D h
+4) Л d I -> Л D i
+4) Л d J -> Л D j
+4) Л e A -> Л E a
+4) Л e B -> Л E b
+4) Л e C -> Л E c
+4) Л e D -> Л E d
+4) Л e E -> Л E e
+4) Л e F -> Л E f
+4) Л e G -> Л E g
+4) Л e H -> Л E h
+4) Л e I -> Л E i
+4) Л e J -> Л E j
+4) Л f A -> Л F a
+4) Л f B -> Л F b
+4) Л f C -> Л F c
+4) Л f D -> Л F d
+4) Л f E -> Л F e
+4) Л f F -> Л F f
+4) Л f G -> Л F g
+4) Л f H -> Л F h
+4) Л f I -> Л F i
+4) Л f J -> Л F j
+4) Л g A -> Л G a
+4) Л g B -> Л G b
+4) Л g C -> Л G c
+4) Л g D -> Л G d
+4) Л g E -> Л G e
+4) Л g F -> Л G f
+4) Л g G -> Л G g
+4) Л g H -> Л G h
+4) Л g I -> Л G i
+4) Л g J -> Л G j
+4) Л h A -> Л H a
+4) Л h B -> Л H b
+4) Л h C -> Л H c
+4) Л h D -> Л H d
+4) Л h E -> Л H e
+4) Л h F -> Л H f
+4) Л h G -> Л H g
+4) Л h H -> Л H h
+4) Л h I -> Л H i
+4) Л h J -> Л H j
+4) Л i A -> Л I a
+4) Л i B -> Л I b
+4) Л i C -> Л I c
+4) Л i D -> Л I d
+4) Л i E -> Л I e
+4) Л i F -> Л I f
+4) Л i G -> Л I g
+4) Л i H -> Л I h
+4) Л i I -> Л I i
+4) Л i J -> Л I j
+4) Л j A -> Л J a
+4) Л j B -> Л J b
+4) Л j C -> Л J c
+4) Л j D -> Л J d
+4) Л j E -> Л J e
+4) Л j F -> Л J f
+4) Л j G -> Л J g
+4) Л j H -> Л J h
+4) Л j I -> Л J i
+4) Л j J -> Л J j
+4) П a A -> П A a
+4) П a B -> П A b
+4) П a C -> П A c
+4) П a D -> П A d
+4) П a E -> П A e
+4) П a F -> П A f
+4) П a G -> П A g
+4) П a H -> П A h
+4) П a I -> П A i
+4) П a J -> П A j
+4) П b A -> П B a
+4) П b B -> П B b
+4) П b C -> П B c
+4) П b D -> П B d
+4) П b E -> П B e
+4) П b F -> П B f
+4) П b G -> П B g
+4) П b H -> П B h
+4) П b I -> П B i
+4) П b J -> П B j
+4) П c A -> П C a
+4) П c B -> П C b
+4) П c C -> П C c
+4) П c D -> П C d
+4) П c E -> П C e
+4) П c F -> П C f
+4) П c G -> П C g
+4) П c H -> П C h
+4) П c I -> П C i
+4) П c J -> П C j
+4) П d A -> П D a
+4) П d B -> П D b
+4) П d C -> П D c
+4) П d D -> П D d
+4) П d E -> П D e
+4) П d F -> П D f
+4) П d G -> П D g
+4) П d H -> П D h
+4) П d I -> П D i
+4) П d J -> П D j
+4) П e A -> П E a
+4) П e B -> П E b
+4) П e C -> П E c
+4) П e D -> П E d
+4) П e E -> П E e
+4) П e F -> П E f
+4) П e G -> П E g
+4) П e H -> П E h
+4) П e I -> П E i
+4) П e J -> П E j
+4) П f A -> П F a
+4) П f B -> П F b
+4) П f C -> П F c
+4) П f D -> П F d
+4) П f E -> П F e
+4) П f F -> П F f
+4) П f G -> П F g
+4) П f H -> П F h
+4) П f I -> П F i
+4) П f J -> П F j
+4) П g A -> П G a
+4) П g B -> П G b
+4) П g C -> П G c
+4) П g D -> П G d
+4) П g E -> П G e
+4) П g F -> П G f
+4) П g G -> П G g
+4) П g H -> П G h
+4) П g I -> П G i
+4) П g J -> П G j
+4) П h A -> П H a
+4) П h B -> П H b
+4) П h C -> П H c
+4) П h D -> П H d
+4) П h E -> П H e
+4) П h F -> П H f
+4) П h G -> П H g
+4) П h H -> П H h
+4) П h I -> П H i
+4) П h J -> П H j
+4) П i A -> П I a
+4) П i B -> П I b
+4) П i C -> П I c
+4) П i D -> П I d
+4) П i E -> П I e
+4) П i F -> П I f
+4) П i G -> П I g
+4) П i H -> П I h
+4) П i I -> П I i
+4) П i J -> П I j
+4) П j A -> П J a
+4) П j B -> П J b
+4) П j C -> П J c
+4) П j D -> П J d
+4) П j E -> П J e
+4) П j F -> П J f
+4) П j G -> П J g
+4) П j H -> П J h
+4) П j I -> П J i
+4) П j J -> П J j
+4) Ф a A -> Ф A a
+4) Ф a B -> Ф A b
+4) Ф a C -> Ф A c
+4) Ф a D -> Ф A d
+4) Ф a E -> Ф A e
+4) Ф a F -> Ф A f
+4) Ф a G -> Ф A g
+4) Ф a H -> Ф A h
+4) Ф a I -> Ф A i
+4) Ф a J -> Ф A j
+4) Ф b A -> Ф B a
+4) Ф b B -> Ф B b
+4) Ф b C -> Ф B c
+4) Ф b D -> Ф B d
+4) Ф b E -> Ф B e
+4) Ф b F -> Ф B f
+4) Ф b G -> Ф B g
+4) Ф b H -> Ф B h
+4) Ф b I -> Ф B i
+4) Ф b J -> Ф B j
+4) Ф c A -> Ф C a
+4) Ф c B -> Ф C b
+4) Ф c C -> Ф C c
+4) Ф c D -> Ф C d
+4) Ф c E -> Ф C e
+4) Ф c F -> Ф C f
+4) Ф c G -> Ф C g
+4) Ф c H -> Ф C h
+4) Ф c I -> Ф C i
+4) Ф c J -> Ф C j
+4) Ф d A -> Ф D a
+4) Ф d B -> Ф D b
+4) Ф d C -> Ф D c
+4) Ф d D -> Ф D d
+4) Ф d E -> Ф D e
+4) Ф d F -> Ф D f
+4) Ф d G -> Ф D g
+4) Ф d H -> Ф D h
+4) Ф d I -> Ф D i
+4) Ф d J -> Ф D j
+4) Ф e A -> Ф E a
+4) Ф e B -> Ф E b
+4) Ф e C -> Ф E c
+4) Ф e D -> Ф E d
+4) Ф e E -> Ф E e
+4) Ф e F -> Ф E f
+4) Ф e G -> Ф E g
+4) Ф e H -> Ф E h
+4) Ф e I -> Ф E i
+4) Ф e J -> Ф E j
+4) Ф f A -> Ф F a
+4) Ф f B -> Ф F b
+4) Ф f C -> Ф F c
+4) Ф f D -> Ф F d
+4) Ф f E -> Ф F e
+4) Ф f F -> Ф F f
+4) Ф f G -> Ф F g
+4) Ф f H -> Ф F h
+4) Ф f I -> Ф F i
+4) Ф f J -> Ф F j
+4) Ф g A -> Ф G a
+4) Ф g B -> Ф G b
+4) Ф g C -> Ф G c
+4) Ф g D -> Ф G d
+4) Ф g E -> Ф G e
+4) Ф g F -> Ф G f
+4) Ф g G -> Ф G g
+4) Ф g H -> Ф G h
+4) Ф g I -> Ф G i
+4) Ф g J -> Ф G j
+4) Ф h A -> Ф H a
+4) Ф h B -> Ф H b
+4) Ф h C -> Ф H c
+4) Ф h D -> Ф H d
+4) Ф h E -> Ф H e
+4) Ф h F -> Ф H f
+4) Ф h G -> Ф H g
+4) Ф h H -> Ф H h
+4) Ф h I -> Ф H i
+4) Ф h J -> Ф H j
+4) Ф i A -> Ф I a
+4) Ф i B -> Ф I b
+4) Ф i C -> Ф I c
+4) Ф i D -> Ф I d
+4) Ф i E -> Ф I e
+4) Ф i F -> Ф I f
+4) Ф i G -> Ф I g
+4) Ф i H -> Ф I h
+4) Ф i I -> Ф I i
+4) Ф i J -> Ф I j
+4) Ф j A -> Ф J a
+4) Ф j B -> Ф J b
+4) Ф j C -> Ф J c
+4) Ф j D -> Ф J d
+4) Ф j E -> Ф J e
+4) Ф j F -> Ф J f
+4) Ф j G -> Ф J g
+4) Ф j H -> Ф J h
+4) Ф j I -> Ф J i
+4) Ф j J -> Ф J j
+4) A a Х -> A A х
+4) A a Ц -> A A ц
+4) A a Ч -> A A ч
+4) A a Ш -> A A ш
+4) A a Щ -> A A щ
+4) A a Ь -> A A ь
+4) A a Ы -> A A ы
+4) A a Ъ -> A A ъ
+4) A a Ю -> A A ю
+4) A a Я -> A A я
+4) A b Х -> A B х
+4) A b Ц -> A B ц
+4) A b Ч -> A B ч
+4) A b Ш -> A B ш
+4) A b Щ -> A B щ
+4) A b Ь -> A B ь
+4) A b Ы -> A B ы
+4) A b Ъ -> A B ъ
+4) A b Ю -> A B ю
+4) A b Я -> A B я
+4) A c Х -> A C х
+4) A c Ц -> A C ц
+4) A c Ч -> A C ч
+4) A c Ш -> A C ш
+4) A c Щ -> A C щ
+4) A c Ь -> A C ь
+4) A c Ы -> A C ы
+4) A c Ъ -> A C ъ
+4) A c Ю -> A C ю
+4) A c Я -> A C я
+4) A d Х -> A D х
+4) A d Ц -> A D ц
+4) A d Ч -> A D ч
+4) A d Ш -> A D ш
+4) A d Щ -> A D щ
+4) A d Ь -> A D ь
+4) A d Ы -> A D ы
+4) A d Ъ -> A D ъ
+4) A d Ю -> A D ю
+4) A d Я -> A D я
+4) A e Х -> A E х
+4) A e Ц -> A E ц
+4) A e Ч -> A E ч
+4) A e Ш -> A E ш
+4) A e Щ -> A E щ
+4) A e Ь -> A E ь
+4) A e Ы -> A E ы
+4) A e Ъ -> A E ъ
+4) A e Ю -> A E ю
+4) A e Я -> A E я
+4) A f Х -> A F х
+4) A f Ц -> A F ц
+4) A f Ч -> A F ч
+4) A f Ш -> A F ш
+4) A f Щ -> A F щ
+4) A f Ь -> A F ь
+4) A f Ы -> A F ы
+4) A f Ъ -> A F ъ
+4) A f Ю -> A F ю
+4) A f Я -> A F я
+4) A g Х -> A G х
+4) A g Ц -> A G ц
+4) A g Ч -> A G ч
+4) A g Ш -> A G ш
+4) A g Щ -> A G щ
+4) A g Ь -> A G ь
+4) A g Ы -> A G ы
+4) A g Ъ -> A G ъ
+4) A g Ю -> A G ю
+4) A g Я -> A G я
+4) A h Х -> A H х
+4) A h Ц -> A H ц
+4) A h Ч -> A H ч
+4) A h Ш -> A H ш
+4) A h Щ -> A H щ
+4) A h Ь -> A H ь
+4) A h Ы -> A H ы
+4) A h Ъ -> A H ъ
+4) A h Ю -> A H ю
+4) A h Я -> A H я
+4) A i Х -> A I х
+4) A i Ц -> A I ц
+4) A i Ч -> A I ч
+4) A i Ш -> A I ш
+4) A i Щ -> A I щ
+4) A i Ь -> A I ь
+4) A i Ы -> A I ы
+4) A i Ъ -> A I ъ
+4) A i Ю -> A I ю
+4) A i Я -> A I я
+4) A j Х -> A J х
+4) A j Ц -> A J ц
+4) A j Ч -> A J ч
+4) A j Ш -> A J ш
+4) A j Щ -> A J щ
+4) A j Ь -> A J ь
+4) A j Ы -> A J ы
+4) A j Ъ -> A J ъ
+4) A j Ю -> A J ю
+4) A j Я -> A J я
+4) B a Х -> B A х
+4) B a Ц -> B A ц
+4) B a Ч -> B A ч
+4) B a Ш -> B A ш
+4) B a Щ -> B A щ
+4) B a Ь -> B A ь
+4) B a Ы -> B A ы
+4) B a Ъ -> B A ъ
+4) B a Ю -> B A ю
+4) B a Я -> B A я
+4) B b Х -> B B х
+4) B b Ц -> B B ц
+4) B b Ч -> B B ч
+4) B b Ш -> B B ш
+4) B b Щ -> B B щ
+4) B b Ь -> B B ь
+4) B b Ы -> B B ы
+4) B b Ъ -> B B ъ
+4) B b Ю -> B B ю
+4) B b Я -> B B я
+4) B c Х -> B C х
+4) B c Ц -> B C ц
+4) B c Ч -> B C ч
+4) B c Ш -> B C ш
+4) B c Щ -> B C щ
+4) B c Ь -> B C ь
+4) B c Ы -> B C ы
+4) B c Ъ -> B C ъ
+4) B c Ю -> B C ю
+4) B c Я -> B C я
+4) B d Х -> B D х
+4) B d Ц -> B D ц
+4) B d Ч -> B D ч
+4) B d Ш -> B D ш
+4) B d Щ -> B D щ
+4) B d Ь -> B D ь
+4) B d Ы -> B D ы
+4) B d Ъ -> B D ъ
+4) B d Ю -> B D ю
+4) B d Я -> B D я
+4) B e Х -> B E х
+4) B e Ц -> B E ц
+4) B e Ч -> B E ч
+4) B e Ш -> B E ш
+4) B e Щ -> B E щ
+4) B e Ь -> B E ь
+4) B e Ы -> B E ы
+4) B e Ъ -> B E ъ
+4) B e Ю -> B E ю
+4) B e Я -> B E я
+4) B f Х -> B F х
+4) B f Ц -> B F ц
+4) B f Ч -> B F ч
+4) B f Ш -> B F ш
+4) B f Щ -> B F щ
+4) B f Ь -> B F ь
+4) B f Ы -> B F ы
+4) B f Ъ -> B F ъ
+4) B f Ю -> B F ю
+4) B f Я -> B F я
+4) B g Х -> B G х
+4) B g Ц -> B G ц
+4) B g Ч -> B G ч
+4) B g Ш -> B G ш
+4) B g Щ -> B G щ
+4) B g Ь -> B G ь
+4) B g Ы -> B G ы
+4) B g Ъ -> B G ъ
+4) B g Ю -> B G ю
+4) B g Я -> B G я
+4) B h Х -> B H х
+4) B h Ц -> B H ц
+4) B h Ч -> B H ч
+4) B h Ш -> B H ш
+4) B h Щ -> B H щ
+4) B h Ь -> B H ь
+4) B h Ы -> B H ы
+4) B h Ъ -> B H ъ
+4) B h Ю -> B H ю
+4) B h Я -> B H я
+4) B i Х -> B I х
+4) B i Ц -> B I ц
+4) B i Ч -> B I ч
+4) B i Ш -> B I ш
+4) B i Щ -> B I щ
+4) B i Ь -> B I ь
+4) B i Ы -> B I ы
+4) B i Ъ -> B I ъ
+4) B i Ю -> B I ю
+4) B i Я -> B I я
+4) B j Х -> B J х
+4) B j Ц -> B J ц
+4) B j Ч -> B J ч
+4) B j Ш -> B J ш
+4) B j Щ -> B J щ
+4) B j Ь -> B J ь
+4) B j Ы -> B J ы
+4) B j Ъ -> B J ъ
+4) B j Ю -> B J ю
+4) B j Я -> B J я
+4) C a Х -> C A х
+4) C a Ц -> C A ц
+4) C a Ч -> C A ч
+4) C a Ш -> C A ш
+4) C a Щ -> C A щ
+4) C a Ь -> C A ь
+4) C a Ы -> C A ы
+4) C a Ъ -> C A ъ
+4) C a Ю -> C A ю
+4) C a Я -> C A я
+4) C b Х -> C B х
+4) C b Ц -> C B ц
+4) C b Ч -> C B ч
+4) C b Ш -> C B ш
+4) C b Щ -> C B щ
+4) C b Ь -> C B ь
+4) C b Ы -> C B ы
+4) C b Ъ -> C B ъ
+4) C b Ю -> C B ю
+4) C b Я -> C B я
+4) C c Х -> C C х
+4) C c Ц -> C C ц
+4) C c Ч -> C C ч
+4) C c Ш -> C C ш
+4) C c Щ -> C C щ
+4) C c Ь -> C C ь
+4) C c Ы -> C C ы
+4) C c Ъ -> C C ъ
+4) C c Ю -> C C ю
+4) C c Я -> C C я
+4) C d Х -> C D х
+4) C d Ц -> C D ц
+4) C d Ч -> C D ч
+4) C d Ш -> C D ш
+4) C d Щ -> C D щ
+4) C d Ь -> C D ь
+4) C d Ы -> C D ы
+4) C d Ъ -> C D ъ
+4) C d Ю -> C D ю
+4) C d Я -> C D я
+4) C e Х -> C E х
+4) C e Ц -> C E ц
+4) C e Ч -> C E ч
+4) C e Ш -> C E ш
+4) C e Щ -> C E щ
+4) C e Ь -> C E ь
+4) C e Ы -> C E ы
+4) C e Ъ -> C E ъ
+4) C e Ю -> C E ю
+4) C e Я -> C E я
+4) C f Х -> C F х
+4) C f Ц -> C F ц
+4) C f Ч -> C F ч
+4) C f Ш -> C F ш
+4) C f Щ -> C F щ
+4) C f Ь -> C F ь
+4) C f Ы -> C F ы
+4) C f Ъ -> C F ъ
+4) C f Ю -> C F ю
+4) C f Я -> C F я
+4) C g Х -> C G х
+4) C g Ц -> C G ц
+4) C g Ч -> C G ч
+4) C g Ш -> C G ш
+4) C g Щ -> C G щ
+4) C g Ь -> C G ь
+4) C g Ы -> C G ы
+4) C g Ъ -> C G ъ
+4) C g Ю -> C G ю
+4) C g Я -> C G я
+4) C h Х -> C H х
+4) C h Ц -> C H ц
+4) C h Ч -> C H ч
+4) C h Ш -> C H ш
+4) C h Щ -> C H щ
+4) C h Ь -> C H ь
+4) C h Ы -> C H ы
+4) C h Ъ -> C H ъ
+4) C h Ю -> C H ю
+4) C h Я -> C H я
+4) C i Х -> C I х
+4) C i Ц -> C I ц
+4) C i Ч -> C I ч
+4) C i Ш -> C I ш
+4) C i Щ -> C I щ
+4) C i Ь -> C I ь
+4) C i Ы -> C I ы
+4) C i Ъ -> C I ъ
+4) C i Ю -> C I ю
+4) C i Я -> C I я
+4) C j Х -> C J х
+4) C j Ц -> C J ц
+4) C j Ч -> C J ч
+4) C j Ш -> C J ш
+4) C j Щ -> C J щ
+4) C j Ь -> C J ь
+4) C j Ы -> C J ы
+4) C j Ъ -> C J ъ
+4) C j Ю -> C J ю
+4) C j Я -> C J я
+4) D a Х -> D A х
+4) D a Ц -> D A ц
+4) D a Ч -> D A ч
+4) D a Ш -> D A ш
+4) D a Щ -> D A щ
+4) D a Ь -> D A ь
+4) D a Ы -> D A ы
+4) D a Ъ -> D A ъ
+4) D a Ю -> D A ю
+4) D a Я -> D A я
+4) D b Х -> D B х
+4) D b Ц -> D B ц
+4) D b Ч -> D B ч
+4) D b Ш -> D B ш
+4) D b Щ -> D B щ
+4) D b Ь -> D B ь
+4) D b Ы -> D B ы
+4) D b Ъ -> D B ъ
+4) D b Ю -> D B ю
+4) D b Я -> D B я
+4) D c Х -> D C х
+4) D c Ц -> D C ц
+4) D c Ч -> D C ч
+4) D c Ш -> D C ш
+4) D c Щ -> D C щ
+4) D c Ь -> D C ь
+4) D c Ы -> D C ы
+4) D c Ъ -> D C ъ
+4) D c Ю -> D C ю
+4) D c Я -> D C я
+4) D d Х -> D D х
+4) D d Ц -> D D ц
+4) D d Ч -> D D ч
+4) D d Ш -> D D ш
+4) D d Щ -> D D щ
+4) D d Ь -> D D ь
+4) D d Ы -> D D ы
+4) D d Ъ -> D D ъ
+4) D d Ю -> D D ю
+4) D d Я -> D D я
+4) D e Х -> D E х
+4) D e Ц -> D E ц
+4) D e Ч -> D E ч
+4) D e Ш -> D E ш
+4) D e Щ -> D E щ
+4) D e Ь -> D E ь
+4) D e Ы -> D E ы
+4) D e Ъ -> D E ъ
+4) D e Ю -> D E ю
+4) D e Я -> D E я
+4) D f Х -> D F х
+4) D f Ц -> D F ц
+4) D f Ч -> D F ч
+4) D f Ш -> D F ш
+4) D f Щ -> D F щ
+4) D f Ь -> D F ь
+4) D f Ы -> D F ы
+4) D f Ъ -> D F ъ
+4) D f Ю -> D F ю
+4) D f Я -> D F я
+4) D g Х -> D G х
+4) D g Ц -> D G ц
+4) D g Ч -> D G ч
+4) D g Ш -> D G ш
+4) D g Щ -> D G щ
+4) D g Ь -> D G ь
+4) D g Ы -> D G ы
+4) D g Ъ -> D G ъ
+4) D g Ю -> D G ю
+4) D g Я -> D G я
+4) D h Х -> D H х
+4) D h Ц -> D H ц
+4) D h Ч -> D H ч
+4) D h Ш -> D H ш
+4) D h Щ -> D H щ
+4) D h Ь -> D H ь
+4) D h Ы -> D H ы
+4) D h Ъ -> D H ъ
+4) D h Ю -> D H ю
+4) D h Я -> D H я
+4) D i Х -> D I х
+4) D i Ц -> D I ц
+4) D i Ч -> D I ч
+4) D i Ш -> D I ш
+4) D i Щ -> D I щ
+4) D i Ь -> D I ь
+4) D i Ы -> D I ы
+4) D i Ъ -> D I ъ
+4) D i Ю -> D I ю
+4) D i Я -> D I я
+4) D j Х -> D J х
+4) D j Ц -> D J ц
+4) D j Ч -> D J ч
+4) D j Ш -> D J ш
+4) D j Щ -> D J щ
+4) D j Ь -> D J ь
+4) D j Ы -> D J ы
+4) D j Ъ -> D J ъ
+4) D j Ю -> D J ю
+4) D j Я -> D J я
+4) E a Х -> E A х
+4) E a Ц -> E A ц
+4) E a Ч -> E A ч
+4) E a Ш -> E A ш
+4) E a Щ -> E A щ
+4) E a Ь -> E A ь
+4) E a Ы -> E A ы
+4) E a Ъ -> E A ъ
+4) E a Ю -> E A ю
+4) E a Я -> E A я
+4) E b Х -> E B х
+4) E b Ц -> E B ц
+4) E b Ч -> E B ч
+4) E b Ш -> E B ш
+4) E b Щ -> E B щ
+4) E b Ь -> E B ь
+4) E b Ы -> E B ы
+4) E b Ъ -> E B ъ
+4) E b Ю -> E B ю
+4) E b Я -> E B я
+4) E c Х -> E C х
+4) E c Ц -> E C ц
+4) E c Ч -> E C ч
+4) E c Ш -> E C ш
+4) E c Щ -> E C щ
+4) E c Ь -> E C ь
+4) E c Ы -> E C ы
+4) E c Ъ -> E C ъ
+4) E c Ю -> E C ю
+4) E c Я -> E C я
+4) E d Х -> E D х
+4) E d Ц -> E D ц
+4) E d Ч -> E D ч
+4) E d Ш -> E D ш
+4) E d Щ -> E D щ
+4) E d Ь -> E D ь
+4) E d Ы -> E D ы
+4) E d Ъ -> E D ъ
+4) E d Ю -> E D ю
+4) E d Я -> E D я
+4) E e Х -> E E х
+4) E e Ц -> E E ц
+4) E e Ч -> E E ч
+4) E e Ш -> E E ш
+4) E e Щ -> E E щ
+4) E e Ь -> E E ь
+4) E e Ы -> E E ы
+4) E e Ъ -> E E ъ
+4) E e Ю -> E E ю
+4) E e Я -> E E я
+4) E f Х -> E F х
+4) E f Ц -> E F ц
+4) E f Ч -> E F ч
+4) E f Ш -> E F ш
+4) E f Щ -> E F щ
+4) E f Ь -> E F ь
+4) E f Ы -> E F ы
+4) E f Ъ -> E F ъ
+4) E f Ю -> E F ю
+4) E f Я -> E F я
+4) E g Х -> E G х
+4) E g Ц -> E G ц
+4) E g Ч -> E G ч
+4) E g Ш -> E G ш
+4) E g Щ -> E G щ
+4) E g Ь -> E G ь
+4) E g Ы -> E G ы
+4) E g Ъ -> E G ъ
+4) E g Ю -> E G ю
+4) E g Я -> E G я
+4) E h Х -> E H х
+4) E h Ц -> E H ц
+4) E h Ч -> E H ч
+4) E h Ш -> E H ш
+4) E h Щ -> E H щ
+4) E h Ь -> E H ь
+4) E h Ы -> E H ы
+4) E h Ъ -> E H ъ
+4) E h Ю -> E H ю
+4) E h Я -> E H я
+4) E i Х -> E I х
+4) E i Ц -> E I ц
+4) E i Ч -> E I ч
+4) E i Ш -> E I ш
+4) E i Щ -> E I щ
+4) E i Ь -> E I ь
+4) E i Ы -> E I ы
+4) E i Ъ -> E I ъ
+4) E i Ю -> E I ю
+4) E i Я -> E I я
+4) E j Х -> E J х
+4) E j Ц -> E J ц
+4) E j Ч -> E J ч
+4) E j Ш -> E J ш
+4) E j Щ -> E J щ
+4) E j Ь -> E J ь
+4) E j Ы -> E J ы
+4) E j Ъ -> E J ъ
+4) E j Ю -> E J ю
+4) E j Я -> E J я
+4) F a Х -> F A х
+4) F a Ц -> F A ц
+4) F a Ч -> F A ч
+4) F a Ш -> F A ш
+4) F a Щ -> F A щ
+4) F a Ь -> F A ь
+4) F a Ы -> F A ы
+4) F a Ъ -> F A ъ
+4) F a Ю -> F A ю
+4) F a Я -> F A я
+4) F b Х -> F B х
+4) F b Ц -> F B ц
+4) F b Ч -> F B ч
+4) F b Ш -> F B ш
+4) F b Щ -> F B щ
+4) F b Ь -> F B ь
+4) F b Ы -> F B ы
+4) F b Ъ -> F B ъ
+4) F b Ю -> F B ю
+4) F b Я -> F B я
+4) F c Х -> F C х
+4) F c Ц -> F C ц
+4) F c Ч -> F C ч
+4) F c Ш -> F C ш
+4) F c Щ -> F C щ
+4) F c Ь -> F C ь
+4) F c Ы -> F C ы
+4) F c Ъ -> F C ъ
+4) F c Ю -> F C ю
+4) F c Я -> F C я
+4) F d Х -> F D х
+4) F d Ц -> F D ц
+4) F d Ч -> F D ч
+4) F d Ш -> F D ш
+4) F d Щ -> F D щ
+4) F d Ь -> F D ь
+4) F d Ы -> F D ы
+4) F d Ъ -> F D ъ
+4) F d Ю -> F D ю
+4) F d Я -> F D я
+4) F e Х -> F E х
+4) F e Ц -> F E ц
+4) F e Ч -> F E ч
+4) F e Ш -> F E ш
+4) F e Щ -> F E щ
+4) F e Ь -> F E ь
+4) F e Ы -> F E ы
+4) F e Ъ -> F E ъ
+4) F e Ю -> F E ю
+4) F e Я -> F E я
+4) F f Х -> F F х
+4) F f Ц -> F F ц
+4) F f Ч -> F F ч
+4) F f Ш -> F F ш
+4) F f Щ -> F F щ
+4) F f Ь -> F F ь
+4) F f Ы -> F F ы
+4) F f Ъ -> F F ъ
+4) F f Ю -> F F ю
+4) F f Я -> F F я
+4) F g Х -> F G х
+4) F g Ц -> F G ц
+4) F g Ч -> F G ч
+4) F g Ш -> F G ш
+4) F g Щ -> F G щ
+4) F g Ь -> F G ь
+4) F g Ы -> F G ы
+4) F g Ъ -> F G ъ
+4) F g Ю -> F G ю
+4) F g Я -> F G я
+4) F h Х -> F H х
+4) F h Ц -> F H ц
+4) F h Ч -> F H ч
+4) F h Ш -> F H ш
+4) F h Щ -> F H щ
+4) F h Ь -> F H ь
+4) F h Ы -> F H ы
+4) F h Ъ -> F H ъ
+4) F h Ю -> F H ю
+4) F h Я -> F H я
+4) F i Х -> F I х
+4) F i Ц -> F I ц
+4) F i Ч -> F I ч
+4) F i Ш -> F I ш
+4) F i Щ -> F I щ
+4) F i Ь -> F I ь
+4) F i Ы -> F I ы
+4) F i Ъ -> F I ъ
+4) F i Ю -> F I ю
+4) F i Я -> F I я
+4) F j Х -> F J х
+4) F j Ц -> F J ц
+4) F j Ч -> F J ч
+4) F j Ш -> F J ш
+4) F j Щ -> F J щ
+4) F j Ь -> F J ь
+4) F j Ы -> F J ы
+4) F j Ъ -> F J ъ
+4) F j Ю -> F J ю
+4) F j Я -> F J я
+4) G a Х -> G A х
+4) G a Ц -> G A ц
+4) G a Ч -> G A ч
+4) G a Ш -> G A ш
+4) G a Щ -> G A щ
+4) G a Ь -> G A ь
+4) G a Ы -> G A ы
+4) G a Ъ -> G A ъ
+4) G a Ю -> G A ю
+4) G a Я -> G A я
+4) G b Х -> G B х
+4) G b Ц -> G B ц
+4) G b Ч -> G B ч
+4) G b Ш -> G B ш
+4) G b Щ -> G B щ
+4) G b Ь -> G B ь
+4) G b Ы -> G B ы
+4) G b Ъ -> G B ъ
+4) G b Ю -> G B ю
+4) G b Я -> G B я
+4) G c Х -> G C х
+4) G c Ц -> G C ц
+4) G c Ч -> G C ч
+4) G c Ш -> G C ш
+4) G c Щ -> G C щ
+4) G c Ь -> G C ь
+4) G c Ы -> G C ы
+4) G c Ъ -> G C ъ
+4) G c Ю -> G C ю
+4) G c Я -> G C я
+4) G d Х -> G D х
+4) G d Ц -> G D ц
+4) G d Ч -> G D ч
+4) G d Ш -> G D ш
+4) G d Щ -> G D щ
+4) G d Ь -> G D ь
+4) G d Ы -> G D ы
+4) G d Ъ -> G D ъ
+4) G d Ю -> G D ю
+4) G d Я -> G D я
+4) G e Х -> G E х
+4) G e Ц -> G E ц
+4) G e Ч -> G E ч
+4) G e Ш -> G E ш
+4) G e Щ -> G E щ
+4) G e Ь -> G E ь
+4) G e Ы -> G E ы
+4) G e Ъ -> G E ъ
+4) G e Ю -> G E ю
+4) G e Я -> G E я
+4) G f Х -> G F х
+4) G f Ц -> G F ц
+4) G f Ч -> G F ч
+4) G f Ш -> G F ш
+4) G f Щ -> G F щ
+4) G f Ь -> G F ь
+4) G f Ы -> G F ы
+4) G f Ъ -> G F ъ
+4) G f Ю -> G F ю
+4) G f Я -> G F я
+4) G g Х -> G G х
+4) G g Ц -> G G ц
+4) G g Ч -> G G ч
+4) G g Ш -> G G ш
+4) G g Щ -> G G щ
+4) G g Ь -> G G ь
+4) G g Ы -> G G ы
+4) G g Ъ -> G G ъ
+4) G g Ю -> G G ю
+4) G g Я -> G G я
+4) G h Х -> G H х
+4) G h Ц -> G H ц
+4) G h Ч -> G H ч
+4) G h Ш -> G H ш
+4) G h Щ -> G H щ
+4) G h Ь -> G H ь
+4) G h Ы -> G H ы
+4) G h Ъ -> G H ъ
+4) G h Ю -> G H ю
+4) G h Я -> G H я
+4) G i Х -> G I х
+4) G i Ц -> G I ц
+4) G i Ч -> G I ч
+4) G i Ш -> G I ш
+4) G i Щ -> G I щ
+4) G i Ь -> G I ь
+4) G i Ы -> G I ы
+4) G i Ъ -> G I ъ
+4) G i Ю -> G I ю
+4) G i Я -> G I я
+4) G j Х -> G J х
+4) G j Ц -> G J ц
+4) G j Ч -> G J ч
+4) G j Ш -> G J ш
+4) G j Щ -> G J щ
+4) G j Ь -> G J ь
+4) G j Ы -> G J ы
+4) G j Ъ -> G J ъ
+4) G j Ю -> G J ю
+4) G j Я -> G J я
+4) H a Х -> H A х
+4) H a Ц -> H A ц
+4) H a Ч -> H A ч
+4) H a Ш -> H A ш
+4) H a Щ -> H A щ
+4) H a Ь -> H A ь
+4) H a Ы -> H A ы
+4) H a Ъ -> H A ъ
+4) H a Ю -> H A ю
+4) H a Я -> H A я
+4) H b Х -> H B х
+4) H b Ц -> H B ц
+4) H b Ч -> H B ч
+4) H b Ш -> H B ш
+4) H b Щ -> H B щ
+4) H b Ь -> H B ь
+4) H b Ы -> H B ы
+4) H b Ъ -> H B ъ
+4) H b Ю -> H B ю
+4) H b Я -> H B я
+4) H c Х -> H C х
+4) H c Ц -> H C ц
+4) H c Ч -> H C ч
+4) H c Ш -> H C ш
+4) H c Щ -> H C щ
+4) H c Ь -> H C ь
+4) H c Ы -> H C ы
+4) H c Ъ -> H C ъ
+4) H c Ю -> H C ю
+4) H c Я -> H C я
+4) H d Х -> H D х
+4) H d Ц -> H D ц
+4) H d Ч -> H D ч
+4) H d Ш -> H D ш
+4) H d Щ -> H D щ
+4) H d Ь -> H D ь
+4) H d Ы -> H D ы
+4) H d Ъ -> H D ъ
+4) H d Ю -> H D ю
+4) H d Я -> H D я
+4) H e Х -> H E х
+4) H e Ц -> H E ц
+4) H e Ч -> H E ч
+4) H e Ш -> H E ш
+4) H e Щ -> H E щ
+4) H e Ь -> H E ь
+4) H e Ы -> H E ы
+4) H e Ъ -> H E ъ
+4) H e Ю -> H E ю
+4) H e Я -> H E я
+4) H f Х -> H F х
+4) H f Ц -> H F ц
+4) H f Ч -> H F ч
+4) H f Ш -> H F ш
+4) H f Щ -> H F щ
+4) H f Ь -> H F ь
+4) H f Ы -> H F ы
+4) H f Ъ -> H F ъ
+4) H f Ю -> H F ю
+4) H f Я -> H F я
+4) H g Х -> H G х
+4) H g Ц -> H G ц
+4) H g Ч -> H G ч
+4) H g Ш -> H G ш
+4) H g Щ -> H G щ
+4) H g Ь -> H G ь
+4) H g Ы -> H G ы
+4) H g Ъ -> H G ъ
+4) H g Ю -> H G ю
+4) H g Я -> H G я
+4) H h Х -> H H х
+4) H h Ц -> H H ц
+4) H h Ч -> H H ч
+4) H h Ш -> H H ш
+4) H h Щ -> H H щ
+4) H h Ь -> H H ь
+4) H h Ы -> H H ы
+4) H h Ъ -> H H ъ
+4) H h Ю -> H H ю
+4) H h Я -> H H я
+4) H i Х -> H I х
+4) H i Ц -> H I ц
+4) H i Ч -> H I ч
+4) H i Ш -> H I ш
+4) H i Щ -> H I щ
+4) H i Ь -> H I ь
+4) H i Ы -> H I ы
+4) H i Ъ -> H I ъ
+4) H i Ю -> H I ю
+4) H i Я -> H I я
+4) H j Х -> H J х
+4) H j Ц -> H J ц
+4) H j Ч -> H J ч
+4) H j Ш -> H J ш
+4) H j Щ -> H J щ
+4) H j Ь -> H J ь
+4) H j Ы -> H J ы
+4) H j Ъ -> H J ъ
+4) H j Ю -> H J ю
+4) H j Я -> H J я
+4) I a Х -> I A х
+4) I a Ц -> I A ц
+4) I a Ч -> I A ч
+4) I a Ш -> I A ш
+4) I a Щ -> I A щ
+4) I a Ь -> I A ь
+4) I a Ы -> I A ы
+4) I a Ъ -> I A ъ
+4) I a Ю -> I A ю
+4) I a Я -> I A я
+4) I b Х -> I B х
+4) I b Ц -> I B ц
+4) I b Ч -> I B ч
+4) I b Ш -> I B ш
+4) I b Щ -> I B щ
+4) I b Ь -> I B ь
+4) I b Ы -> I B ы
+4) I b Ъ -> I B ъ
+4) I b Ю -> I B ю
+4) I b Я -> I B я
+4) I c Х -> I C х
+4) I c Ц -> I C ц
+4) I c Ч -> I C ч
+4) I c Ш -> I C ш
+4) I c Щ -> I C щ
+4) I c Ь -> I C ь
+4) I c Ы -> I C ы
+4) I c Ъ -> I C ъ
+4) I c Ю -> I C ю
+4) I c Я -> I C я
+4) I d Х -> I D х
+4) I d Ц -> I D ц
+4) I d Ч -> I D ч
+4) I d Ш -> I D ш
+4) I d Щ -> I D щ
+4) I d Ь -> I D ь
+4) I d Ы -> I D ы
+4) I d Ъ -> I D ъ
+4) I d Ю -> I D ю
+4) I d Я -> I D я
+4) I e Х -> I E х
+4) I e Ц -> I E ц
+4) I e Ч -> I E ч
+4) I e Ш -> I E ш
+4) I e Щ -> I E щ
+4) I e Ь -> I E ь
+4) I e Ы -> I E ы
+4) I e Ъ -> I E ъ
+4) I e Ю -> I E ю
+4) I e Я -> I E я
+4) I f Х -> I F х
+4) I f Ц -> I F ц
+4) I f Ч -> I F ч
+4) I f Ш -> I F ш
+4) I f Щ -> I F щ
+4) I f Ь -> I F ь
+4) I f Ы -> I F ы
+4) I f Ъ -> I F ъ
+4) I f Ю -> I F ю
+4) I f Я -> I F я
+4) I g Х -> I G х
+4) I g Ц -> I G ц
+4) I g Ч -> I G ч
+4) I g Ш -> I G ш
+4) I g Щ -> I G щ
+4) I g Ь -> I G ь
+4) I g Ы -> I G ы
+4) I g Ъ -> I G ъ
+4) I g Ю -> I G ю
+4) I g Я -> I G я
+4) I h Х -> I H х
+4) I h Ц -> I H ц
+4) I h Ч -> I H ч
+4) I h Ш -> I H ш
+4) I h Щ -> I H щ
+4) I h Ь -> I H ь
+4) I h Ы -> I H ы
+4) I h Ъ -> I H ъ
+4) I h Ю -> I H ю
+4) I h Я -> I H я
+4) I i Х -> I I х
+4) I i Ц -> I I ц
+4) I i Ч -> I I ч
+4) I i Ш -> I I ш
+4) I i Щ -> I I щ
+4) I i Ь -> I I ь
+4) I i Ы -> I I ы
+4) I i Ъ -> I I ъ
+4) I i Ю -> I I ю
+4) I i Я -> I I я
+4) I j Х -> I J х
+4) I j Ц -> I J ц
+4) I j Ч -> I J ч
+4) I j Ш -> I J ш
+4) I j Щ -> I J щ
+4) I j Ь -> I J ь
+4) I j Ы -> I J ы
+4) I j Ъ -> I J ъ
+4) I j Ю -> I J ю
+4) I j Я -> I J я
+4) J a Х -> J A х
+4) J a Ц -> J A ц
+4) J a Ч -> J A ч
+4) J a Ш -> J A ш
+4) J a Щ -> J A щ
+4) J a Ь -> J A ь
+4) J a Ы -> J A ы
+4) J a Ъ -> J A ъ
+4) J a Ю -> J A ю
+4) J a Я -> J A я
+4) J b Х -> J B х
+4) J b Ц -> J B ц
+4) J b Ч -> J B ч
+4) J b Ш -> J B ш
+4) J b Щ -> J B щ
+4) J b Ь -> J B ь
+4) J b Ы -> J B ы
+4) J b Ъ -> J B ъ
+4) J b Ю -> J B ю
+4) J b Я -> J B я
+4) J c Х -> J C х
+4) J c Ц -> J C ц
+4) J c Ч -> J C ч
+4) J c Ш -> J C ш
+4) J c Щ -> J C щ
+4) J c Ь -> J C ь
+4) J c Ы -> J C ы
+4) J c Ъ -> J C ъ
+4) J c Ю -> J C ю
+4) J c Я -> J C я
+4) J d Х -> J D х
+4) J d Ц -> J D ц
+4) J d Ч -> J D ч
+4) J d Ш -> J D ш
+4) J d Щ -> J D щ
+4) J d Ь -> J D ь
+4) J d Ы -> J D ы
+4) J d Ъ -> J D ъ
+4) J d Ю -> J D ю
+4) J d Я -> J D я
+4) J e Х -> J E х
+4) J e Ц -> J E ц
+4) J e Ч -> J E ч
+4) J e Ш -> J E ш
+4) J e Щ -> J E щ
+4) J e Ь -> J E ь
+4) J e Ы -> J E ы
+4) J e Ъ -> J E ъ
+4) J e Ю -> J E ю
+4) J e Я -> J E я
+4) J f Х -> J F х
+4) J f Ц -> J F ц
+4) J f Ч -> J F ч
+4) J f Ш -> J F ш
+4) J f Щ -> J F щ
+4) J f Ь -> J F ь
+4) J f Ы -> J F ы
+4) J f Ъ -> J F ъ
+4) J f Ю -> J F ю
+4) J f Я -> J F я
+4) J g Х -> J G х
+4) J g Ц -> J G ц
+4) J g Ч -> J G ч
+4) J g Ш -> J G ш
+4) J g Щ -> J G щ
+4) J g Ь -> J G ь
+4) J g Ы -> J G ы
+4) J g Ъ -> J G ъ
+4) J g Ю -> J G ю
+4) J g Я -> J G я
+4) J h Х -> J H х
+4) J h Ц -> J H ц
+4) J h Ч -> J H ч
+4) J h Ш -> J H ш
+4) J h Щ -> J H щ
+4) J h Ь -> J H ь
+4) J h Ы -> J H ы
+4) J h Ъ -> J H ъ
+4) J h Ю -> J H ю
+4) J h Я -> J H я
+4) J i Х -> J I х
+4) J i Ц -> J I ц
+4) J i Ч -> J I ч
+4) J i Ш -> J I ш
+4) J i Щ -> J I щ
+4) J i Ь -> J I ь
+4) J i Ы -> J I ы
+4) J i Ъ -> J I ъ
+4) J i Ю -> J I ю
+4) J i Я -> J I я
+4) J j Х -> J J х
+4) J j Ц -> J J ц
+4) J j Ч -> J J ч
+4) J j Ш -> J J ш
+4) J j Щ -> J J щ
+4) J j Ь -> J J ь
+4) J j Ы -> J J ы
+4) J j Ъ -> J J ъ
+4) J j Ю -> J J ю
+4) J j Я -> J J я
+4) Б a Х -> Б A х
+4) Б a Ц -> Б A ц
+4) Б a Ч -> Б A ч
+4) Б a Ш -> Б A ш
+4) Б a Щ -> Б A щ
+4) Б a Ь -> Б A ь
+4) Б a Ы -> Б A ы
+4) Б a Ъ -> Б A ъ
+4) Б a Ю -> Б A ю
+4) Б a Я -> Б A я
+4) Б b Х -> Б B х
+4) Б b Ц -> Б B ц
+4) Б b Ч -> Б B ч
+4) Б b Ш -> Б B ш
+4) Б b Щ -> Б B щ
+4) Б b Ь -> Б B ь
+4) Б b Ы -> Б B ы
+4) Б b Ъ -> Б B ъ
+4) Б b Ю -> Б B ю
+4) Б b Я -> Б B я
+4) Б c Х -> Б C х
+4) Б c Ц -> Б C ц
+4) Б c Ч -> Б C ч
+4) Б c Ш -> Б C ш
+4) Б c Щ -> Б C щ
+4) Б c Ь -> Б C ь
+4) Б c Ы -> Б C ы
+4) Б c Ъ -> Б C ъ
+4) Б c Ю -> Б C ю
+4) Б c Я -> Б C я
+4) Б d Х -> Б D х
+4) Б d Ц -> Б D ц
+4) Б d Ч -> Б D ч
+4) Б d Ш -> Б D ш
+4) Б d Щ -> Б D щ
+4) Б d Ь -> Б D ь
+4) Б d Ы -> Б D ы
+4) Б d Ъ -> Б D ъ
+4) Б d Ю -> Б D ю
+4) Б d Я -> Б D я
+4) Б e Х -> Б E х
+4) Б e Ц -> Б E ц
+4) Б e Ч -> Б E ч
+4) Б e Ш -> Б E ш
+4) Б e Щ -> Б E щ
+4) Б e Ь -> Б E ь
+4) Б e Ы -> Б E ы
+4) Б e Ъ -> Б E ъ
+4) Б e Ю -> Б E ю
+4) Б e Я -> Б E я
+4) Б f Х -> Б F х
+4) Б f Ц -> Б F ц
+4) Б f Ч -> Б F ч
+4) Б f Ш -> Б F ш
+4) Б f Щ -> Б F щ
+4) Б f Ь -> Б F ь
+4) Б f Ы -> Б F ы
+4) Б f Ъ -> Б F ъ
+4) Б f Ю -> Б F ю
+4) Б f Я -> Б F я
+4) Б g Х -> Б G х
+4) Б g Ц -> Б G ц
+4) Б g Ч -> Б G ч
+4) Б g Ш -> Б G ш
+4) Б g Щ -> Б G щ
+4) Б g Ь -> Б G ь
+4) Б g Ы -> Б G ы
+4) Б g Ъ -> Б G ъ
+4) Б g Ю -> Б G ю
+4) Б g Я -> Б G я
+4) Б h Х -> Б H х
+4) Б h Ц -> Б H ц
+4) Б h Ч -> Б H ч
+4) Б h Ш -> Б H ш
+4) Б h Щ -> Б H щ
+4) Б h Ь -> Б H ь
+4) Б h Ы -> Б H ы
+4) Б h Ъ -> Б H ъ
+4) Б h Ю -> Б H ю
+4) Б h Я -> Б H я
+4) Б i Х -> Б I х
+4) Б i Ц -> Б I ц
+4) Б i Ч -> Б I ч
+4) Б i Ш -> Б I ш
+4) Б i Щ -> Б I щ
+4) Б i Ь -> Б I ь
+4) Б i Ы -> Б I ы
+4) Б i Ъ -> Б I ъ
+4) Б i Ю -> Б I ю
+4) Б i Я -> Б I я
+4) Б j Х -> Б J х
+4) Б j Ц -> Б J ц
+4) Б j Ч -> Б J ч
+4) Б j Ш -> Б J ш
+4) Б j Щ -> Б J щ
+4) Б j Ь -> Б J ь
+4) Б j Ы -> Б J ы
+4) Б j Ъ -> Б J ъ
+4) Б j Ю -> Б J ю
+4) Б j Я -> Б J я
+4) Г a Х -> Г A х
+4) Г a Ц -> Г A ц
+4) Г a Ч -> Г A ч
+4) Г a Ш -> Г A ш
+4) Г a Щ -> Г A щ
+4) Г a Ь -> Г A ь
+4) Г a Ы -> Г A ы
+4) Г a Ъ -> Г A ъ
+4) Г a Ю -> Г A ю
+4) Г a Я -> Г A я
+4) Г b Х -> Г B х
+4) Г b Ц -> Г B ц
+4) Г b Ч -> Г B ч
+4) Г b Ш -> Г B ш
+4) Г b Щ -> Г B щ
+4) Г b Ь -> Г B ь
+4) Г b Ы -> Г B ы
+4) Г b Ъ -> Г B ъ
+4) Г b Ю -> Г B ю
+4) Г b Я -> Г B я
+4) Г c Х -> Г C х
+4) Г c Ц -> Г C ц
+4) Г c Ч -> Г C ч
+4) Г c Ш -> Г C ш
+4) Г c Щ -> Г C щ
+4) Г c Ь -> Г C ь
+4) Г c Ы -> Г C ы
+4) Г c Ъ -> Г C ъ
+4) Г c Ю -> Г C ю
+4) Г c Я -> Г C я
+4) Г d Х -> Г D х
+4) Г d Ц -> Г D ц
+4) Г d Ч -> Г D ч
+4) Г d Ш -> Г D ш
+4) Г d Щ -> Г D щ
+4) Г d Ь -> Г D ь
+4) Г d Ы -> Г D ы
+4) Г d Ъ -> Г D ъ
+4) Г d Ю -> Г D ю
+4) Г d Я -> Г D я
+4) Г e Х -> Г E х
+4) Г e Ц -> Г E ц
+4) Г e Ч -> Г E ч
+4) Г e Ш -> Г E ш
+4) Г e Щ -> Г E щ
+4) Г e Ь -> Г E ь
+4) Г e Ы -> Г E ы
+4) Г e Ъ -> Г E ъ
+4) Г e Ю -> Г E ю
+4) Г e Я -> Г E я
+4) Г f Х -> Г F х
+4) Г f Ц -> Г F ц
+4) Г f Ч -> Г F ч
+4) Г f Ш -> Г F ш
+4) Г f Щ -> Г F щ
+4) Г f Ь -> Г F ь
+4) Г f Ы -> Г F ы
+4) Г f Ъ -> Г F ъ
+4) Г f Ю -> Г F ю
+4) Г f Я -> Г F я
+4) Г g Х -> Г G х
+4) Г g Ц -> Г G ц
+4) Г g Ч -> Г G ч
+4) Г g Ш -> Г G ш
+4) Г g Щ -> Г G щ
+4) Г g Ь -> Г G ь
+4) Г g Ы -> Г G ы
+4) Г g Ъ -> Г G ъ
+4) Г g Ю -> Г G ю
+4) Г g Я -> Г G я
+4) Г h Х -> Г H х
+4) Г h Ц -> Г H ц
+4) Г h Ч -> Г H ч
+4) Г h Ш -> Г H ш
+4) Г h Щ -> Г H щ
+4) Г h Ь -> Г H ь
+4) Г h Ы -> Г H ы
+4) Г h Ъ -> Г H ъ
+4) Г h Ю -> Г H ю
+4) Г h Я -> Г H я
+4) Г i Х -> Г I х
+4) Г i Ц -> Г I ц
+4) Г i Ч -> Г I ч
+4) Г i Ш -> Г I ш
+4) Г i Щ -> Г I щ
+4) Г i Ь -> Г I ь
+4) Г i Ы -> Г I ы
+4) Г i Ъ -> Г I ъ
+4) Г i Ю -> Г I ю
+4) Г i Я -> Г I я
+4) Г j Х -> Г J х
+4) Г j Ц -> Г J ц
+4) Г j Ч -> Г J ч
+4) Г j Ш -> Г J ш
+4) Г j Щ -> Г J щ
+4) Г j Ь -> Г J ь
+4) Г j Ы -> Г J ы
+4) Г j Ъ -> Г J ъ
+4) Г j Ю -> Г J ю
+4) Г j Я -> Г J я
+4) Д a Х -> Д A х
+4) Д a Ц -> Д A ц
+4) Д a Ч -> Д A ч
+4) Д a Ш -> Д A ш
+4) Д a Щ -> Д A щ
+4) Д a Ь -> Д A ь
+4) Д a Ы -> Д A ы
+4) Д a Ъ -> Д A ъ
+4) Д a Ю -> Д A ю
+4) Д a Я -> Д A я
+4) Д b Х -> Д B х
+4) Д b Ц -> Д B ц
+4) Д b Ч -> Д B ч
+4) Д b Ш -> Д B ш
+4) Д b Щ -> Д B щ
+4) Д b Ь -> Д B ь
+4) Д b Ы -> Д B ы
+4) Д b Ъ -> Д B ъ
+4) Д b Ю -> Д B ю
+4) Д b Я -> Д B я
+4) Д c Х -> Д C х
+4) Д c Ц -> Д C ц
+4) Д c Ч -> Д C ч
+4) Д c Ш -> Д C ш
+4) Д c Щ -> Д C щ
+4) Д c Ь -> Д C ь
+4) Д c Ы -> Д C ы
+4) Д c Ъ -> Д C ъ
+4) Д c Ю -> Д C ю
+4) Д c Я -> Д C я
+4) Д d Х -> Д D х
+4) Д d Ц -> Д D ц
+4) Д d Ч -> Д D ч
+4) Д d Ш -> Д D ш
+4) Д d Щ -> Д D щ
+4) Д d Ь -> Д D ь
+4) Д d Ы -> Д D ы
+4) Д d Ъ -> Д D ъ
+4) Д d Ю -> Д D ю
+4) Д d Я -> Д D я
+4) Д e Х -> Д E х
+4) Д e Ц -> Д E ц
+4) Д e Ч -> Д E ч
+4) Д e Ш -> Д E ш
+4) Д e Щ -> Д E щ
+4) Д e Ь -> Д E ь
+4) Д e Ы -> Д E ы
+4) Д e Ъ -> Д E ъ
+4) Д e Ю -> Д E ю
+4) Д e Я -> Д E я
+4) Д f Х -> Д F х
+4) Д f Ц -> Д F ц
+4) Д f Ч -> Д F ч
+4) Д f Ш -> Д F ш
+4) Д f Щ -> Д F щ
+4) Д f Ь -> Д F ь
+4) Д f Ы -> Д F ы
+4) Д f Ъ -> Д F ъ
+4) Д f Ю -> Д F ю
+4) Д f Я -> Д F я
+4) Д g Х -> Д G х
+4) Д g Ц -> Д G ц
+4) Д g Ч -> Д G ч
+4) Д g Ш -> Д G ш
+4) Д g Щ -> Д G щ
+4) Д g Ь -> Д G ь
+4) Д g Ы -> Д G ы
+4) Д g Ъ -> Д G ъ
+4) Д g Ю -> Д G ю
+4) Д g Я -> Д G я
+4) Д h Х -> Д H х
+4) Д h Ц -> Д H ц
+4) Д h Ч -> Д H ч
+4) Д h Ш -> Д H ш
+4) Д h Щ -> Д H щ
+4) Д h Ь -> Д H ь
+4) Д h Ы -> Д H ы
+4) Д h Ъ -> Д H ъ
+4) Д h Ю -> Д H ю
+4) Д h Я -> Д H я
+4) Д i Х -> Д I х
+4) Д i Ц -> Д I ц
+4) Д i Ч -> Д I ч
+4) Д i Ш -> Д I ш
+4) Д i Щ -> Д I щ
+4) Д i Ь -> Д I ь
+4) Д i Ы -> Д I ы
+4) Д i Ъ -> Д I ъ
+4) Д i Ю -> Д I ю
+4) Д i Я -> Д I я
+4) Д j Х -> Д J х
+4) Д j Ц -> Д J ц
+4) Д j Ч -> Д J ч
+4) Д j Ш -> Д J ш
+4) Д j Щ -> Д J щ
+4) Д j Ь -> Д J ь
+4) Д j Ы -> Д J ы
+4) Д j Ъ -> Д J ъ
+4) Д j Ю -> Д J ю
+4) Д j Я -> Д J я
+4) Ё a Х -> Ё A х
+4) Ё a Ц -> Ё A ц
+4) Ё a Ч -> Ё A ч
+4) Ё a Ш -> Ё A ш
+4) Ё a Щ -> Ё A щ
+4) Ё a Ь -> Ё A ь
+4) Ё a Ы -> Ё A ы
+4) Ё a Ъ -> Ё A ъ
+4) Ё a Ю -> Ё A ю
+4) Ё a Я -> Ё A я
+4) Ё b Х -> Ё B х
+4) Ё b Ц -> Ё B ц
+4) Ё b Ч -> Ё B ч
+4) Ё b Ш -> Ё B ш
+4) Ё b Щ -> Ё B щ
+4) Ё b Ь -> Ё B ь
+4) Ё b Ы -> Ё B ы
+4) Ё b Ъ -> Ё B ъ
+4) Ё b Ю -> Ё B ю
+4) Ё b Я -> Ё B я
+4) Ё c Х -> Ё C х
+4) Ё c Ц -> Ё C ц
+4) Ё c Ч -> Ё C ч
+4) Ё c Ш -> Ё C ш
+4) Ё c Щ -> Ё C щ
+4) Ё c Ь -> Ё C ь
+4) Ё c Ы -> Ё C ы
+4) Ё c Ъ -> Ё C ъ
+4) Ё c Ю -> Ё C ю
+4) Ё c Я -> Ё C я
+4) Ё d Х -> Ё D х
+4) Ё d Ц -> Ё D ц
+4) Ё d Ч -> Ё D ч
+4) Ё d Ш -> Ё D ш
+4) Ё d Щ -> Ё D щ
+4) Ё d Ь -> Ё D ь
+4) Ё d Ы -> Ё D ы
+4) Ё d Ъ -> Ё D ъ
+4) Ё d Ю -> Ё D ю
+4) Ё d Я -> Ё D я
+4) Ё e Х -> Ё E х
+4) Ё e Ц -> Ё E ц
+4) Ё e Ч -> Ё E ч
+4) Ё e Ш -> Ё E ш
+4) Ё e Щ -> Ё E щ
+4) Ё e Ь -> Ё E ь
+4) Ё e Ы -> Ё E ы
+4) Ё e Ъ -> Ё E ъ
+4) Ё e Ю -> Ё E ю
+4) Ё e Я -> Ё E я
+4) Ё f Х -> Ё F х
+4) Ё f Ц -> Ё F ц
+4) Ё f Ч -> Ё F ч
+4) Ё f Ш -> Ё F ш
+4) Ё f Щ -> Ё F щ
+4) Ё f Ь -> Ё F ь
+4) Ё f Ы -> Ё F ы
+4) Ё f Ъ -> Ё F ъ
+4) Ё f Ю -> Ё F ю
+4) Ё f Я -> Ё F я
+4) Ё g Х -> Ё G х
+4) Ё g Ц -> Ё G ц
+4) Ё g Ч -> Ё G ч
+4) Ё g Ш -> Ё G ш
+4) Ё g Щ -> Ё G щ
+4) Ё g Ь -> Ё G ь
+4) Ё g Ы -> Ё G ы
+4) Ё g Ъ -> Ё G ъ
+4) Ё g Ю -> Ё G ю
+4) Ё g Я -> Ё G я
+4) Ё h Х -> Ё H х
+4) Ё h Ц -> Ё H ц
+4) Ё h Ч -> Ё H ч
+4) Ё h Ш -> Ё H ш
+4) Ё h Щ -> Ё H щ
+4) Ё h Ь -> Ё H ь
+4) Ё h Ы -> Ё H ы
+4) Ё h Ъ -> Ё H ъ
+4) Ё h Ю -> Ё H ю
+4) Ё h Я -> Ё H я
+4) Ё i Х -> Ё I х
+4) Ё i Ц -> Ё I ц
+4) Ё i Ч -> Ё I ч
+4) Ё i Ш -> Ё I ш
+4) Ё i Щ -> Ё I щ
+4) Ё i Ь -> Ё I ь
+4) Ё i Ы -> Ё I ы
+4) Ё i Ъ -> Ё I ъ
+4) Ё i Ю -> Ё I ю
+4) Ё i Я -> Ё I я
+4) Ё j Х -> Ё J х
+4) Ё j Ц -> Ё J ц
+4) Ё j Ч -> Ё J ч
+4) Ё j Ш -> Ё J ш
+4) Ё j Щ -> Ё J щ
+4) Ё j Ь -> Ё J ь
+4) Ё j Ы -> Ё J ы
+4) Ё j Ъ -> Ё J ъ
+4) Ё j Ю -> Ё J ю
+4) Ё j Я -> Ё J я
+4) Ж a Х -> Ж A х
+4) Ж a Ц -> Ж A ц
+4) Ж a Ч -> Ж A ч
+4) Ж a Ш -> Ж A ш
+4) Ж a Щ -> Ж A щ
+4) Ж a Ь -> Ж A ь
+4) Ж a Ы -> Ж A ы
+4) Ж a Ъ -> Ж A ъ
+4) Ж a Ю -> Ж A ю
+4) Ж a Я -> Ж A я
+4) Ж b Х -> Ж B х
+4) Ж b Ц -> Ж B ц
+4) Ж b Ч -> Ж B ч
+4) Ж b Ш -> Ж B ш
+4) Ж b Щ -> Ж B щ
+4) Ж b Ь -> Ж B ь
+4) Ж b Ы -> Ж B ы
+4) Ж b Ъ -> Ж B ъ
+4) Ж b Ю -> Ж B ю
+4) Ж b Я -> Ж B я
+4) Ж c Х -> Ж C х
+4) Ж c Ц -> Ж C ц
+4) Ж c Ч -> Ж C ч
+4) Ж c Ш -> Ж C ш
+4) Ж c Щ -> Ж C щ
+4) Ж c Ь -> Ж C ь
+4) Ж c Ы -> Ж C ы
+4) Ж c Ъ -> Ж C ъ
+4) Ж c Ю -> Ж C ю
+4) Ж c Я -> Ж C я
+4) Ж d Х -> Ж D х
+4) Ж d Ц -> Ж D ц
+4) Ж d Ч -> Ж D ч
+4) Ж d Ш -> Ж D ш
+4) Ж d Щ -> Ж D щ
+4) Ж d Ь -> Ж D ь
+4) Ж d Ы -> Ж D ы
+4) Ж d Ъ -> Ж D ъ
+4) Ж d Ю -> Ж D ю
+4) Ж d Я -> Ж D я
+4) Ж e Х -> Ж E х
+4) Ж e Ц -> Ж E ц
+4) Ж e Ч -> Ж E ч
+4) Ж e Ш -> Ж E ш
+4) Ж e Щ -> Ж E щ
+4) Ж e Ь -> Ж E ь
+4) Ж e Ы -> Ж E ы
+4) Ж e Ъ -> Ж E ъ
+4) Ж e Ю -> Ж E ю
+4) Ж e Я -> Ж E я
+4) Ж f Х -> Ж F х
+4) Ж f Ц -> Ж F ц
+4) Ж f Ч -> Ж F ч
+4) Ж f Ш -> Ж F ш
+4) Ж f Щ -> Ж F щ
+4) Ж f Ь -> Ж F ь
+4) Ж f Ы -> Ж F ы
+4) Ж f Ъ -> Ж F ъ
+4) Ж f Ю -> Ж F ю
+4) Ж f Я -> Ж F я
+4) Ж g Х -> Ж G х
+4) Ж g Ц -> Ж G ц
+4) Ж g Ч -> Ж G ч
+4) Ж g Ш -> Ж G ш
+4) Ж g Щ -> Ж G щ
+4) Ж g Ь -> Ж G ь
+4) Ж g Ы -> Ж G ы
+4) Ж g Ъ -> Ж G ъ
+4) Ж g Ю -> Ж G ю
+4) Ж g Я -> Ж G я
+4) Ж h Х -> Ж H х
+4) Ж h Ц -> Ж H ц
+4) Ж h Ч -> Ж H ч
+4) Ж h Ш -> Ж H ш
+4) Ж h Щ -> Ж H щ
+4) Ж h Ь -> Ж H ь
+4) Ж h Ы -> Ж H ы
+4) Ж h Ъ -> Ж H ъ
+4) Ж h Ю -> Ж H ю
+4) Ж h Я -> Ж H я
+4) Ж i Х -> Ж I х
+4) Ж i Ц -> Ж I ц
+4) Ж i Ч -> Ж I ч
+4) Ж i Ш -> Ж I ш
+4) Ж i Щ -> Ж I щ
+4) Ж i Ь -> Ж I ь
+4) Ж i Ы -> Ж I ы
+4) Ж i Ъ -> Ж I ъ
+4) Ж i Ю -> Ж I ю
+4) Ж i Я -> Ж I я
+4) Ж j Х -> Ж J х
+4) Ж j Ц -> Ж J ц
+4) Ж j Ч -> Ж J ч
+4) Ж j Ш -> Ж J ш
+4) Ж j Щ -> Ж J щ
+4) Ж j Ь -> Ж J ь
+4) Ж j Ы -> Ж J ы
+4) Ж j Ъ -> Ж J ъ
+4) Ж j Ю -> Ж J ю
+4) Ж j Я -> Ж J я
+4) З a Х -> З A х
+4) З a Ц -> З A ц
+4) З a Ч -> З A ч
+4) З a Ш -> З A ш
+4) З a Щ -> З A щ
+4) З a Ь -> З A ь
+4) З a Ы -> З A ы
+4) З a Ъ -> З A ъ
+4) З a Ю -> З A ю
+4) З a Я -> З A я
+4) З b Х -> З B х
+4) З b Ц -> З B ц
+4) З b Ч -> З B ч
+4) З b Ш -> З B ш
+4) З b Щ -> З B щ
+4) З b Ь -> З B ь
+4) З b Ы -> З B ы
+4) З b Ъ -> З B ъ
+4) З b Ю -> З B ю
+4) З b Я -> З B я
+4) З c Х -> З C х
+4) З c Ц -> З C ц
+4) З c Ч -> З C ч
+4) З c Ш -> З C ш
+4) З c Щ -> З C щ
+4) З c Ь -> З C ь
+4) З c Ы -> З C ы
+4) З c Ъ -> З C ъ
+4) З c Ю -> З C ю
+4) З c Я -> З C я
+4) З d Х -> З D х
+4) З d Ц -> З D ц
+4) З d Ч -> З D ч
+4) З d Ш -> З D ш
+4) З d Щ -> З D щ
+4) З d Ь -> З D ь
+4) З d Ы -> З D ы
+4) З d Ъ -> З D ъ
+4) З d Ю -> З D ю
+4) З d Я -> З D я
+4) З e Х -> З E х
+4) З e Ц -> З E ц
+4) З e Ч -> З E ч
+4) З e Ш -> З E ш
+4) З e Щ -> З E щ
+4) З e Ь -> З E ь
+4) З e Ы -> З E ы
+4) З e Ъ -> З E ъ
+4) З e Ю -> З E ю
+4) З e Я -> З E я
+4) З f Х -> З F х
+4) З f Ц -> З F ц
+4) З f Ч -> З F ч
+4) З f Ш -> З F ш
+4) З f Щ -> З F щ
+4) З f Ь -> З F ь
+4) З f Ы -> З F ы
+4) З f Ъ -> З F ъ
+4) З f Ю -> З F ю
+4) З f Я -> З F я
+4) З g Х -> З G х
+4) З g Ц -> З G ц
+4) З g Ч -> З G ч
+4) З g Ш -> З G ш
+4) З g Щ -> З G щ
+4) З g Ь -> З G ь
+4) З g Ы -> З G ы
+4) З g Ъ -> З G ъ
+4) З g Ю -> З G ю
+4) З g Я -> З G я
+4) З h Х -> З H х
+4) З h Ц -> З H ц
+4) З h Ч -> З H ч
+4) З h Ш -> З H ш
+4) З h Щ -> З H щ
+4) З h Ь -> З H ь
+4) З h Ы -> З H ы
+4) З h Ъ -> З H ъ
+4) З h Ю -> З H ю
+4) З h Я -> З H я
+4) З i Х -> З I х
+4) З i Ц -> З I ц
+4) З i Ч -> З I ч
+4) З i Ш -> З I ш
+4) З i Щ -> З I щ
+4) З i Ь -> З I ь
+4) З i Ы -> З I ы
+4) З i Ъ -> З I ъ
+4) З i Ю -> З I ю
+4) З i Я -> З I я
+4) З j Х -> З J х
+4) З j Ц -> З J ц
+4) З j Ч -> З J ч
+4) З j Ш -> З J ш
+4) З j Щ -> З J щ
+4) З j Ь -> З J ь
+4) З j Ы -> З J ы
+4) З j Ъ -> З J ъ
+4) З j Ю -> З J ю
+4) З j Я -> З J я
+4) И a Х -> И A х
+4) И a Ц -> И A ц
+4) И a Ч -> И A ч
+4) И a Ш -> И A ш
+4) И a Щ -> И A щ
+4) И a Ь -> И A ь
+4) И a Ы -> И A ы
+4) И a Ъ -> И A ъ
+4) И a Ю -> И A ю
+4) И a Я -> И A я
+4) И b Х -> И B х
+4) И b Ц -> И B ц
+4) И b Ч -> И B ч
+4) И b Ш -> И B ш
+4) И b Щ -> И B щ
+4) И b Ь -> И B ь
+4) И b Ы -> И B ы
+4) И b Ъ -> И B ъ
+4) И b Ю -> И B ю
+4) И b Я -> И B я
+4) И c Х -> И C х
+4) И c Ц -> И C ц
+4) И c Ч -> И C ч
+4) И c Ш -> И C ш
+4) И c Щ -> И C щ
+4) И c Ь -> И C ь
+4) И c Ы -> И C ы
+4) И c Ъ -> И C ъ
+4) И c Ю -> И C ю
+4) И c Я -> И C я
+4) И d Х -> И D х
+4) И d Ц -> И D ц
+4) И d Ч -> И D ч
+4) И d Ш -> И D ш
+4) И d Щ -> И D щ
+4) И d Ь -> И D ь
+4) И d Ы -> И D ы
+4) И d Ъ -> И D ъ
+4) И d Ю -> И D ю
+4) И d Я -> И D я
+4) И e Х -> И E х
+4) И e Ц -> И E ц
+4) И e Ч -> И E ч
+4) И e Ш -> И E ш
+4) И e Щ -> И E щ
+4) И e Ь -> И E ь
+4) И e Ы -> И E ы
+4) И e Ъ -> И E ъ
+4) И e Ю -> И E ю
+4) И e Я -> И E я
+4) И f Х -> И F х
+4) И f Ц -> И F ц
+4) И f Ч -> И F ч
+4) И f Ш -> И F ш
+4) И f Щ -> И F щ
+4) И f Ь -> И F ь
+4) И f Ы -> И F ы
+4) И f Ъ -> И F ъ
+4) И f Ю -> И F ю
+4) И f Я -> И F я
+4) И g Х -> И G х
+4) И g Ц -> И G ц
+4) И g Ч -> И G ч
+4) И g Ш -> И G ш
+4) И g Щ -> И G щ
+4) И g Ь -> И G ь
+4) И g Ы -> И G ы
+4) И g Ъ -> И G ъ
+4) И g Ю -> И G ю
+4) И g Я -> И G я
+4) И h Х -> И H х
+4) И h Ц -> И H ц
+4) И h Ч -> И H ч
+4) И h Ш -> И H ш
+4) И h Щ -> И H щ
+4) И h Ь -> И H ь
+4) И h Ы -> И H ы
+4) И h Ъ -> И H ъ
+4) И h Ю -> И H ю
+4) И h Я -> И H я
+4) И i Х -> И I х
+4) И i Ц -> И I ц
+4) И i Ч -> И I ч
+4) И i Ш -> И I ш
+4) И i Щ -> И I щ
+4) И i Ь -> И I ь
+4) И i Ы -> И I ы
+4) И i Ъ -> И I ъ
+4) И i Ю -> И I ю
+4) И i Я -> И I я
+4) И j Х -> И J х
+4) И j Ц -> И J ц
+4) И j Ч -> И J ч
+4) И j Ш -> И J ш
+4) И j Щ -> И J щ
+4) И j Ь -> И J ь
+4) И j Ы -> И J ы
+4) И j Ъ -> И J ъ
+4) И j Ю -> И J ю
+4) И j Я -> И J я
+4) Л a Х -> Л A х
+4) Л a Ц -> Л A ц
+4) Л a Ч -> Л A ч
+4) Л a Ш -> Л A ш
+4) Л a Щ -> Л A щ
+4) Л a Ь -> Л A ь
+4) Л a Ы -> Л A ы
+4) Л a Ъ -> Л A ъ
+4) Л a Ю -> Л A ю
+4) Л a Я -> Л A я
+4) Л b Х -> Л B х
+4) Л b Ц -> Л B ц
+4) Л b Ч -> Л B ч
+4) Л b Ш -> Л B ш
+4) Л b Щ -> Л B щ
+4) Л b Ь -> Л B ь
+4) Л b Ы -> Л B ы
+4) Л b Ъ -> Л B ъ
+4) Л b Ю -> Л B ю
+4) Л b Я -> Л B я
+4) Л c Х -> Л C х
+4) Л c Ц -> Л C ц
+4) Л c Ч -> Л C ч
+4) Л c Ш -> Л C ш
+4) Л c Щ -> Л C щ
+4) Л c Ь -> Л C ь
+4) Л c Ы -> Л C ы
+4) Л c Ъ -> Л C ъ
+4) Л c Ю -> Л C ю
+4) Л c Я -> Л C я
+4) Л d Х -> Л D х
+4) Л d Ц -> Л D ц
+4) Л d Ч -> Л D ч
+4) Л d Ш -> Л D ш
+4) Л d Щ -> Л D щ
+4) Л d Ь -> Л D ь
+4) Л d Ы -> Л D ы
+4) Л d Ъ -> Л D ъ
+4) Л d Ю -> Л D ю
+4) Л d Я -> Л D я
+4) Л e Х -> Л E х
+4) Л e Ц -> Л E ц
+4) Л e Ч -> Л E ч
+4) Л e Ш -> Л E ш
+4) Л e Щ -> Л E щ
+4) Л e Ь -> Л E ь
+4) Л e Ы -> Л E ы
+4) Л e Ъ -> Л E ъ
+4) Л e Ю -> Л E ю
+4) Л e Я -> Л E я
+4) Л f Х -> Л F х
+4) Л f Ц -> Л F ц
+4) Л f Ч -> Л F ч
+4) Л f Ш -> Л F ш
+4) Л f Щ -> Л F щ
+4) Л f Ь -> Л F ь
+4) Л f Ы -> Л F ы
+4) Л f Ъ -> Л F ъ
+4) Л f Ю -> Л F ю
+4) Л f Я -> Л F я
+4) Л g Х -> Л G х
+4) Л g Ц -> Л G ц
+4) Л g Ч -> Л G ч
+4) Л g Ш -> Л G ш
+4) Л g Щ -> Л G щ
+4) Л g Ь -> Л G ь
+4) Л g Ы -> Л G ы
+4) Л g Ъ -> Л G ъ
+4) Л g Ю -> Л G ю
+4) Л g Я -> Л G я
+4) Л h Х -> Л H х
+4) Л h Ц -> Л H ц
+4) Л h Ч -> Л H ч
+4) Л h Ш -> Л H ш
+4) Л h Щ -> Л H щ
+4) Л h Ь -> Л H ь
+4) Л h Ы -> Л H ы
+4) Л h Ъ -> Л H ъ
+4) Л h Ю -> Л H ю
+4) Л h Я -> Л H я
+4) Л i Х -> Л I х
+4) Л i Ц -> Л I ц
+4) Л i Ч -> Л I ч
+4) Л i Ш -> Л I ш
+4) Л i Щ -> Л I щ
+4) Л i Ь -> Л I ь
+4) Л i Ы -> Л I ы
+4) Л i Ъ -> Л I ъ
+4) Л i Ю -> Л I ю
+4) Л i Я -> Л I я
+4) Л j Х -> Л J х
+4) Л j Ц -> Л J ц
+4) Л j Ч -> Л J ч
+4) Л j Ш -> Л J ш
+4) Л j Щ -> Л J щ
+4) Л j Ь -> Л J ь
+4) Л j Ы -> Л J ы
+4) Л j Ъ -> Л J ъ
+4) Л j Ю -> Л J ю
+4) Л j Я -> Л J я
+4) П a Х -> П A х
+4) П a Ц -> П A ц
+4) П a Ч -> П A ч
+4) П a Ш -> П A ш
+4) П a Щ -> П A щ
+4) П a Ь -> П A ь
+4) П a Ы -> П A ы
+4) П a Ъ -> П A ъ
+4) П a Ю -> П A ю
+4) П a Я -> П A я
+4) П b Х -> П B х
+4) П b Ц -> П B ц
+4) П b Ч -> П B ч
+4) П b Ш -> П B ш
+4) П b Щ -> П B щ
+4) П b Ь -> П B ь
+4) П b Ы -> П B ы
+4) П b Ъ -> П B ъ
+4) П b Ю -> П B ю
+4) П b Я -> П B я
+4) П c Х -> П C х
+4) П c Ц -> П C ц
+4) П c Ч -> П C ч
+4) П c Ш -> П C ш
+4) П c Щ -> П C щ
+4) П c Ь -> П C ь
+4) П c Ы -> П C ы
+4) П c Ъ -> П C ъ
+4) П c Ю -> П C ю
+4) П c Я -> П C я
+4) П d Х -> П D х
+4) П d Ц -> П D ц
+4) П d Ч -> П D ч
+4) П d Ш -> П D ш
+4) П d Щ -> П D щ
+4) П d Ь -> П D ь
+4) П d Ы -> П D ы
+4) П d Ъ -> П D ъ
+4) П d Ю -> П D ю
+4) П d Я -> П D я
+4) П e Х -> П E х
+4) П e Ц -> П E ц
+4) П e Ч -> П E ч
+4) П e Ш -> П E ш
+4) П e Щ -> П E щ
+4) П e Ь -> П E ь
+4) П e Ы -> П E ы
+4) П e Ъ -> П E ъ
+4) П e Ю -> П E ю
+4) П e Я -> П E я
+4) П f Х -> П F х
+4) П f Ц -> П F ц
+4) П f Ч -> П F ч
+4) П f Ш -> П F ш
+4) П f Щ -> П F щ
+4) П f Ь -> П F ь
+4) П f Ы -> П F ы
+4) П f Ъ -> П F ъ
+4) П f Ю -> П F ю
+4) П f Я -> П F я
+4) П g Х -> П G х
+4) П g Ц -> П G ц
+4) П g Ч -> П G ч
+4) П g Ш -> П G ш
+4) П g Щ -> П G щ
+4) П g Ь -> П G ь
+4) П g Ы -> П G ы
+4) П g Ъ -> П G ъ
+4) П g Ю -> П G ю
+4) П g Я -> П G я
+4) П h Х -> П H х
+4) П h Ц -> П H ц
+4) П h Ч -> П H ч
+4) П h Ш -> П H ш
+4) П h Щ -> П H щ
+4) П h Ь -> П H ь
+4) П h Ы -> П H ы
+4) П h Ъ -> П H ъ
+4) П h Ю -> П H ю
+4) П h Я -> П H я
+4) П i Х -> П I х
+4) П i Ц -> П I ц
+4) П i Ч -> П I ч
+4) П i Ш -> П I ш
+4) П i Щ -> П I щ
+4) П i Ь -> П I ь
+4) П i Ы -> П I ы
+4) П i Ъ -> П I ъ
+4) П i Ю -> П I ю
+4) П i Я -> П I я
+4) П j Х -> П J х
+4) П j Ц -> П J ц
+4) П j Ч -> П J ч
+4) П j Ш -> П J ш
+4) П j Щ -> П J щ
+4) П j Ь -> П J ь
+4) П j Ы -> П J ы
+4) П j Ъ -> П J ъ
+4) П j Ю -> П J ю
+4) П j Я -> П J я
+4) Ф a Х -> Ф A х
+4) Ф a Ц -> Ф A ц
+4) Ф a Ч -> Ф A ч
+4) Ф a Ш -> Ф A ш
+4) Ф a Щ -> Ф A щ
+4) Ф a Ь -> Ф A ь
+4) Ф a Ы -> Ф A ы
+4) Ф a Ъ -> Ф A ъ
+4) Ф a Ю -> Ф A ю
+4) Ф a Я -> Ф A я
+4) Ф b Х -> Ф B х
+4) Ф b Ц -> Ф B ц
+4) Ф b Ч -> Ф B ч
+4) Ф b Ш -> Ф B ш
+4) Ф b Щ -> Ф B щ
+4) Ф b Ь -> Ф B ь
+4) Ф b Ы -> Ф B ы
+4) Ф b Ъ -> Ф B ъ
+4) Ф b Ю -> Ф B ю
+4) Ф b Я -> Ф B я
+4) Ф c Х -> Ф C х
+4) Ф c Ц -> Ф C ц
+4) Ф c Ч -> Ф C ч
+4) Ф c Ш -> Ф C ш
+4) Ф c Щ -> Ф C щ
+4) Ф c Ь -> Ф C ь
+4) Ф c Ы -> Ф C ы
+4) Ф c Ъ -> Ф C ъ
+4) Ф c Ю -> Ф C ю
+4) Ф c Я -> Ф C я
+4) Ф d Х -> Ф D х
+4) Ф d Ц -> Ф D ц
+4) Ф d Ч -> Ф D ч
+4) Ф d Ш -> Ф D ш
+4) Ф d Щ -> Ф D щ
+4) Ф d Ь -> Ф D ь
+4) Ф d Ы -> Ф D ы
+4) Ф d Ъ -> Ф D ъ
+4) Ф d Ю -> Ф D ю
+4) Ф d Я -> Ф D я
+4) Ф e Х -> Ф E х
+4) Ф e Ц -> Ф E ц
+4) Ф e Ч -> Ф E ч
+4) Ф e Ш -> Ф E ш
+4) Ф e Щ -> Ф E щ
+4) Ф e Ь -> Ф E ь
+4) Ф e Ы -> Ф E ы
+4) Ф e Ъ -> Ф E ъ
+4) Ф e Ю -> Ф E ю
+4) Ф e Я -> Ф E я
+4) Ф f Х -> Ф F х
+4) Ф f Ц -> Ф F ц
+4) Ф f Ч -> Ф F ч
+4) Ф f Ш -> Ф F ш
+4) Ф f Щ -> Ф F щ
+4) Ф f Ь -> Ф F ь
+4) Ф f Ы -> Ф F ы
+4) Ф f Ъ -> Ф F ъ
+4) Ф f Ю -> Ф F ю
+4) Ф f Я -> Ф F я
+4) Ф g Х -> Ф G х
+4) Ф g Ц -> Ф G ц
+4) Ф g Ч -> Ф G ч
+4) Ф g Ш -> Ф G ш
+4) Ф g Щ -> Ф G щ
+4) Ф g Ь -> Ф G ь
+4) Ф g Ы -> Ф G ы
+4) Ф g Ъ -> Ф G ъ
+4) Ф g Ю -> Ф G ю
+4) Ф g Я -> Ф G я
+4) Ф h Х -> Ф H х
+4) Ф h Ц -> Ф H ц
+4) Ф h Ч -> Ф H ч
+4) Ф h Ш -> Ф H ш
+4) Ф h Щ -> Ф H щ
+4) Ф h Ь -> Ф H ь
+4) Ф h Ы -> Ф H ы
+4) Ф h Ъ -> Ф H ъ
+4) Ф h Ю -> Ф H ю
+4) Ф h Я -> Ф H я
+4) Ф i Х -> Ф I х
+4) Ф i Ц -> Ф I ц
+4) Ф i Ч -> Ф I ч
+4) Ф i Ш -> Ф I ш
+4) Ф i Щ -> Ф I щ
+4) Ф i Ь -> Ф I ь
+4) Ф i Ы -> Ф I ы
+4) Ф i Ъ -> Ф I ъ
+4) Ф i Ю -> Ф I ю
+4) Ф i Я -> Ф I я
+4) Ф j Х -> Ф J х
+4) Ф j Ц -> Ф J ц
+4) Ф j Ч -> Ф J ч
+4) Ф j Ш -> Ф J ш
+4) Ф j Щ -> Ф J щ
+4) Ф j Ь -> Ф J ь
+4) Ф j Ы -> Ф J ы
+4) Ф j Ъ -> Ф J ъ
+4) Ф j Ю -> Ф J ю
+4) Ф j Я -> Ф J я
+5) k -> + Б n
+5) n -> =
+6) A -> 0
+6) B -> 1
+6) C -> 2
+6) D -> 3
+6) E -> 4
+6) F -> 5
+6) G -> 6
+6) H -> 7
+6) I -> 8
+6) J -> 9
+6) Б -> 0
+6) Г -> 1
+6) Д -> 2
+6) Ё -> 3
+6) Ж -> 4
+6) З -> 5
+6) И -> 6
+6) Л -> 7
+6) П -> 8
+6) Ф -> 9
+6) Х -> 0
+6) Ц -> 1
+6) Ч -> 2
+6) Ш -> 3
+6) Щ -> 4
+6) Ь -> 5
+6) Ы -> 6
+6) Ъ -> 7
+6) Ю -> 8
+6) Я -> 9

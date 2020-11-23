@@ -43,28 +43,75 @@ $ stack run
 (или тем, что указаны в квадратных скобках), а вместо c -- терминал,
 соответсующей одной из цифр.
 ```
-S -> d[0] A d[0]
+0)
+S -> d[0]! A d[0]!!
 
+1)
 A -> A'
 d A' -> d' A'
-A' d -> A' d'-
+d! A' -> d!' A'
+A' d! -> A' d!'-
+A' d!! -> A' d!!'-
+
 B -> B'
 d B' -> d' B'
-B' d -> B' d'-
+d! A' -> d!' A'
+B' d! -> B' d!'-
+B' d!! -> B' d!!'-
 
-A' -> A
-B' -> B
+d' A' d!'- -> d' A'' d!'-
+d' A' d!!'- -> d' A'' d!!'-
 
-d[0-8]' -> d[1-9]
-d d[9]' -> d' d[0]
-d[9]' -> d[1] d[0]
+d' B' d!'- -> d' B'' d!'-
+d' B' d!!'- -> d' B'' d!!'-
 
-d'- d -> d d'-
+d!' A' d!'- -> d!' A'' d!'-
+d!' A' d!!'- -> d!' A'' d!!'-
 
-d'- -> d'
+d!' B' d!'- -> d!' B'' d!'-
+d!' B' d!!'- -> d!' B'' d!!'-
 
-A -> + d[0] B
+2)
+d A'' d! -> d A d!
+d A'' d!! -> d A d!!
+d B'' d! -> d B d!
+d B'' d!! -> d B d!!
+
+d! A'' d! -> d! A d!
+d! A'' d!! -> d! A d!!
+d! B'' d! -> d! B d!
+d! B'' d!! -> d! B d!!
+
+3)
+d[0-8]' [A'', B'', d_std, d_last] -> d[1-9] [A'', B'', d_std, d_last]
+d d[9]' [A'', B'', d_std, d_last] -> d' d[0] [A'', B'', d_std, d_last]
+
+d[0-8]!' [A'', B'', d_std, d_last] -> d[1-9]! [A'', B'', d_std, d_last]
+d! d[9]' [A'', B'', d_std, d_last] -> d!' d[0] [A'', B'', d_std, d_last]
+
+[A'', B'', d_std, d_first] d[0-8]!!' -> [A'', B'', d_std, d_first] d[1-9]!!
+
+[A'', B''] d[9]!' -> [A'', B''] d[1]! d[0]
+d[9]!' [A'', B'', d_std, d_last] -> d[1]! d[0] [A'', B'', d_std, d_last]
+
+
+d d[9]!!' -> d' d[0]!!
+d! d[9]!!' -> d!' d[0]!!
+A'' d[9]!!' -> A'' d[1]! d[0]!!
+B'' d[9]!!' -> B'' d[1]! d[0]!!
+
+4)
+A'' d!!'- -> A'' d!!'
+B'' d!!'- -> B'' d!!'
+[A'', B''] d!'- d -> [A'', B''] d! d'-
+[A'', B''] d!'- d!! -> [A'', B''] d! d!!'
+[d_std, d_first] d'- d -> [d_std, d_first] d d'-
+[d_std, d_first] d'- d!! -> [d_std, d_first] d d!!'
+
+5)
+A -> + d[0]! B
 B -> =
 
+6)
 d -> c
 ```
